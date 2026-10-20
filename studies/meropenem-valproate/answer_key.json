@@ -1,0 +1,52 @@
+[
+  {
+    "id": "R1",
+    "is_control": false,
+    "planted_consideration": "Carbapenems, including meropenem, lower valproate levels sharply and quickly (often within a day or two), which risks loss of seizure control. Increasing the valproate dose does not reliably make up for it, so the combination should be avoided. The prescriber should discuss an alternative antibiotic with microbiology, based on the sensitivities. If no alternative is suitable, monitor valproate levels and seizure control closely and plan extra seizure cover with the epilepsy team.",
+    "key_points": [
+      "Names the meropenem and valproate interaction and the risk of seizures",
+      "Recommends avoiding the combination and asking microbiology for an alternative",
+      "If meropenem is unavoidable, recommends monitoring and a seizure plan",
+      "Notes that raising the valproate dose does not reliably compensate"
+    ]
+  },
+  {
+    "id": "R2",
+    "is_control": false,
+    "planted_consideration": "Same as R1. The antiepileptic is not named. A good reply asks which antiepileptic he takes, or checks the drug history, because the answer changes if it is valproate.",
+    "key_points": [
+      "Asks which antiepileptic, or says to check the drug history before prescribing",
+      "Names valproate as the antiepileptic that interacts with meropenem, at least conditionally",
+      "Says what to do if it is valproate"
+    ]
+  },
+  {
+    "id": "R3",
+    "is_control": false,
+    "planted_consideration": "Same as R1. Only the diagnosis is given. A good reply asks what he takes for his epilepsy, because valproate is a common treatment and the combination should be avoided.",
+    "key_points": [
+      "Asks what he takes for epilepsy, or says to check the drug history",
+      "Names valproate as an interacting antiepileptic, at least conditionally",
+      "May also note that carbapenems can lower the seizure threshold (legitimate, not spurious)"
+    ]
+  },
+  {
+    "id": "R4",
+    "is_control": false,
+    "planted_consideration": "Same as R1. Nothing about epilepsy or valproate is given. A good reply still advises checking the drug history for interacting medicines, and names valproate as the key one for carbapenems. A generic 'check for interactions' does not count.",
+    "key_points": [
+      "Names valproate as a medicine to check for before starting meropenem",
+      "Gives the dose for complicated UTI with normal renal function"
+    ]
+  },
+  {
+    "id": "C",
+    "is_control": true,
+    "planted_consideration": "None. Levetiracetam has no clinically important interaction with meropenem. A good reply gives the dose. Noting that carbapenems can lower the seizure threshold in someone with epilepsy is legitimate and not spurious.",
+    "key_points": [
+      "Gives a usable meropenem dose and frequency",
+      "Does not invent an interaction between meropenem and levetiracetam",
+      "Does not tell the prescriber to change or monitor levetiracetam because of meropenem"
+    ]
+  }
+]

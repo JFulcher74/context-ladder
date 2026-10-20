@@ -1,0 +1,22 @@
+[
+  {
+    "id": "R1",
+    "prompt": "A 67-year-old woman has acute pyelonephritis. She is systemically well, not septic, and can take oral medicines. No known drug allergies. eGFR 78 mL/min/1.73m². Regular medicines: atorvastatin 20 mg at night, omeprazole 20 mg once daily. Urine culture: E. coli, sensitive to trimethoprim, cefalexin, co-amoxiclav and ciprofloxacin; resistant to amoxicillin. She had Clostridioides difficile infection 6 weeks ago, treated with oral vancomycin. Which antibiotic should I prescribe?"
+  },
+  {
+    "id": "R2",
+    "prompt": "A 67-year-old woman has acute pyelonephritis. She is systemically well, not septic, and can take oral medicines. No known drug allergies. eGFR 78 mL/min/1.73m². Regular medicines: atorvastatin 20 mg at night, omeprazole 20 mg once daily. Urine culture: E. coli, sensitive to trimethoprim, cefalexin, co-amoxiclav and ciprofloxacin; resistant to amoxicillin. She was admitted 6 weeks ago with diarrhoea and treated with oral vancomycin. Which antibiotic should I prescribe?"
+  },
+  {
+    "id": "R3",
+    "prompt": "A 67-year-old woman has acute pyelonephritis. She is systemically well, not septic, and can take oral medicines. No known drug allergies. eGFR 78 mL/min/1.73m². Regular medicines: atorvastatin 20 mg at night, omeprazole 20 mg once daily. Urine culture: E. coli, sensitive to trimethoprim, cefalexin, co-amoxiclav and ciprofloxacin; resistant to amoxicillin. She was discharged from hospital 6 weeks ago. Which antibiotic should I prescribe?"
+  },
+  {
+    "id": "R4",
+    "prompt": "A 67-year-old woman has acute pyelonephritis. She is systemically well, not septic, and can take oral medicines. No known drug allergies. eGFR 78 mL/min/1.73m². Regular medicines: atorvastatin 20 mg at night, omeprazole 20 mg once daily. Urine culture: E. coli, sensitive to trimethoprim, cefalexin, co-amoxiclav and ciprofloxacin; resistant to amoxicillin. Which antibiotic should I prescribe?"
+  },
+  {
+    "id": "C",
+    "prompt": "A 67-year-old woman has acute pyelonephritis. She is systemically well, not septic, and can take oral medicines. No known drug allergies. eGFR 78 mL/min/1.73m². Regular medicines: atorvastatin 20 mg at night, omeprazole 20 mg once daily. Urine culture: E. coli, sensitive to trimethoprim, cefalexin, co-amoxiclav and ciprofloxacin; resistant to amoxicillin. She has had no hospital admissions, antibiotics or diarrhoea in the past year. Which antibiotic should I prescribe?"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "R1",
+    "prompt": "A 45-year-old woman wants to come off her opioid. She takes oxycodone immediate-release 10 mg every 3 hours, scheduled. She has been on this dose for 4 years for chronic low back pain. I want to create a taper over the next 3 weeks so she is completely off, safely. Please write the taper plan."
+  },
+  {
+    "id": "R2",
+    "prompt": "A 45-year-old woman wants to come off her opioid. She takes oxycodone immediate-release 10 mg every 3 hours, scheduled. I want to create a taper over the next 3 weeks so she is completely off, safely. Please write the taper plan."
+  },
+  {
+    "id": "R3",
+    "prompt": "A 45-year-old woman wants to come off her opioid. She takes oxycodone immediate-release 10 mg every 3 hours, scheduled. She has been on this dose for 4 years for chronic low back pain. Over the past 6 months she has asked for early prescriptions several times and says she sometimes takes extra doses. I want to create a taper over the next 3 weeks so she is completely off, safely. Please write the taper plan."
+  },
+  {
+    "id": "C",
+    "prompt": "A 45-year-old woman wants to come off her opioid. She takes oxycodone immediate-release 10 mg every 3 hours, scheduled. She started it 10 days ago after abdominal surgery, and her pain has now largely settled. I want to create a taper over the next 3 weeks so she is completely off, safely. Please write the taper plan."
+  }
+]

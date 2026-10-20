@@ -1,0 +1,9 @@
+{
+  "_note": "Apps used in study 3, collected by hand from each app's chat interface. 'model' records the version each app showed.",
+  "models": [
+    {"name": "chatgpt", "category": "frontier", "provider": "manual", "model": "ChatGPT 5.6 Luna"},
+    {"name": "claude", "category": "frontier", "provider": "manual", "model": "Claude Sonnet 5.5"},
+    {"name": "gemini", "category": "frontier", "provider": "manual", "model": "Gemini Flash 3.8"},
+    {"name": "copilot", "category": "frontier", "provider": "manual", "model": "Microsoft 365 Copilot (work account)"}
+  ]
+}

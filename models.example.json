@@ -1,0 +1,11 @@
+{
+  "max_tokens": 1500,
+  "judge": {"name": "judge", "provider": "anthropic", "model": "claude-opus-5-5", "api_key_env": "ANTHROPIC_API_KEY"},
+  "models": [
+    {"name": "claude-opus", "category": "frontier", "provider": "anthropic", "model": "claude-opus-5-5", "api_key_env": "ANTHROPIC_API_KEY"},
+    {"name": "claude-sonnet", "category": "frontier", "provider": "anthropic", "model": "claude-sonnet-5-5", "api_key_env": "ANTHROPIC_API_KEY"},
+    {"name": "other-frontier", "category": "frontier", "provider": "openai_compatible", "base_url": "https://api.openai.com/v1", "model": "REPLACE_WITH_MODEL_ID", "api_key_env": "OPENAI_API_KEY", "enabled": false},
+    {"name": "clinical-tool-A", "category": "specialist", "provider": "manual"},
+    {"name": "clinical-tool-B", "category": "specialist", "provider": "manual"}
+  ]
+}

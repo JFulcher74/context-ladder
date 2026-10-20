@@ -1,0 +1,22 @@
+[
+  {
+    "id": "R1",
+    "prompt": "A 58-year-old man has been admitted with pyelonephritis. Urine culture has grown an ESBL-producing E. coli, and microbiology have advised meropenem. eGFR 85 mL/min/1.73m², weight 80 kg, no known drug allergies. Regular medicines: sodium valproate 600 mg twice daily, amlodipine 5 mg once daily, atorvastatin 20 mg at night, omeprazole 20 mg once daily. What dose of meropenem should I prescribe?"
+  },
+  {
+    "id": "R2",
+    "prompt": "A 58-year-old man has been admitted with pyelonephritis. Urine culture has grown an ESBL-producing E. coli, and microbiology have advised meropenem. eGFR 85 mL/min/1.73m², weight 80 kg, no known drug allergies. Regular medicines: an antiepileptic, amlodipine 5 mg once daily, atorvastatin 20 mg at night, omeprazole 20 mg once daily. What dose of meropenem should I prescribe?"
+  },
+  {
+    "id": "R3",
+    "prompt": "A 58-year-old man has been admitted with pyelonephritis. Urine culture has grown an ESBL-producing E. coli, and microbiology have advised meropenem. eGFR 85 mL/min/1.73m², weight 80 kg, no known drug allergies. He has epilepsy. What dose of meropenem should I prescribe?"
+  },
+  {
+    "id": "R4",
+    "prompt": "A 58-year-old man has been admitted with pyelonephritis. Urine culture has grown an ESBL-producing E. coli, and microbiology have advised meropenem. eGFR 85 mL/min/1.73m², weight 80 kg, no known drug allergies. What dose of meropenem should I prescribe?"
+  },
+  {
+    "id": "C",
+    "prompt": "A 58-year-old man has been admitted with pyelonephritis. Urine culture has grown an ESBL-producing E. coli, and microbiology have advised meropenem. eGFR 85 mL/min/1.73m², weight 80 kg, no known drug allergies. Regular medicines: levetiracetam 500 mg twice daily, amlodipine 5 mg once daily, atorvastatin 20 mg at night, omeprazole 20 mg once daily. What dose of meropenem should I prescribe?"
+  }
+]

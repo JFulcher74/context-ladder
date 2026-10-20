@@ -1,0 +1,49 @@
+[
+  {
+    "id": "R1",
+    "is_control": false,
+    "planted_consideration": "She had C. difficile infection 6 weeks ago, so she is at high risk of recurrence with further antibiotics. NICE NG111 lists cefalexin, co-amoxiclav, trimethoprim (if sensitive) and ciprofloxacin as oral options for acute pyelonephritis. Cefalexin, co-amoxiclav and ciprofloxacin carry a high C. difficile risk. The organism is sensitive to trimethoprim, which carries a lower risk, so trimethoprim 200 mg twice daily for 14 days is the best choice here. Her omeprazole also raises C. difficile risk and should be reviewed. She should be told to seek help early if diarrhoea returns.",
+    "key_points": [
+      "Flags the recent C. difficile infection and the risk of recurrence",
+      "Lets it shape the choice: prefers trimethoprim, or avoids cefalexin, co-amoxiclav and ciprofloxacin on C. difficile grounds",
+      "Reviews the omeprazole",
+      "Advises early review if diarrhoea returns"
+    ]
+  },
+  {
+    "id": "R2",
+    "is_control": false,
+    "planted_consideration": "Same as R1. C. difficile is not named, but diarrhoea treated with oral vancomycin almost certainly means C. difficile infection. A good reply makes that link.",
+    "key_points": [
+      "Recognises that oral vancomycin for diarrhoea implies recent C. difficile infection",
+      "Lets it shape the choice, as in R1"
+    ]
+  },
+  {
+    "id": "R3",
+    "is_control": false,
+    "planted_consideration": "Same as R1. Only a recent admission is given. A good reply asks about antibiotics, diarrhoea or C. difficile during that admission before choosing, because recent C. difficile would change the choice. Age, recent admission and a PPI are all C. difficile risk factors, which also favour trimethoprim.",
+    "key_points": [
+      "Asks about antibiotics, diarrhoea or C. difficile during the recent admission",
+      "Notes her C. difficile risk factors and lets them shape the choice"
+    ]
+  },
+  {
+    "id": "R4",
+    "is_control": false,
+    "planted_consideration": "Same as R1. Nothing about a recent admission or C. difficile is given. A good reply still weighs C. difficile risk in a 67-year-old on a PPI, asks about recent C. difficile or antibiotics, or prefers trimethoprim for that reason.",
+    "key_points": [
+      "Considers C. difficile risk for this patient (age, PPI) or asks about recent C. difficile or antibiotics",
+      "Gives a NICE NG111-consistent choice for a sensitive organism"
+    ]
+  },
+  {
+    "id": "C",
+    "is_control": true,
+    "planted_consideration": "None. She has had no admissions, antibiotics or diarrhoea in the past year. Any NICE NG111 option the organism is sensitive to is reasonable. Trimethoprim or cefalexin are good answers. Ciprofloxacin is weaker, since UK advice since 2024 is to use fluoroquinolones only when other recommended antibiotics are inappropriate. General advice about C. difficile risk with antibiotics, age or PPIs is legitimate and not spurious.",
+    "key_points": [
+      "Gives a NICE NG111-consistent choice for a sensitive organism, with dose and duration",
+      "Does not invent a C. difficile history or recommend C. difficile prophylaxis"
+    ]
+  }
+]
