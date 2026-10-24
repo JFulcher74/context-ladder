@@ -376,12 +376,12 @@ def mean_of(rows, field):
     return round(sum(float(r[field] or 0) for r in rows) / len(rows), 2) if rows else ""
 
 
-def metrics(rs):
+def metrics(rs, with_ci=True):
     cases = [r for r in rs if r["is_control"] == "False"]
     controls = [r for r in rs if r["is_control"] == "True"]
     full = sum(int(r["surfacing_0_2"]) == 2 for r in cases)
     lo, hi = wilson(full, len(cases))
-    return {
+    row = {
         "n_case_ratings": len(cases),
         "full_surfacing_rate": round(full / len(cases), 3) if cases else "",
         "ci95_low": round(lo, 3) if cases else "",
@@ -394,6 +394,9 @@ def metrics(rs):
         "control_spurious_mean": mean_of(controls, "spurious_flags"),
         "prompted_rate": share([r for r in cases if r.get("prompted_0_1") in ("0", "1")], lambda r: r["prompted_0_1"] == "1"),
     }
+    if not with_ci:
+        del row["ci95_low"], row["ci95_high"]
+    return row
 
 
 def cmd_summarize(args):
@@ -419,7 +422,8 @@ def cmd_summarize(args):
 
     table = [{"model": model, "category": rs[0]["category"], **metrics(rs)} for model, rs in sorted(by_model.items())]
     round_table = [
-        {"model": model, "vignette_id": vid, **metrics(rs)} for (model, vid), rs in sorted(by_round.items())
+        # A tool-by-round cell holds only a few repeats of one prompt, so no confidence interval is given for it.
+        {"model": model, "vignette_id": vid, **metrics(rs, with_ci=False)} for (model, vid), rs in sorted(by_round.items())
     ]
     write_csv(out / "summary.csv", table, list(table[0]))
     write_csv(out / "summary_by_round.csv", round_table, list(round_table[0]))
@@ -439,7 +443,8 @@ def cmd_summarize(args):
     for row in agreement:
         kappa = "not defined (one category only)" if row["kappa"] == "" else row["kappa"]
         print(f"Agreement on {row['measure']}, {row['rater_a']} vs {row['rater_b']}: "
-              f"{row['agree']} of {row['n']} ({row['agreement']:.0%}), kappa {kappa}")
+              f"{row['agree']} of {row['n']} ({row['agreement']:.0%}), kappa {kappa}, PABAK {row['pabak']}, "
+              f"AC1 {row['ac1']} [{row['confusion']}]")
 
 
 def cohen_kappa(pairs):
@@ -459,22 +464,46 @@ def cohen_kappa(pairs):
     return observed, None if expected == 1 else (observed - expected) / (1 - expected)
 
 
+def agreement_stats(pairs, categories):
+    """Agreement statistics for (rating_a, rating_b) pairs on a fixed set of categories.
+
+    Cohen's kappa collapses when nearly every rating falls in one category, even if
+    the raters almost always agree, so PABAK and Gwet's AC1 are given alongside it.
+    Both use every possible category, not just those the raters happened to use.
+    """
+    n, q = len(pairs), len(categories)
+    observed, kappa = cohen_kappa(pairs)
+    share = {c: sum((a == c) + (b == c) for a, b in pairs) / (2 * n) for c in categories}
+    chance = sum(p * (1 - p) for p in share.values()) / (q - 1)
+    tally = defaultdict(int)
+    for pair in pairs:
+        tally[pair] += 1
+    return {
+        "observed": observed,
+        "kappa": kappa,
+        "pabak": (q * observed - 1) / (q - 1),
+        "ac1": (observed - chance) / (1 - chance),
+        "confusion": "; ".join(f"{a}/{b}: {k}" for (a, b), k in sorted(tally.items())),
+    }
+
+
 AGREEMENT_MEASURES = {
-    "surfacing": "surfacing_0_2",  # control rounds excluded: surfacing is entered as 0 there by rule
-    "prompted": "prompted_0_1",    # only replies where both raters gave 0 or 1
+    "surfacing": ("surfacing_0_2", ["0", "1", "2"]),  # control rounds excluded: surfacing is entered as 0 there by rule
+    "prompted": ("prompted_0_1", ["0", "1"]),         # only replies where both raters gave 0 or 1
 }
 
 
-def agreement_table(ratings):
+def agreement_table(ratings, group=None):
+    """Agreement for every pair of raters. With group (a function of a rating row), one row per group as well."""
     by_code = defaultdict(dict)
     for r in ratings:
         by_code[r["code"]][r["rater"]] = r
     raters = sorted({r["rater"] for r in ratings})
     rows = []
-    for measure, column in AGREEMENT_MEASURES.items():
+    for measure, (column, categories) in AGREEMENT_MEASURES.items():
         for i, a in enumerate(raters):
             for b in raters[i + 1:]:
-                pairs = []
+                pairs = defaultdict(list)
                 for sheets in by_code.values():
                     if a not in sheets or b not in sheets:
                         continue
@@ -484,12 +513,15 @@ def agreement_table(ratings):
                     if measure == "prompted" and not ({x, y} <= {"0", "1"}):
                         continue
                     if x and y:
-                        pairs.append((x, y))
-                if pairs:
-                    observed, kappa = cohen_kappa(pairs)
-                    rows.append({"measure": measure, "rater_a": a, "rater_b": b, "n": len(pairs),
-                                 "agree": sum(x == y for x, y in pairs), "agreement": round(observed, 3),
-                                 "kappa": "" if kappa is None else round(kappa, 2)})
+                        pairs[group(sheets[a]) if group else "all"].append((x, y))
+                for label, these in sorted(pairs.items()):
+                    stats = agreement_stats(these, categories)
+                    row = {"measure": measure, "rater_a": a, "rater_b": b, "n": len(these),
+                           "agree": sum(x == y for x, y in these), "agreement": round(stats["observed"], 3),
+                           "kappa": "" if stats["kappa"] is None else round(stats["kappa"], 2),
+                           "pabak": round(stats["pabak"], 2), "ac1": round(stats["ac1"], 2),
+                           "confusion": stats["confusion"]}
+                    rows.append({"group": label, **row} if group else row)
     return rows
 
 

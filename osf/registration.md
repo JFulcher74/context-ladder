@@ -186,7 +186,7 @@ Listed in order; all are dated 20 October 2026.
 
 ## Other
 
-**Conflict of interest.** The author is employed by Wolters Kluwer, which publishes clinical decision support products. None of its products was evaluated in this study. Microsoft 365 Copilot was used through the author's work account, and no other employer resources were used. [Confirm that your employer is content with this.]
+**Conflict of interest.** The author is employed by Wolters Kluwer, which publishes clinical decision support products. None of its products was evaluated in this study. Microsoft 365 Copilot was used through the author's work account, and no other employer resources were used. The employer is content with this.
 
 **Funding.** None.
 

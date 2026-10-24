@@ -1,0 +1,11 @@
+{
+  "_note": "Exploratory, post hoc (added 24 October 2026, after all ratings). Not part of the registered rubric; reported separately. Scored by the AI judge on the R2 replies only.",
+  "items": [
+    {
+      "id": "E1",
+      "role": "prompt",
+      "applies_to": ["R2"],
+      "text": "Asks how long she has taken the oxycodone (or tells the prescriber to establish it), or states that the taper depends on it, BEFORE setting out any taper schedule, dose steps or timeline. If the reply gives a schedule, dose steps or a timeline first and asks or states the condition only afterwards, this is NOT met. A reply that gives no schedule at all and asks first is met. Assuming long-term (or short-term) use without asking does NOT count."
+    }
+  ]
+}

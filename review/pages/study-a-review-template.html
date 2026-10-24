@@ -174,6 +174,12 @@
     <div class="form" id="form"></div>
   </section>
 
+  <section class="panel" id="finishPanel" hidden>
+    <h2 id="finishTitle"></h2>
+    <p id="finishText"></p>
+    <div class="row" id="finishList"></div>
+  </section>
+
   <div class="nav" id="nav" hidden>
     <button id="prev" class="btn ghost" type="button">Previous</button>
     <span class="spacer progress" id="progress"></span>
@@ -209,6 +215,8 @@ let db = null, uid = null;
 let ratings = {};   // code -> stored rating
 let stage1 = {};    // round -> {text}
 let profile = null;
+let finishing = false;
+const saveFailed = new Set();
 const saved = local.get("round");
 let current = { round: ORDER.includes(saved) ? saved : ORDER.at(0), index: 0 };
 const pending = {}; // code -> timer
@@ -237,7 +245,7 @@ function renderRounds() {
     b.innerHTML = `<span class="rid"></span><span class="count"></span>`;
     b.querySelector(".rid").textContent = round;
     b.querySelector(".count").textContent = `${n}/${list.length}`;
-    b.onclick = () => { current = { round, index: 0 }; local.set("round", round); render(); };
+    b.onclick = () => { finishing = false; current = { round, index: 0 }; local.set("round", round); render(); };
     return b;
   }));
   const total = DATA.replies.length;
@@ -354,7 +362,8 @@ function render() {
   $("saveStage1").textContent = s1 ? "Update my answer" : "Save and show the replies";
   const unlocked = !!s1;
   $("guidePanel").hidden = !unlocked;
-  $("replyPanel").hidden = !unlocked;
+  $("replyPanel").hidden = !unlocked || finishing;
+  $("finishPanel").hidden = !unlocked || !finishing;
   $("nav").hidden = !unlocked;
   $("guideText").textContent = info.guide;
   if (!unlocked) return;
@@ -367,7 +376,41 @@ function render() {
   renderStatus(reply);
   $("prev").disabled = current.index === 0 && current.round === ORDER.at(0);
   const lastInRound = current.index === list.length - 1;
-  $("next").textContent = lastInRound ? (current.round === ORDER.at(-1) ? "Done" : "Next round") : "Next";
+  $("next").textContent = lastInRound ? (current.round === ORDER.at(-1) ? "Finish" : "Next round") : "Next";
+}
+
+async function showFinish() {
+  const total = DATA.replies.length;
+  const missing = DATA.replies.filter(r => !complete(r.code, r.round));
+  $("finishList").replaceChildren();
+  $("finishTitle").textContent = "Checking your ratings…";
+  $("finishText").textContent = "";
+  if (!db || !uid) {
+    $("finishTitle").textContent = "Your ratings are not being saved";
+    $("finishText").textContent = "Open this page in Claude while signed in, using the invitation link you were sent, then rate the replies again.";
+    return;
+  }
+  Object.keys(pending).forEach(code => { const r = DATA.replies.find(x => x.code === code); if (r) { clearTimeout(pending[code]); delete pending[code]; save(r); } });
+  await new Promise(resolve => setTimeout(resolve, 800));
+  await Promise.all(Object.values(writing).map(p => p.catch(() => {})));
+  if (saveFailed.size) {
+    $("finishTitle").textContent = "Some ratings did not save";
+    $("finishText").textContent = "Check your connection, then open each of these replies and change any answer to save it again.";
+    missing.length = 0;
+    DATA.replies.filter(r => saveFailed.has(r.code)).forEach(r => missing.push(r));
+  } else if (!missing.length) {
+    $("finishTitle").textContent = `All ${total} replies rated and saved`;
+    $("finishText").textContent = "There is nothing to submit: each rating saved as you went. Thank you. You can close this page, or go back to check any reply.";
+    return;
+  } else {
+    $("finishTitle").textContent = `${missing.length} of ${total} replies still need an answer`;
+    $("finishText").textContent = "Open each one below and answer every question. Your other ratings are saved.";
+  }
+  missing.forEach(r => {
+    const b = document.createElement("button"); b.type = "button"; b.className = "btn ghost"; b.textContent = r.code;
+    b.onclick = () => { finishing = false; current = { round: r.round, index: replies(r.round).indexOf(r) }; local.set("round", r.round); render(); window.scrollTo({ top: $("casePanel").offsetTop - 12 }); };
+    $("finishList").appendChild(b);
+  });
 }
 
 function save(reply) {
@@ -378,8 +421,8 @@ function save(reply) {
     const body = { code: reply.code, round: reply.round, ...ratings[reply.code], updated_at: new Date().toISOString() };
     writing[reply.code] = (writing[reply.code] || Promise.resolve())
       .then(() => db.collection(`ratings/${uid}/items`).doc(reply.code).set(body))
-      .then(() => { const e = $("saveErr"); if (e) e.hidden = true; })
-      .catch(() => { const e = $("saveErr"); if (e) { e.hidden = false; e.textContent = "Not saved. Check your connection; your last change will save when you edit again."; } });
+      .then(() => { saveFailed.delete(reply.code); const e = $("saveErr"); if (e) e.hidden = true; })
+      .catch(() => { saveFailed.add(reply.code); const e = $("saveErr"); if (e) { e.hidden = false; e.textContent = "Not saved. Check your connection; your last change will save when you edit again."; } });
   }, 600);
 }
 
@@ -397,20 +440,30 @@ $("saveStage1").onclick = async () => {
   $("saveStage1").disabled = false;
 };
 $("prev").onclick = () => {
+  if (finishing) { finishing = false; render(); return; }
   if (current.index > 0) current.index -= 1;
   else { const i = ORDER.indexOf(current.round); if (i > 0) { current = { round: ORDER.at(i - 1), index: replies(ORDER.at(i - 1)).length - 1 }; } }
   local.set("round", current.round); render(); window.scrollTo({ top: $("replyPanel").offsetTop - 12 });
 };
 $("next").onclick = () => {
+  if (finishing) return;
   const list = replies(current.round);
   if (current.index < list.length - 1) current.index += 1;
-  else { const i = ORDER.indexOf(current.round); if (i < ORDER.length - 1) current = { round: ORDER.at(i + 1), index: 0 }; }
+  else {
+    const i = ORDER.indexOf(current.round);
+    if (i < ORDER.length - 1) current = { round: ORDER.at(i + 1), index: 0 };
+    else { finishing = true; render(); showFinish(); window.scrollTo({ top: 0 }); return; }
+  }
   local.set("round", current.round); render(); window.scrollTo({ top: $("casePanel").offsetTop - 12 });
 };
+async function registerRater() {
+  // Lets the study lead find this rater's ratings: the owner can read raters/, nobody else can.
+  try { await db.doc(`raters/${uid}`).set({ id: uid, name: profile?.name || "", last_seen: new Date().toISOString() }); } catch {}
+}
 $("saveName").onclick = async () => {
   const name = $("raterName").value.trim().slice(0, 60);
   if (!name || !db || !uid) return;
-  try { await db.doc(`ratings/${uid}/meta/profile`).set({ name, saved_at: new Date().toISOString() }); profile = { name }; $("nameStatus").textContent = "Saved"; }
+  try { await db.doc(`ratings/${uid}/meta/profile`).set({ name, saved_at: new Date().toISOString() }); profile = { name }; $("nameStatus").textContent = "Saved"; registerRater(); }
   catch { $("nameStatus").textContent = "Not saved. Try again."; }
 };
 
@@ -427,6 +480,7 @@ render();
     const p = await db.doc(`ratings/${uid}/meta/profile`).get();
     if (p.exists) { profile = p.data(); $("raterName").value = profile.name || ""; $("nameStatus").textContent = "Saved"; }
   } catch {}
+  registerRater();
   db.collection(`ratings/${uid}/stage1`).onSnapshot(snap => {
     for (const d of snap.docs) stage1[d.id] = d.data();
     render();
