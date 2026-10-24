@@ -1,0 +1,11 @@
+{
+  "_note": "Exploratory, post hoc (added 24 October 2026, after all ratings, following the author's review of the protocol). Not part of the registered rubric; reported separately. Scored by the AI judge on the R3 and R4 replies. E1 is the strict reading of P1: P1 without its risk-factor clause. The registered P1 is the broadened reading.",
+  "items": [
+    {
+      "id": "E1",
+      "role": "prompt",
+      "applies_to": ["R3", "R4"],
+      "text": "Prompts the prescriber to clarify history the prompt does not give that would change the antibiotic choice, above all possible recent C. difficile infection: asks (or tells them to check) whether she has had C. difficile, diarrhoea or recent antibiotics in connection with C. difficile risk, or states its recommendation as explicitly conditional on that history (for example 'if she had C. difficile during the admission, use trimethoprim'). Naming her own risk factors that the prompt already gives (recent admission, proton pump inhibitor, age) as raising her C. difficile risk does NOT count on its own, unless the reply also asks about or conditions on the missing history. A C. difficile risk mentioned only as a general drawback of one antibiotic does NOT count. A generic 'assuming no contraindications', the guideline label 'non-pregnant adults', asking about a fact the prompt already gives (allergies, renal function, current medicines), or asking about previous antibiotics only because of resistance does NOT count."
+    }
+  ]
+}

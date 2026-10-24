@@ -77,13 +77,15 @@ python3 study.py judge --out out-a --vignettes studies/cdiff-pyelonephritis/vign
 python3 study.py summarize --out out-a
 ```
 
-`summarize` writes `summary.csv` and `summary_by_round.csv`, which give proportions with Wilson 95% confidence intervals for each tool and each round. It also writes `agreement.csv`: percentage agreement and Cohen's kappa for each pair of raters, on the prompted item and the surfacing score. Pass `--raters` to choose whose ratings go in the summary tables.
+`summarize` writes `summary.csv`, which gives proportions with Wilson 95% confidence intervals for each tool, and `summary_by_round.csv`, which gives proportions for each tool and round without intervals, because each of those cells holds only three repeats of one prompt. It also writes `agreement.csv` for each pair of raters, on the prompted item and the surfacing score: percentage agreement, the confusion counts, Cohen's kappa, and PABAK and Gwet's AC1, which stay meaningful when nearly every rating falls in one category. Pass `--raters` to choose whose ratings go in the summary tables.
 
 To turn a rater's saved review-page ratings into a rating sheet, run `review/pages/export_ratings.py`. To print every figure the manuscript reports for a study, run `analysis/paper_tables.py`:
 
 ```bash
 python3 analysis/paper_tables.py --study A --out out-a --judge ai-judge
 ```
+
+The script reports the primary outcome as the registered definition and, where a study has one, its exploratory variant in a separate row (`--exploratory`, see each study's README). In the key round, the primary result comes from the pharmacists: a reply both pharmacists rated the same way takes that score, and a reply they disagreed on takes the score in `<out>/ratings/adjudicated.csv`. Until a disagreement is adjudicated, the result is shown as a range. In study A, the study lead's prompted ratings were made before the definition was widened, so pass `--strict-raters author`: those key-round ratings are compared with the judge's strict item (E1), not with the registered P1, and their ratings in other rounds (which named risk factors rather than asked) are compared with the registered P1, and never with a pharmacist who rated under the broadened definition. The AI judge's key-round score is shown beside it as a check on the judge, and the judge's agreement with each pharmacist is also shown separately for Claude's replies and for the other tools' replies. Confidence intervals are given only for pooled counts. Each tool-by-round cell is shown as a fraction of its three repeats, labelled consistently met, inconsistent or consistently missed.
 
 To run the tests:
 
@@ -102,15 +104,16 @@ Everything under `out*/` is git-ignored. Collected replies and the blinding key 
 | `studies/*/` | Prompts, answer key, rubric and rater guide for each study |
 | `vignettes/`, `RATER_GUIDE.md` | The first, paused study (the harness defaults) |
 | `review/pages/` | Templates for the mobile review pages, and scripts that build them, pick the validation sample and export saved ratings |
+| `analysis/export_dataset.py` | Exports a study's cleaned replies, the judge's verdicts and the rating sheets as shareable CSV files (`analysis/dataset-README.md` describes them) |
 | `analysis/paper_tables.py` | Reproduces every table and figure in the manuscript from the key, the judge's verdicts and the rating sheets |
 | `osf/registration.md` | The text of the OSF registration |
 | `tests/` | Unit tests for blinding, scoring, agreement, statistics and the helper scripts |
 
 ## Declarations
 
-- **Competing interests:** the author is employed by Wolters Kluwer, which publishes clinical decision support products. None of its products is evaluated here. This is independent, unfunded work.
+- **Competing interests:** the author is employed by Wolters Kluwer Health, which publishes clinical decision support products. None of its products is evaluated here. This is independent, unfunded work.
 - **Ethics:** synthetic cases only. No patients, patient data or human participants are involved, other than the pharmacist raters.
-- **Use of AI:** Claude (Anthropic) helped write the code and the study materials, and served as the blinded AI judge. Claude is also one of the tools evaluated, so pharmacist validation is used to check the judge.
+- **Use of AI:** Claude (Anthropic) was used to support coding and to proofread the study documents. All ideas, the study design, scenario choice, outcome definitions, analysis decisions and interpretation were the author's own work. Two other uses of AI are part of the method and are reported as such: Claude Opus 5.5 scored the replies as the blinded AI judge, against a fixed rubric with quote checking, and its scores were validated against pharmacist ratings; Claude (Sonnet 5.5) and Gemini (Flash 3.8) were also among the four tools evaluated. The author reviewed the protocol and made every decision.
 
 ## Licence
 

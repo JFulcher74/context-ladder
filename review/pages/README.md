@@ -45,6 +45,24 @@ Publish the page with these capabilities, so each rater's ratings are private to
 
 Share it by inviting each rater **by email as an Editor**. Don't create a public link: while one exists, raters outside the owner's organisation can't save.
 
+## Finishing
+
+Ratings save as the rater goes, so there is no submit step. On the last reply the button reads **Finish**. It checks that every reply is fully rated and every write reached the store, then says so, or lists the replies that still need an answer.
+
+## Finding a rater's ratings
+
+Each rater's ratings sit under their own ID, which the owner cannot list. On load the page therefore writes the rater's ID and the name they typed to `raters/<id>`, which only the owner can read. Declare these rules as well as the `ratings` ones:
+
+```json
+{"db": {"rules": [{"path": "ratings", "read": "owner", "write": "owner"},
+                  {"path": "ratings/{self}", "read": "interact", "write": "interact"},
+                  {"path": "raters", "read": "owner", "write": "owner"},
+                  {"path": "raters/{self}", "read": "interact", "write": "interact"}]},
+ "user": {}}
+```
+
+A rater has to open the page once after it is published for their ID to appear.
+
 ## Stored data
 
 | Path | Contents |
