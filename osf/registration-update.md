@@ -46,13 +46,13 @@ Items 1 to 7 are dated 20 October 2026 and were in the protocol as submitted. It
 
 ## Correction to the registration as filed
 
-**Copilot.** The filed text describes the Copilot tool as "Microsoft 365 Copilot (work account)", and its conflict-of-interest statement says Copilot was used through the author's work account. Both are corrected: replies were collected from Microsoft Copilot Chat on the web, not through an employer licence, and no employer resources were used.
+**Copilot.** The filed text describes the Copilot tool as "Microsoft 365 Copilot (work account)", and its conflict-of-interest statement says Copilot was used through the author's work account. Both are corrected: replies were collected from Microsoft Copilot Chat on the web, signed in with the author's personal Microsoft account, in a temporary chat. No employer licence or other employer resources were used.
 
 The filed text's "Use of AI" statement is superseded by the statement under "Other" below. It said Claude "helped design the materials, wrote the analysis code, acted as the blinded AI judge … and helped draft documents". The study design, scenario choice, outcome definitions, analysis decisions and interpretation are the author's own. Claude was used to support coding and proofreading. Claude's role as the blinded judge, and the use of Claude and Gemini as tools under evaluation, are part of the method and are described in the Methods.
 
 ## Other
 
-**Conflict of interest.** The author is employed by Wolters Kluwer Health, which publishes clinical decision support products. None of its products was evaluated in this study. No employer resources were used. Copilot was used as Copilot Chat on the web, not through an employer licence.
+**Conflict of interest.** The author is employed by Wolters Kluwer Health, which publishes clinical decision support products. None of its products was evaluated in this study. No employer resources were used. Copilot was used as Copilot Chat on the web, with the author's personal Microsoft account, in a temporary chat.
 
 **Funding.** None.
 
