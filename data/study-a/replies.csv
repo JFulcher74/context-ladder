@@ -1,0 +1,1117 @@
+code,study,tool,model_version,round,is_control,repeat,reply
+R001,A,Gemini,Gemini Flash 3.8,R3,False,3,"The recommended first-line oral antibiotic is **cefalexin 500 mg two to three times daily for 7 to 10 days** (in accordance with NICE NG111 guidelines).
+
+---
+
+### Rationale and Alternatives
+
+* **Why Cefalexin:**
+* Cefalexin is the primary empirical and targeted first-choice oral agent for uncomplicated acute pyelonephritis in the UK.
+* Her *E. coli* isolate is confirmed sensitive, her renal function is preserved (eGFR 78 mL/min/1.73m²), she is non-allergic, and there are no significant interactions with her current medications (atorvastatin and omeprazole).
+* A dose of 500 mg three times daily for 7 to 10 days provides reliable tissue and urinary tract penetration.
+
+* **Alternative Oral Options (Culture-Directed):**
+* **Co-amoxiclav (500/125 mg three times daily for 7 to 10 days):** An effective alternative since susceptibility is documented. However, cefalexin is generally preferred to minimise gastrointestinal side effects and the risk of *Clostridioides difficile*, particularly given her age and recent hospital stay 6 weeks ago.
+* **Trimethoprim (200 mg twice daily for 14 days):** Acceptable only when susceptibility is confirmed, but requires a significantly longer duration (14 days vs 7–10 days).
+* **Ciprofloxacin (500 mg twice daily for 7 days):** Although the organism is sensitive, fluoroquinolones are strictly restricted by MHRA/NICE safety guidance due to the risks of tendonitis, aortic dissection, QT prolongation, and long-lasting or irreversible musculoskeletal and neurological adverse effects. Fluoroquinolones should only be prescribed when other recommended options cannot be used.
+
+---
+
+### Key Prescribing & Safety Advice
+
+1. **Safety netting:** Advise her to seek urgent re-evaluation if she develops intractable nausea/vomiting, signs of systemic decompensation or sepsis (e.g., rigors, confusion, tachypnoea), or if symptoms fail to improve within 48 hours.
+2. **Hydration & Analgesia:** Encourage adequate oral fluid intake and recommend paracetamol for pain/fever. Avoid NSAIDs due to the risk of renal insult in the context of active renal infection."
+R002,A,Claude,Claude Sonnet 5.5,R1,False,2,"Trimethoprim 200 mg orally twice daily for 14 days is the best choice here, since the isolate is sensitive to it.
+
+Why trimethoprim
+
+She had C. difficile infection 6 weeks ago, so she is at high risk of recurrence. The main aim is to avoid the antibiotic classes most associated with CDI.
+Co-amoxiclav, cefalexin (a cephalosporin) and ciprofloxacin (a fluoroquinolone) are all high-risk for CDI. Ciprofloxacin also carries MHRA safety warnings, particularly in older adults.
+Trimethoprim has a lower CDI risk and gives adequate renal tissue penetration. NICE NG111 lists it as an option for pyelonephritis when culture shows susceptibility, with a 14-day course.
+Amoxicillin is excluded by resistance.
+
+Safety checks
+
+Her eGFR of 78 needs no dose adjustment.
+She is on no interacting drugs. Atorvastatin and omeprazole are not a concern with trimethoprim.
+Trimethoprim can raise potassium and serum creatinine. Consider checking U&E in about a week, especially if she takes anything else that affects potassium (for example an ACE inhibitor, which she does not currently).
+Trimethoprim is a folate antagonist, so check for other risk factors such as folate deficiency or other antifolate drugs.
+
+Other points
+
+Review the omeprazole. PPIs are an independent risk factor for CDI recurrence, so stop or step down if there is no clear ongoing indication.
+Safety-net. Advise her to seek review if she has no improvement within 48 hours, develops vomiting or fever, or has recurrent diarrhoea, which could mean a CDI relapse.
+Escalate if needed. If she deteriorates, or you are concerned about relapse risk, discuss with microbiology or your local antimicrobial guidance. Local policy may differ from NICE.
+
+This is decision support and does not replace your clinical judgement or local protocols."
+R003,A,ChatGPT,ChatGPT 5.6 Luna,R2,False,3,"The key prescribing consideration is her recent admission with diarrhoea treated with oral vancomycin, which raises concern for recent Clostridioides difficile infection (C. difficile). You should avoid antibiotics with a high risk of precipitating recurrence where a suitable, effective alternative exists.
+
+For this patient, the choice should be guided by UK acute pyelonephritis guidance, the culture sensitivities, and her recent history of C. difficile infection. Ciprofloxacin is particularly unattractive given its association with C. difficile and other potentially serious adverse effects; it can also interact with atorvastatin, increasing the risk of muscle toxicity.
+
+## Recommended choice: trimethoprim
+
+If her recent diarrhoea was confirmed to be C. difficile infection and she is now recovered, trimethoprim 200 mg orally twice daily for 14 days is a reasonable culture-directed choice under NICE guidance, provided there are no additional contraindications. It is a first-choice oral option for acute pyelonephritis when susceptibility is confirmed.
+
+Why this is preferable among the listed options:
+
+- Trimethoprim: culture-sensitive and avoids the broader-spectrum agents that are more strongly associated with C. difficile.
+- Cefalexin: a guideline-supported alternative, but cephalosporins are associated with increased C. difficile risk.
+- Co-amoxiclav: culture-sensitive, but broader-spectrum and also associated with C. difficile risk.
+- Ciprofloxacin: reserve for situations where other recommended antibiotics are inappropriate; it carries significant safety concerns, particularly in older adults.
+
+Before prescribing, check potassium, renal function and interacting medicines, and clarify whether the recent episode was confirmed C. difficile infection. Review her need for omeprazole, given its association with C. difficile risk. Arrange reassessment if symptoms worsen or fail to improve within 48 hours.
+
+Clinical caveat: if she has active or recurrent diarrhoea, suspected recurrent C. difficile, or significant risk factors not given here, seek senior or microbiology advice before finalising treatment."
+R004,A,ChatGPT,ChatGPT 5.6 Luna,R2,False,1,"**Trimethoprim 200 mg twice daily for 14 days** is the most appropriate prescription.
+
+### Clinical Rationale
+
+* **Targeted therapy with culture sensitivities:** The *E. coli* isolate is confirmed susceptible to trimethoprim. NICE guideline [NG111] recommends trimethoprim as a first-line oral option for acute pyelonephritis when sensitivities are known.
+* **Crucial *Clostridioides difficile* risk factor:** Her admission 6 weeks ago requiring oral vancomycin indicates a recent episode of *C. difficile* infection (CDI). She also takes omeprazole, which further elevates the risk of recurrence. Minimising the use of high-risk, broad-spectrum agents is critical:
+* **Ciprofloxacin (Fluoroquinolones):** High CDI risk and carries strict MHRA safety restrictions limiting its use only to situations where other alternatives are unsuitable.
+* **Cefalexin (Cephalosporins):** Part of the ""4C"" antibiotics strongly associated with CDI recurrence.
+* **Co-amoxiclav:** Broad-spectrum agent with a well-established moderate-to-high propensity for triggering CDI relapse.
+* **Trimethoprim:** Carries a substantially lower risk of inducing CDI recurrence compared to cephalosporins, broad-spectrum penicillins, and fluoroquinolones.
+
+### Additional Management Considerations
+
+* **Electrolyte monitoring:** Trimethoprim can impair renal potassium excretion (by blocking epithelial sodium channels in the distal nephron), posing a mild risk of hyperkalaemia, especially in older adults. Baseline renal function is stable (eGFR 78 mL/min/1.73m²), but check urea and electrolytes if symptoms arise.
+* **Review PPI indication:** Omeprazole increases susceptibility to enteric infections like *C. difficile*; re-evaluate whether continued PPI therapy is necessary or if the dose can be reduced/stopped.
+* **Safety netting:** Advise her to report immediately if vomiting develops (which would necessitate intravenous therapy, such as an aminoglycoside), if systemic symptoms worsen, or if diarrhoea recurs."
+R005,A,ChatGPT,ChatGPT 5.6 Luna,R3,False,2,"The key issue is that she was discharged from hospital six weeks ago, which may affect the choice of antibiotic under UK antimicrobial prescribing guidance. Although she is clinically stable and can take oral treatment, this is acute pyelonephritis, so the antibiotic should be guided by the urine culture and recent antibiotic exposure, as well as local resistance and prescribing guidelines.
+
+## Recommended choice
+
+Oral cefalexin is a reasonable first choice, provided there are no additional contraindications and this is consistent with local antimicrobial guidance.
+
+According to NICE guidance for acute pyelonephritis in non-pregnant adults, the options and usual regimens are:
+
+| Antibiotic    | Adult oral regimen                                                                     |
+| ------------- | -------------------------------------------------------------------------------------- |
+| Cefalexin     | 500 mg two or three times daily for 7–10 days                                          |
+| Co-amoxiclav  | 500/125 mg three times daily for 7–10 days, if culture confirms susceptibility         |
+| Trimethoprim  | 200 mg twice daily for 14 days, if culture confirms susceptibility                     |
+| Ciprofloxacin | 500 mg twice daily for 7 days, only if other recommended antibiotics are inappropriate |
+
+### Why cefalexin?
+
+- The organism is susceptible, and the patient can take oral medication.
+- Her eGFR of 78 does not ordinarily require cefalexin dose reduction.
+- Ciprofloxacin should be reserved for situations where other suitable antibiotics are inappropriate, owing to potentially disabling and long-lasting adverse effects.
+- Trimethoprim and co-amoxiclav are also culture-supported options, but cefalexin is a suitable narrow-spectrum choice here.
+
+Important: Confirm what antibiotics she received during her hospital admission and check local guidance. Recent hospitalisation and prior antibiotic exposure may affect the choice. Review her response within 48 hours and reassess urgently if she deteriorates or fails to improve."
+R006,A,Copilot,Microsoft 365 Copilot (work account),C,True,1,"For this 67-year-old woman, cefalexin would be my first choice, assuming this is uncomplicated acute pyelonephritis and there are no patient-specific contraindications.
+
+Prescription
+
+Cefalexin 500 mg orally twice or three times daily for 7–10 days. NICE allows higher doses for severe infection, but the scenario describes her as systemically well.
+
+Why cefalexin?
+The cultured E. coli is susceptible to cefalexin, and NICE recommends reviewing treatment against culture results and using a narrower-spectrum antibiotic where possible.
+She can take oral treatment and isn't severely unwell, so IV treatment/admission isn't indicated solely on the information given.
+Her eGFR of 78 mL/min/1.73m² does not present an obvious renal limitation to standard cefalexin treatment.
+Trimethoprim is an option because susceptibility is confirmed, but NICE-based UK pathways generally use a 14-day course for pyelonephritis, making cefalexin a more straightforward first choice. For example, current NHS prescribing guidance lists cefalexin first line and culture-sensitive trimethoprim second line.
+Co-amoxiclav is active but broader spectrum, so there's little reason to prefer it here when cefalexin is sensitive.
+Ciprofloxacin should be reserved for situations where other recommended antibiotics are inappropriate, given the important safety concerns associated with fluoroquinolones.
+
+The amoxicillin resistance doesn't prevent using cefalexin because susceptibility testing specifically shows the isolate is cefalexin-sensitive.
+
+Safety net: advise her to seek reassessment if symptoms worsen at any point, she becomes systemically very unwell, or symptoms don't begin improving within 48 hours of starting treatment.
+
+If this is for a prescribing assessment/exam, the intended answer is most likely cefalexin. Local antimicrobial guidelines and the current BNF should still be checked before issuing an actual prescription."
+R007,A,Gemini,Gemini Flash 3.8,R2,False,1,"**Prescribe oral trimethoprim: 200 mg twice daily for 14 days** (or consult local microbiology if your trust/formulary favors an alternative tailored regimen).
+
+---
+
+### Clinical Rationale
+
+* **Prior *Clostridioides difficile* Infection:** The patient was treated with oral vancomycin for diarrhoea 6 weeks ago, indicating recent *C. difficile* infection. Broad-spectrum antibiotics—specifically cephalosporins (cefalexin), fluoroquinolones (ciprofloxacin), and broad-spectrum beta-lactamase inhibitor combinations (co-amoxiclav)—are the highest-risk triggers for *C. difficile* recurrence.
+* **Trimethoprim Suitability:** The *E. coli* isolate is confirmed susceptible to trimethoprim on sensitivities. Trimethoprim carries a significantly lower risk of inducing *C. difficile* relapse and is a recommended first-choice oral option under NICE guidance (NG111) when culture sensitivities confirm susceptibility.
+
+---
+
+### Why the Alternatives are Unsuitable
+
+* **Cefalexin & Co-amoxiclav:** Both are classic high-risk agents for *C. difficile* recurrence and should be avoided in someone with a recent episode when a lower-risk sensitive agent is available.
+* **Ciprofloxacin:** A high risk for *C. difficile* recurrence, carries MHRA warnings regarding tendon and neurological toxicity, and should only be used if other options cannot be given.
+* **Nitrofurantoin:** Ineffective for pyelonephritis because it does not achieve therapeutic tissue concentrations in the renal parenchyma.
+
+---
+
+### Monitoring & Follow-Up
+
+1. **Renal function and potassium:** Trimethoprim can cause a transient, benign rise in serum creatinine (due to inhibition of tubular secretion) and carries a risk of hyperkalaemia, especially in older adults.
+2. **Review:** Reassess in 48 hours to confirm clinical improvement or sooner if systemic symptoms, fever, or signs of sepsis develop."
+R008,A,Copilot,Microsoft 365 Copilot (work account),C,True,2,"For the scenario you describe, cefalexin would be my first choice, assuming she is not pregnant and there are no other relevant contraindications.
+
+Prescription
+
+Cefalexin 500 mg orally three times daily for 7 days is a reasonable regimen within current NICE guidance. NICE recommends cefalexin 500 mg twice or three times daily for 7–10 days for non-pregnant adults with acute pyelonephritis who are well enough for oral treatment.
+
+Why cefalexin?
+The cultured E. coli is susceptible to cefalexin, so microbiological coverage is established.
+She is systemically well and can take tablets, so NICE recommends oral rather than intravenous treatment.
+Although trimethoprim is susceptible, NICE specifies 14 days for pyelonephritis, making it a less attractive option here.
+Co-amoxiclav is also an acceptable culture-directed option, but antimicrobial stewardship favours using a narrower-spectrum antibiotic where possible. NICE explicitly recommends selecting according to susceptibility and using a narrow-spectrum antibiotic when possible.
+Ciprofloxacin should not be preferred when suitable alternatives exist. Current NICE guidance restricts fluoroquinolones to circumstances where other commonly recommended antibiotics are inappropriate because of their potential for disabling, prolonged or irreversible adverse effects.
+Her eGFR of 78 mL/min/1.73m² does not itself provide a reason to avoid standard oral cefalexin treatment.
+Follow-up matters
+
+Advise her to seek reassessment if symptoms worsen at any time or do not begin to improve within 48 hours, or if she becomes systemically very unwell.
+
+So, from the information given: cefalexin 500 mg PO TDS for 7 days is the most straightforward choice, subject to your local antimicrobial guideline and the full clinical assessment."
+R009,A,Gemini,Gemini Flash 3.8,C,True,1,"Prescribe **cefalexin 500 mg two to three times a day for 7 to 10 days**.
+
+### Rationale
+
+* **First-line recommendation:** In line with NICE guidelines (NG111) for acute pyelonephritis in adults who are systemically well and able to tolerate oral medication, **cefalexin** is the preferred first-choice oral agent.
+* **Susceptibility profile:** The isolate is sensitive to cefalexin, co-amoxiclav, trimethoprim, and ciprofloxacin.
+
+### Why the Alternatives Are Less Appropriate
+
+* **Ciprofloxacin:** MHRA drug safety alerts strictly restrict fluoroquinolones due to the risk of disabling, potentially irreversible side effects (tendinopathy, peripheral neuropathy, aortic aneurysm/dissection). They should only be used when other first-line options cannot be used or have failed.
+* **Trimethoprim:** While sensitive, trimethoprim requires a prolonged **14-day** course for acute pyelonephritis compared to 7–10 days with a beta-lactam.
+* **Co-amoxiclav:** Co-amoxiclav is an acceptable alternative (500/125 mg three times daily for 7 to 10 days), but it carries a higher risk of cholestatic jaundice (particularly in patients over 65) and greater gastrointestinal disturbance compared with cefalexin.
+
+Advise the patient to seek urgent medical review if symptoms worsen significantly or fail to improve within 48 hours."
+R010,A,ChatGPT,ChatGPT 5.6 Luna,R3,False,3,"The key issue is the hospital discharge 6 weeks ago, which may affect antibiotic choice because of the risk of resistant organisms. Under NICE guidance, for an adult with acute pyelonephritis who is clinically stable and can take oral medicines, treatment should be guided by the urine culture and susceptibility results, previous antibiotic exposure and local antimicrobial guidance.
+
+Of the susceptible options listed, cefalexin is a reasonable first-choice oral option, but the recent hospitalisation means I would check the discharge antibiotics, any previous cultures and the local antimicrobial policy before prescribing.
+
+### Suggested prescription
+
+If prior antibiotic exposure and local guidance do not indicate a need for a different regimen, NICE lists:
+
+\- Cefalexin 500 mg orally twice or three times daily for 7–10 days. The dose can be increased for severe infection, but this patient is described as systemically well.
+
+### Why not the other options?
+
+- Trimethoprim: culture-sensitive, but NICE recommends 200 mg twice daily for 14 days; consider patient-specific risks and monitoring.
+- Co-amoxiclav: a valid culture-directed alternative, 500/125 mg three times daily for 7–10 days.
+- Ciprofloxacin: reserve for situations where other recommended antibiotics are inappropriate, owing to potentially disabling and long-lasting adverse effects.
+- Amoxicillin: avoid because the isolate is resistant.
+
+Her eGFR of 78 does not ordinarily require cefalexin dose reduction. Atorvastatin and omeprazole do not present a major interaction concern with cefalexin.
+
+Important: because she was discharged from hospital six weeks ago, check which antibiotics she received and whether there are previous resistant isolates. Review the local antimicrobial policy or discuss with microbiology if resistance risk is a concern. Reassess if symptoms worsen or fail to start improving within 48 hours."
+R011,A,Gemini,Gemini Flash 3.8,R4,False,1,"Prescribe **cefalexin** or **co-amoxiclav** as first-line therapy.
+
+### Recommended Regimens
+
+* **Cefalexin:** 500 mg two to three times daily for **7 to 10 days**.
+* **Co-amoxiclav:** 500/125 mg three times daily for **7 to 10 days** (susceptibility confirmed).
+
+Both options are effective for acute pyelonephritis in a non-septic patient who can tolerate oral medications, have good renal excretion, and present no interactions with her atorvastatin or omeprazole.
+
+---
+
+### Why the Other Susceptible Options Are Less Preferred
+
+* **Ciprofloxacin:** MHRA guidelines explicitly restrict fluoroquinolones due to the risk of disabling, long-lasting adverse effects (such as tendonitis, tendon rupture, and QT prolongation). They should only be used when other first-line agents cannot be used.
+* **Trimethoprim:** While susceptible, trimethoprim requires a prolonged **14-day course** for pyelonephritis, carries higher clinical failure rates compared to beta-lactams in renal tissue infections, and can falsely elevate creatinine/cause hyperkalemia in older adults.
+
+---
+
+### Monitoring & Safety Netting
+
+* Advise the patient that symptoms should begin improving within **48 hours**.
+* Instruct her to seek urgent re-assessment or attend emergency care if she develops vomiting, inability to take oral fluids/medicines, rigors, or signs of worsening systemic illness/sepsis."
+R012,A,Claude,Claude Sonnet 5.5,R4,False,1,"**Cefalexin is the best choice here.** It is NICE's first-choice oral option for acute pyelonephritis in non-pregnant adults, and the isolate is sensitive.
+
+- **Dose:** 500 mg twice or three times daily, increased to 1 g to 1.5 g three or four times daily if the infection is severe or the organism has a higher MIC.
+- **Duration:** 7 to 10 days.
+
+**Why not the others**
+- **Ciprofloxacin (500 mg BD for 7 days):** It is a reasonable option on sensitivities, but MHRA advice restricts fluoroquinolones to when other agents are inappropriate. Age over 60 raises the risk of tendon damage, and there is also the risk of QT prolongation, CNS effects and dysglycaemia. Nothing about her presentation justifies taking that risk.
+- **Co-amoxiclav (500/125 mg TDS for 7 to 10 days):** It is acceptable as a second choice when culture shows sensitivity, but it carries more C. difficile and GI adverse-effect risk, and cefalexin is narrower-spectrum.
+- **Trimethoprim (200 mg BD):** NICE lists it as an option only when culture confirms susceptibility, but the course is 14 days, and it can raise potassium and creatinine. Cefalexin is preferred.
+
+**Other points**
+- **Interactions:** Neither atorvastatin nor omeprazole interacts meaningfully with cefalexin. Her eGFR of 78 needs no dose adjustment.
+- **Follow-up:** Review at 48 to 72 hours. If she is not improving, reassess for obstruction or abscess and consider imaging, since persistent symptoms suggest a complication.
+- **Allergy:** She has no known drug allergies, so beta-lactam cross-reactivity isn't a concern.
+
+Check against your local antimicrobial guidelines and the BNF before prescribing."
+R013,A,Gemini,Gemini Flash 3.8,R4,False,3,"**Cefalexin 500 mg two to three times daily for 7 to 10 days** (or **Co-amoxiclav 500/125 mg three times daily for 7 to 10 days**) is the preferred first-line choice under UK clinical guidelines (NICE NG111).
+
+---
+
+### Rationale & Selection
+
+* **Cefalexin (500 mg BD or TDS for 7–10 days):** Recommended as an empirical and targeted oral first-line option for acute uncomplicated pyelonephritis. It achieves adequate renal tissue and urinary concentrations, has a narrow spectrum compared to quinolones, and carries a favourable safety profile.
+* **Co-amoxiclav (500/125 mg TDS for 7–10 days):** An equally valid first-line option now that culture confirms susceptibility. (Note that while the organism is resistant to amoxicillin alone, it is sensitive to co-amoxiclav due to clavulanic acid overcoming beta-lactamase production).
+
+---
+
+### Why Other Options Are Less Preferred
+
+* **Ciprofloxacin:** While sensitive, fluoroquinolones are strictly reserved by NICE and the MHRA for cases where first-choice oral options cannot be used. This restriction exists because of the risk of disabling, long-lasting, or irreversible adverse effects (tendonitis/tendon rupture, QT prolongation, neuropsychiatric effects, aortic aneurysm/dissection). In a 67-year-old patient with viable first-line beta-lactam options, ciprofloxacin should be avoided.
+* **Trimethoprim:** Requires a prolonged course (**200 mg BD for 14 days**) for pyelonephritis. It is inferior to beta-lactams in terms of treatment duration and risk of hyperkalaemia or interaction-related serum creatinine elevation, though it remains an acceptable alternative if beta-lactams cannot be used.
+
+---
+
+### Practice Considerations
+
+1. **Renal function:** Her eGFR is 78 mL/min/1.73m², meaning standard adult dosing applies with no renal adjustment required.
+2. **Current medications:** No significant cytochrome P450 or clearance interactions exist between cefalexin (or co-amoxiclav) and atorvastatin or omeprazole.
+3. **Safety netting:** Advise the patient to seek urgent medical attention if systemic symptoms worsen, fever persists beyond 48 hours of starting treatment, or she develops persistent nausea/vomiting preventing oral intake."
+R014,A,Copilot,Microsoft 365 Copilot (work account),R4,False,1,"Assuming this is a non-pregnant adult with uncomplicated acute pyelonephritis, I would choose oral cefalexin, subject to your local antimicrobial guideline.
+
+Cefalexin 500 mg orally two or three times daily for 7–10 days is a NICE first-choice oral treatment. The isolated E. coli is susceptible, she can tolerate oral therapy, and her renal function is adequate.
+Co-amoxiclav 500/125 mg three times daily for 7–10 days is also appropriate when susceptibility is confirmed, as it is here, but cefalexin is the narrower-spectrum choice.
+Trimethoprim 200 mg twice daily for 14 days is permitted by NICE when susceptibility is confirmed, but requires a longer course, so it offers little advantage here.
+Ciprofloxacin 500 mg twice daily for 7 days should be reserved for situations where the other recommended antibiotics are unsuitable because of the risk of potentially disabling, long-lasting or irreversible adverse effects.
+The amoxicillin resistance does not rule out cefalexin or co-amoxiclav because susceptibility to those agents has been demonstrated separately.
+Practical choice
+
+Cefalexin 500 mg PO three times daily for 7 days would be a reasonable prescription within the NICE dosing range, provided local guidance does not specify a different regimen.
+
+Advise reassessment if symptoms worsen or do not begin improving within 48 hours, or if she becomes systemically very unwell.
+
+If this is a real patient rather than an exam scenario, I would also check the local formulary, previous microbiology/antibiotic exposure, and for urinary tract abnormalities or other complicating factors before prescribing."
+R015,A,ChatGPT,ChatGPT 5.6 Luna,R1,False,1,"The most appropriate choice is likely oral trimethoprim 200 mg twice daily for 14 days, provided there are no additional contraindications, particularly hyperkalaemia risk or interacting medicines, and this is consistent with local antimicrobial guidance.
+
+Under NICE guidance for acute pyelonephritis in non-pregnant adults, trimethoprim is an appropriate option when urine culture confirms susceptibility. In this case, the organism is susceptible, renal function is adequate, and the recent Clostridioides difficile infection makes antibiotic stewardship especially important.
+
+### Why this option?
+
+- Trimethoprim: culture-confirmed susceptibility makes it a guideline-supported choice. It avoids unnecessarily broad-spectrum treatment.
+- Cefalexin: a reasonable alternative, but recent C. difficile infection warrants caution with antibiotic exposure.
+- Co-amoxiclav: avoid if a suitable alternative is available, given its broader spectrum and potential to disrupt gut flora.
+- Ciprofloxacin: reserve for situations where other recommended antibiotics are unsuitable, owing to potentially disabling adverse effects and C. difficile risk.
+
+### Before prescribing
+
+1. Check current serum potassium and review any other medicines that could increase potassium, especially ACE inhibitors, ARBs or spironolactone.
+2. Review the recent C. difficile episode and consider specialist or microbiology advice if recurrence risk is a concern.
+3. Reassess if symptoms worsen or fail to start improving within 48 hours; seek urgent assessment if she becomes systemically unwell.
+
+Bottom line: trimethoprim 200 mg orally twice daily for 14 days is a reasonable culture-directed choice under NICE guidance, subject to checking potassium, interactions and local protocols. Her recent C. difficile infection makes minimising antibiotic-associated harm particularly important."
+R016,A,Copilot,Microsoft 365 Copilot (work account),R3,False,1,"For this non-septic 67-year-old who can take oral treatment, I would choose trimethoprim 200 mg orally twice daily for 14 days, provided local guidance does not advise otherwise.
+
+The culture confirms the E. coli is susceptible to trimethoprim. NICE lists trimethoprim 200 mg twice daily for 14 days as a first-choice oral option when susceptibility is confirmed.
+Oral treatment is appropriate because she is clinically stable and able to take oral medicines.
+Ciprofloxacin would not be my choice because NICE restricts it to situations where the other recommended antibiotics are unsuitable, reflecting the risk of disabling, potentially long-lasting or irreversible adverse effects.
+Cefalexin and co-amoxiclav are also microbiologically active, but her recent hospital admission (6 weeks ago) makes avoiding broader-spectrum agents particularly attractive where an effective narrower option is available. Cephalosporins, co-amoxiclav and quinolones are recognised higher-risk antibiotic groups for C. difficile infection.
+Her eGFR of 78 does not suggest significant renal impairment, and the medicines you've listed don't provide an obvious reason to favour ciprofloxacin, cefalexin or co-amoxiclav instead.
+
+Prescription: trimethoprim 200 mg twice daily for 14 days.
+
+She should be reassessed if she deteriorates or has not started improving within 48 hours, and urgently reassessed if she becomes systemically very unwell.
+
+One caveat: because antimicrobial policies vary geographically, a current local NHS antimicrobial guideline should take precedence if it specifies a different culture-directed choice."
+R017,A,Claude,Claude Sonnet 5.5,R1,False,1,"**Trimethoprim 200 mg orally twice daily for 14 days** is the best choice here, as the isolate is sensitive.
+
+**Why trimethoprim:**
+- She had *C. difficile* infection 6 weeks ago, so she is at high risk of recurrence, and the antibiotic with the lowest CDI risk that is effective should be used.
+- Fluoroquinolones (ciprofloxacin), cephalosporins (cefalexin) and co-amoxiclav are all associated with a higher risk of CDI, so I would avoid them despite sensitivity. Ciprofloxacin also has the MHRA safety warnings on tendinopathy and other serious adverse effects, which weigh more in a 67-year-old.
+- Trimethoprim is generally considered lower risk for CDI, and it is a first-line option in UK guidance (NICE/UKHSA) for pyelonephritis when culture shows susceptibility. The longer 14-day course is the guideline duration for it.
+- Her eGFR of 78 needs no dose adjustment, and there is no significant interaction with atorvastatin or omeprazole.
+
+**Safety points:**
+- Trimethoprim can raise potassium and creatinine, so consider checking U&Es after a few days, especially if she starts an ACE inhibitor, ARB or spironolactone. It is also a folate antagonist, which matters only if the course is prolonged or she has risk factors.
+- Review whether she still needs the omeprazole. PPIs are a recognised risk factor for CDI recurrence, so stopping or stepping down is worth considering.
+- Give her safety-netting advice: return or seek review if diarrhoea develops, and if she isn't improving within 48 hours.
+- If she deteriorates, can't tolerate oral treatment or develops a contraindication to trimethoprim, move to IV therapy per local policy. An aminoglycoside such as gentamicin carries a lower CDI risk than the oral options, though it needs renal monitoring.
+- Check your local antimicrobial guideline and microbiology advice, particularly given her CDI history."
+R018,A,ChatGPT,ChatGPT 5.6 Luna,R4,False,2,"For this 67-year-old woman with culture-confirmed E. coli acute pyelonephritis, who is clinically stable, can take oral treatment and has normal renal function, an oral antibiotic guided by the urine culture is appropriate, provided there are no other complications or contraindications.
+
+The key considerations are the local pyelonephritis prescribing guideline, susceptibility results, drug interactions and the risk of treatment failure or adverse effects.
+
+## Recommended prescription
+
+Cefalexin 500 mg orally three times daily for 7–10 days is a reasonable choice under NICE guidance, assuming no relevant contraindications and local guidance supports it. It is culture-sensitive and avoids reserving ciprofloxacin when other suitable antibiotics are available.
+
+Other options under NICE guidance include:
+
+| Antibiotic    | Adult regimen                              | Key consideration                                           |
+| ------------- | ------------------------------------------ | ----------------------------------------------------------- |
+| Cefalexin     | 500 mg 2–3 times daily for 7–10 days       | Reasonable culture-directed option                          |
+| Co-amoxiclav  | 500/125 mg three times daily for 7–10 days | Appropriate because susceptibility is confirmed             |
+| Trimethoprim  | 200 mg twice daily for 14 days             | Appropriate because susceptibility is confirmed             |
+| Ciprofloxacin | 500 mg twice daily for 7 days              | Use only if other recommended antibiotics are inappropriate |
+
+Why not ciprofloxacin first? Fluoroquinolones carry a risk of potentially disabling, prolonged or irreversible adverse effects and are restricted to situations where other commonly recommended antibiotics are inappropriate. Her age makes avoiding unnecessary exposure particularly sensible.
+
+Follow-up: Review the clinical response within 48 hours. Advise urgent reassessment if symptoms worsen, vomiting develops, or she becomes systemically unwell. If she is not beginning to improve within 48 hours, reassess the diagnosis, complications and antibiotic choice.
+
+This is a guideline-based recommendation, not a substitute for the prescribing clinician's assessment and local antimicrobial policy."
+R019,A,Copilot,Microsoft 365 Copilot (work account),R2,False,3,"The key detail is the oral vancomycin 6 weeks ago, which strongly suggests recent Clostridioides difficile infection. That materially affects antibiotic selection because avoiding another high-risk antibiotic is important.
+
+Best choice: trimethoprim
+
+Assuming her previous diarrhoeal illness was confirmed or strongly suspected C. difficile, I would favour:
+
+Trimethoprim 200 mg orally twice daily for 14 days.
+
+NICE lists trimethoprim as a first-choice oral treatment for acute pyelonephritis when culture results confirm susceptibility, as they do here. The recommended course is 14 days.
+She is clinically stable and can take oral medication, so NICE recommends an oral rather than intravenous antibiotic.
+Her recent C. difficile episode makes antimicrobial stewardship particularly important. Cephalosporins, co-amoxiclav and quinolones such as ciprofloxacin are recognised as higher-risk antibiotics for precipitating C. difficile.
+Ciprofloxacin should especially be avoided when alternatives are suitable. Current NICE guidance restricts fluoroquinolones to situations where other recommended antibiotics are inappropriate because of the risk of disabling, potentially long-lasting or irreversible adverse effects.
+Why not the other sensitive agents?
+Cefalexin: ordinarily a NICE first-choice option, but a cephalosporin is less attractive after recent C. difficile.
+Co-amoxiclav: culture-sensitive and ordinarily acceptable, but broad-spectrum penicillins including co-amoxiclav are considered higher risk for C. difficile.
+Ciprofloxacin: both the recent C. difficile history and current fluoroquinolone restrictions argue against it when trimethoprim is suitable.
+Amoxicillin: the isolate is resistant, so it should not be used.
+
+Her stated eGFR of 78 mL/min/1.73 m² does not suggest renal impairment that would drive selection away from standard oral therapy, although prescribing should still follow the current BNF/local antimicrobial guidance and individual clinical circumstances.
+
+One additional medication review is worthwhile: NICE recommends reviewing whether a proton-pump inhibitor such as omeprazole remains necessary in patients with C. difficile, rather than automatically continuing it.
+
+Bottom line: culture-directed trimethoprim 200 mg twice daily for 14 days is the most reasonable choice from the options given, particularly because of her very recent C. difficile treatment. If she deteriorates, becomes systemically unwell, or does not begin improving within 48 hours, NICE recommends reassessment.
+
+If the vancomycin 6 weeks ago was not for C. difficile, that would change the weighting between these choices."
+R020,A,Gemini,Gemini Flash 3.8,R2,False,2,"Prescribe **trimethoprim 200 mg orally twice daily for 14 days**.
+
+### Clinical Rationale
+
+* **Recent *Clostridioides difficile* infection (CDI):** She was treated 6 weeks ago with oral vancomycin for severe diarrhoea, which places her within the highest-risk window (typically within 2 to 3 months) for CDI recurrence.
+* **Avoid high-risk antibiotics (the ""4Cs""):** Cephalosporins (cefalexin), fluoroquinolones (ciprofloxacin), and broad-spectrum beta-lactamase combinations (co-amoxiclav) carry the highest risk of precipitating *C. difficile* recurrence.
+* **Guidelines & Susceptibility:** According to NICE guidelines (NG111), trimethoprim is recommended for acute pyelonephritis when culture and susceptibility results are confirmed. Given her proven sensitivity to trimethoprim, it provides targeted tissue penetration in the renal parenchyma while carrying a substantially lower risk of provoking recurrent *C. difficile* compared to cefalexin, co-amoxiclav, or ciprofloxacin.
+
+### Additional Management Considerations
+
+1. **Renal Function & Electrolytes:** Her eGFR is 78 mL/min/1.73m², which is safe for full-dose trimethoprim (no dose reduction required). Be aware that trimethoprim can competitively inhibit tubular secretion of creatinine (causing a slight pseudo-elevation in serum creatinine without reducing true GFR) and can cause mild hyperkalaemia.
+2. **Review PPI Therapy:** Omeprazole increases the risk of *C. difficile* recurrence; review whether ongoing daily acid suppression is strictly indicated.
+3. **Safety-Netting:** Instruct her to seek urgent re-evaluation if fever, rigors, loin pain, or vomiting develop, or if symptoms fail to improve within 48 hours. Advise her to report any return of watery diarrhoea immediately."
+R021,A,Gemini,Gemini Flash 3.8,R4,False,2,"The recommended first-line oral antibiotic to prescribe is **cefalexin**.
+
+### Recommended Regimen
+
+* **Cefalexin:** 500 mg orally, two to three times daily (or up to 1 g to 1.5 g three to four times daily if clinically warranted for a more severe presentation) for **7 to 10 days**.
+
+---
+
+### Rationale & Comparison of Options
+
+* **Cefalexin (Preferred):** First-line oral choice under national (NICE NG111) guidelines for non-pregnant adults who are systemically stable and able to take oral medication. It has an excellent safety profile, avoids fluoroquinolone risks, and has no significant interactions with her current medications (atorvastatin, omeprazole).
+* **Co-amoxiclav (Alternative First-Line):** 500/125 mg three times daily for 7 to 10 days is also an appropriate first-choice option now that culture confirms sensitivity. However, cefalexin is often favoured due to a lower incidence of cholestatic jaundice and gastrointestinal disturbance, especially in patients over 65.
+* **Trimethoprim:** 200 mg twice daily is an option when sensitivities are known, but it requires a **14-day course** (compared to 7–10 days for beta-lactams) and carries a risk of elevating serum creatinine and potassium, especially in older adults.
+* **Ciprofloxacin:** Although the organism is sensitive, fluoroquinolones are strictly reserved for when other first-line options cannot be used. Under MHRA restrictions, fluoroquinolones should be avoided due to the risks of disabling and potentially irreversible toxicities (tendonitis/tendon rupture, QT prolongation, peripheral neuropathy, aortic aneurysm/dissection).
+
+### Monitoring & Safety Netting
+
+* Advise adequate oral hydration.
+* Avoid NSAIDs (e.g., ibuprofen) during acute pyelonephritis due to nephrotoxicity risks.
+* Provide safety-net advice: seek immediate reassessment if she develops rigors, persistent vomiting, escalating loin pain, or signs of worsening systemic infection. Review if there is no significant improvement within 48 hours."
+R022,A,Gemini,Gemini Flash 3.8,R1,False,1,"Prescribe **oral trimethoprim 200 mg twice daily for 14 days**.
+
+### Rationale
+
+* ***Clostridioides difficile* recurrence risk:** A recent episode of *C. difficile* infection (CDI) within the past 2–3 months places the patient at highest risk for recurrence. The ""4Cs"" of high-risk antibiotics for CDI include **C**ephalosporins (cefalexin), fluoro**Q**uinolones (ciprofloxacin), **C**o-amoxiclav, and **C**lindamycin. Trimethoprim carries a significantly lower risk of inducing recurrent CDI than any of the other sensitive options.
+* **Guideline alignment (NICE NG111):** Oral trimethoprim is explicitly recommended as a first-choice oral agent for acute pyelonephritis when guided by culture and susceptibility results.
+* **Suitability:** Her renal function is well-preserved (eGFR 78 mL/min/1.73m²), requiring no dose adjustment, and she is systemically well and able to tolerate oral medication.
+
+### Additional Management Considerations
+
+* **Monitor serum potassium and renal function:** Trimethoprim can competitively inhibit renal tubular potassium excretion, occasionally causing mild hyperkalaemia and a transient rise in serum creatinine.
+* **Review omeprazole:** Proton pump inhibitors (PPIs) are independently associated with an elevated risk of CDI recurrence; review whether ongoing omeprazole therapy remains clinically indicated.
+* **Safety netting:** Advise the patient to seek urgent medical review if her fever or flank pain worsens, if symptoms do not improve within 48 hours, or if she develops loose, watery stools."
+R023,A,Claude,Claude Sonnet 5.5,C,True,1,"Cefalexin is the best choice, and it matches NICE NG111 first-line oral options for acute pyelonephritis in non-pregnant adults.
+
+Dose: 500 mg twice to three times daily, increased to 1 to 1.5 g three to four times daily if more severe, for 7 to 10 days. No renal adjustment is needed at an eGFR of 78. Check the current BNF or your local guideline before prescribing.
+
+Why cefalexin over the other sensitive options:
+
+Ciprofloxacin is effective, but fluoroquinolones carry MHRA warnings (tendinopathy and tendon rupture, neuropsychiatric effects, aortic aneurysm, QT prolongation). These risks are higher in older patients. It should be kept for when there is no suitable alternative, and here there is.
+Trimethoprim needs 14 days for pyelonephritis, so it means a longer course. It is also a poorer fit in an older patient because of hyperkalaemia and creatinine rise.
+Co-amoxiclav is a reasonable alternative, but it is broader spectrum and causes more diarrhoea. She is already on a PPI, which adds to C. difficile risk. Co-amoxiclav is also only recommended when culture shows susceptibility, which it does here.
+
+Interactions and cautions: No relevant interactions with atorvastatin or omeprazole.
+
+Safety-netting: Advise her to seek review if she is not improving within 48 hours, or if she develops vomiting, rigors, confusion or reduced urine output. Review the culture again if symptoms persist."
+R024,A,Copilot,Microsoft 365 Copilot (work account),R3,False,3,"Assuming she is not pregnant, has no urinary obstruction or other complicating feature, and remains systemically well, I would prescribe cefalexin orally.
+
+Cefalexin 500 mg three times daily for 7–10 days is a first-choice oral treatment for acute pyelonephritis in current NICE guidance. Her E. coli isolate is susceptible, she has no allergy, and she can take oral treatment.
+Co-amoxiclav 500/125 mg three times daily for 7–10 days is also an acceptable first-choice option when susceptibility is confirmed, as it is here. However, cefalexin is a reasonable narrower choice.
+Trimethoprim 200 mg twice daily for 14 days is permitted when susceptibility is confirmed, but requires a longer course, so there is little advantage here.
+Ciprofloxacin 500 mg twice daily for 7 days should be reserved for situations where the other recommended antibiotics are unsuitable because of the risk of disabling, potentially long-lasting or irreversible adverse effects.
+Amoxicillin should not be used, because this isolate is resistant.
+
+The hospital admission 6 weeks ago is clinically relevant because recent healthcare exposure can increase the likelihood of resistant organisms. In this case, however, you already have the current culture and susceptibility result, and NICE specifically recommends reviewing treatment against those results and using a narrower-spectrum susceptible antibiotic where possible.
+
+Practical choice
+
+Cefalexin 500 mg PO three times daily for 7–10 days, subject to your local antimicrobial guideline. Her eGFR of 78 mL/min/1.73 m² does not itself give a reason to prefer ciprofloxacin or trimethoprim.
+
+She should be reassessed if she deteriorates at any point, becomes systemically very unwell, or symptoms do not begin improving within 48 hours.
+
+If this is an exam-style prescribing question, cefalexin is the best answer from the information given."
+R025,A,Gemini,Gemini Flash 3.8,R1,False,2,"**Trimethoprim** (200 mg orally twice daily for 14 days) is the most appropriate antibiotic for this patient.
+
+### Clinical Rationale
+
+* **Recent *Clostridioides difficile* infection (CDI):** Having completed treatment for CDI just 6 weeks ago, she is at extraordinarily high risk of recurrent CDI. Antibiotic stewardship to minimise disruptors of bowel flora is paramount:
+* **Ciprofloxacin (fluoroquinolones), cefalexin (cephalosporins), and co-amoxiclav (broad-spectrum penicillins with beta-lactamase inhibitors)** are among the highest-risk classes for precipitating recurrent *C. difficile* colitis (often grouped under the ""4Cs"" along with clindamycin).
+* **Trimethoprim** carries a significantly lower risk of inducing *C. difficile* colitis compared to broad-spectrum cephalosporins, quinolones, or aminopenicillins.
+
+* **Sensitivity & Tissue Penetration:** Her urine culture demonstrates that the *E. coli* isolate is sensitive to trimethoprim. Unlike nitrofurantoin (which concentrates purely in the lower urinary tract and is contraindicated in pyelonephritis), trimethoprim achieves effective renal tissue concentrations.
+* **Renal Function:** Her eGFR of 78 mL/min/1.73m² is sufficient for standard dosing without dose reduction.
+
+---
+
+### Key Prescribing Details & Monitoring
+
+* **Dose & Duration:** Trimethoprim 200 mg twice daily for 14 days (standard UK/NICE duration for oral treatment of pyelonephritis with trimethoprim).
+* **Electrolytes:** Trimethoprim can act as a weak potassium-sparing diuretic (similar to amiloride) by inhibiting epithelial sodium channels (ENaC) in the distal nephron. While she is not on an ACEi/ARB or spironolactone, be mindful of potential hyperkalaemia, especially in older adults.
+* **Safety Netting:** Advise her to report immediately if loose stools/diarrhoea recur (given her recent CDI history) or if symptoms of systemic sepsis develop (rigors, worsening fever, persistent vomiting, flank pain deterioration)."
+R026,A,Copilot,Microsoft 365 Copilot (work account),R4,False,3,"For this 67-year-old woman with uncomplicated acute pyelonephritis who is clinically stable and able to take oral treatment, I would choose:
+
+Cefalexin 500 mg orally twice or three times daily for 7–10 days. NICE allows up to 1–1.5 g three or four times daily for severe infections.
+
+Why cefalexin?
+Culture confirms susceptibility, and NICE lists cefalexin as the first-choice oral antibiotic for non-pregnant adults with acute pyelonephritis.
+Ciprofloxacin should generally be reserved for situations where other first-choice agents are unsuitable because of fluoroquinolone safety concerns.
+Co-amoxiclav is an option when the organism is susceptible, but cefalexin is the straightforward first-choice agent here.
+Trimethoprim alone is not the preferred NICE regimen for acute pyelonephritis, despite the isolate being reported susceptible.
+Her eGFR of 78 mL/min/1.73 m² does not suggest a need to reduce the usual cefalexin dose.
+Practical prescription
+
+Cefalexin 500 mg PO three times daily for 7–10 days, subject to your local antimicrobial guideline.
+
+Advise her to seek reassessment if symptoms worsen at any time or do not begin improving within 48 hours, or if she becomes systemically very unwell. NICE specifically recommends this safety-netting for acute pyelonephritis.
+
+If this is a real patient rather than an exam question, I would also check the local antimicrobial formulary, because local dosing recommendations can differ. For example, some NHS guidance uses cefalexin 1 g three times daily for 7 days for acute pyelonephritis."
+R027,A,ChatGPT,ChatGPT 5.6 Luna,C,True,2,"For this 67-year-old woman with culture-confirmed E. coli acute pyelonephritis, who is systemically well, can take oral treatment and has normal renal function, the choice should be guided by UK antimicrobial prescribing guidance, the susceptibility results and her regular medicines.
+
+The key considerations are:
+
+- Use a culture-susceptible oral antibiotic with appropriate penetration into renal tissue.
+- Avoid treating pyelonephritis as simple cystitis; some antibiotics suitable for lower UTIs are not suitable for kidney infection.
+- Consider drug interactions, adverse effects and the risk of C. difficile infection.
+
+## Recommended prescription
+
+Cefalexin 500 mg orally three times daily for 7–10 days is a reasonable first-choice option under NICE guidance, assuming no contraindications and in line with local antimicrobial policy. It is culture-susceptible and avoids the need to use ciprofloxacin when a suitable alternative is available. NICE lists cefalexin, susceptible co-amoxiclav and susceptible trimethoprim as first-choice oral options; ciprofloxacin is reserved for cases where other first-choice antibiotics are inappropriate.
+
+Why not the other options?
+
+- Trimethoprim: also a reasonable culture-directed option, but requires a 14-day course and consideration of potassium and renal risks, particularly if other medicines that raise potassium are used.
+- Co-amoxiclav: appropriate because susceptibility is confirmed, but broader-spectrum than necessary in some cases.
+- Ciprofloxacin: reserve for when other suitable options are inappropriate because of potentially disabling, long-lasting or irreversible adverse effects.
+
+Follow-up: Review if symptoms worsen or fail to start improving within 48 hours. Seek urgent assessment if she becomes systemically unwell, develops persistent vomiting or shows signs of sepsis.
+
+This is a guideline-based recommendation, not a substitute for a prescriber's assessment of the patient, full medication list and local antimicrobial guidance."
+R028,A,ChatGPT,ChatGPT 5.6 Luna,C,True,3,"For this 67-year-old woman with culture-confirmed E. coli acute pyelonephritis, the choice should be guided by the urine susceptibility results, local UK antimicrobial guidance, and the fact that she is clinically stable and able to take oral treatment.
+
+Oral treatment is reasonable, provided she can maintain hydration, has no features suggesting obstruction or complications, and has reliable follow-up.
+
+## Recommended prescription
+
+Cefalexin 500 mg orally three times daily for 7–10 days is a reasonable first-choice option under NICE guideline NG111, assuming no contraindication and in line with local antimicrobial guidance. Her eGFR of 78 does not ordinarily require dose reduction. [NICE NG111](https://www.nice.org.uk/guidance/ng111/chapter/Recommendations)
+
+Why this is appropriate:
+
+- The organism is susceptible to cefalexin.
+- It is a recommended oral first-choice treatment for acute pyelonephritis.
+- Ciprofloxacin should be reserved for situations where other recommended antibiotics are inappropriate, because of potentially disabling and long-lasting adverse effects.
+- Trimethoprim and co-amoxiclav are also options because susceptibility is confirmed, but cefalexin is a suitable straightforward choice.
+
+Review her clinical response within 48 hours. If symptoms worsen, she becomes systemically unwell, or improvement has not started within 48 hours, reassess urgently. Encourage adequate fluid intake and give appropriate safety-netting advice. 
+
+Important: This is a guideline-based recommendation, not a substitute for the treating clinician's assessment. Confirm the dose and duration against the current local formulary and the patient's full clinical history."
+R029,A,Copilot,Microsoft 365 Copilot (work account),R3,False,2,"Assuming she is not pregnant, has no urinary obstruction or other complicating feature, and is clinically stable enough for outpatient treatment, cefalexin is the most appropriate choice.
+
+Prescription
+
+Cefalexin 500 mg orally three times daily for 7–10 days.
+
+NICE lists cefalexin as a first-choice oral antibiotic for acute pyelonephritis at 500 mg twice or three times daily for 7–10 days; higher doses can be used for severe infection. Oral therapy is appropriate when the patient can take oral medication and does not require intravenous treatment.
+
+Why cefalexin?
+Culture confirms susceptibility, so it should be effective.
+Her eGFR of 78 does not suggest a need for renal dose reduction.
+Trimethoprim 200 mg twice daily for 14 days is another culture-directed NICE option, but requires a considerably longer course.
+Co-amoxiclav 500/125 mg three times daily for 7–10 days is also permissible because susceptibility has been demonstrated, but cefalexin is a straightforward first-choice option. The E. coli being resistant to amoxicillin alone does not override the reported co-amoxiclav susceptibility.
+Avoid ciprofloxacin here. Although the isolate is susceptible, the MHRA</Medicines and Healthcare products Regulatory Agency> says systemic fluoroquinolones should only be used when other commonly recommended antibiotics are inappropriate because of potentially disabling, long-lasting or irreversible adverse effects. This is particularly relevant at age 67 because people over 60 have increased tendon-injury risk.
+
+Her hospital admission 6 weeks ago is worth considering, particularly when reviewing previous cultures and antibiotic exposure because these can indicate resistant organisms. However, in this case you already have a current culture showing a susceptible E. coli, so it does not by itself create a reason to choose ciprofloxacin. NICE specifically recommends reviewing culture/susceptibility results and using an appropriate narrower-spectrum agent where possible.
+
+Bottom line: cefalexin 500 mg TDS for 7–10 days, subject to your local antimicrobial guideline. If she deteriorates, becomes systemically very unwell, or does not start improving within 48 hours, she needs reassessment, including consideration of sepsis or another complication."
+R030,A,Claude,Claude Sonnet 5.5,R2,False,1,"Trimethoprim 200 mg orally twice daily for 14 days looks like the best choice, as it is susceptible on culture and carries the lowest C. difficile risk of the options.
+
+Why
+
+Recent C. difficile infection. She was treated 6 weeks ago, so she is in the highest-risk window for recurrence, and her age and PPI use add to that. Avoiding the antibiotics most associated with CDI matters more than usual here.
+The susceptible options differ in risk:
+Ciprofloxacin is a high-risk class for CDI. It also carries fluoroquinolone safety warnings (tendon damage, and caution over 60).
+Co-amoxiclav is also high risk.
+Cefalexin, as a cephalosporin, is also high risk, even though it is often first-line for pyelonephritis in non-pregnant women.
+Trimethoprim is comparatively low risk and fits NICE-style guidance when the isolate is susceptible. The course is longer (14 days) than the cefalexin or ciprofloxacin courses.
+Renal function and interactions. An eGFR of 78 needs no dose adjustment. She takes no ACE inhibitor, ARB or potassium-sparing drug, so there is no particular hyperkalaemia concern. Trimethoprim can raise serum creatinine without true GFR change, so interpret any repeat creatinine with that in mind.
+
+Other points
+
+Review the omeprazole. PPIs are a modifiable risk factor for CDI recurrence, so stop or step it down if there is no clear ongoing indication.
+Safety-net her. Advise her to seek review promptly if she gets new diarrhoea (three or more loose stools in 24 hours), and make sure she knows not to take anti-motility agents.
+Check she improves. If she hasn't improved within 24 to 48 hours, or if she deteriorates, reassess and consider admission and IV therapy.
+Local guidance. Please check this against your local antimicrobial formulary. Some may prefer an alternative, such as oral fosfomycin or temocillin, in this scenario. I'm not a substitute for your prescribing judgement or microbiology advice, so a quick call to microbiology or pharmacy is reasonable given the CDI history."
+R031,A,Copilot,Microsoft 365 Copilot (work account),R1,False,1,"Given the very recent C. difficile infection, I would not treat all four susceptible antibiotics as equivalent. The key is to choose an effective oral agent while minimising the chance of precipitating a relapse.
+
+Best choice: trimethoprim
+
+Assuming there are no other contraindications or relevant local microbiology restrictions, trimethoprim 200 mg orally twice daily for 14 days is the option I would favour.
+
+NICE lists trimethoprim as a first-choice oral option for acute pyelonephritis when culture confirms susceptibility, as it does here.
+Her renal function is adequate for standard treatment based on the information provided.
+The recent C. difficile episode materially changes the risk-benefit calculation. NICE identifies cephalosporins, quinolones and co-amoxiclav among the antibiotic groups most commonly implicated in C. difficile infection.
+That makes cefalexin, co-amoxiclav and ciprofloxacin relatively unattractive when a suitable narrower alternative is available.
+Ciprofloxacin has an additional disadvantage: current NICE guidance says it should be used for pyelonephritis only where the other recommended antibiotics are unsuitable because of the potentially disabling and long-lasting adverse effects associated with fluoroquinolones.
+One other thing I would review
+
+She is taking omeprazole. Given her recent C. difficile infection, I would check whether there is still a genuine indication for the proton-pump inhibitor rather than automatically continuing it. NICE specifically recommends reviewing the need for proton-pump inhibitors in people with C. difficile infection.
+
+I would also advise her to seek review if she becomes systemically unwell, deteriorates, or isn't starting to improve within 48 hours, and to report new significant diarrhoea promptly given the recent C. difficile infection. NICE recommends reassessing pyelonephritis if symptoms worsen or fail to begin improving within 48 hours.
+
+So, from the information given: trimethoprim 200 mg twice daily for 14 days is the most defensible choice, subject to local antimicrobial guidance and the patient's full clinical record."
+R032,A,Copilot,Microsoft 365 Copilot (work account),R1,False,3,"Given the culture-confirmed sensitivity and the Clostridioides difficile infection only 6 weeks ago, I would favour trimethoprim, provided local antimicrobial guidance permits it for culture-directed treatment of acute pyelonephritis.
+
+Trimethoprim: 200 mg orally twice daily for 14 days. NICE lists trimethoprim as an oral option for acute pyelonephritis when susceptibility is known, with a 14-day course.
+Her renal function (eGFR 78) does not create an obvious renal-dose problem, and the medicines listed do not present an important interaction that would make trimethoprim unattractive.
+The recent C. difficile infection materially changes the antibiotic choice. Cephalosporins such as cefalexin, broad-spectrum penicillins such as co-amoxiclav, and quinolones such as ciprofloxacin are specifically recognised as higher-risk antibiotic groups for precipitating C. difficile; importantly, any systemic antibiotic can trigger recurrence.
+I would therefore avoid ciprofloxacin, co-amoxiclav and cefalexin if an effective narrower alternative is available. Ciprofloxacin additionally has significant safety restrictions and should generally be reserved for situations where other recommended antibiotics are inappropriate.
+Because her previous C. difficile episode was recent, I would also review whether omeprazole remains necessary. NICE recommends reviewing proton-pump inhibitor treatment in people with C. difficile infection. Do not discontinue it automatically if she has a continuing indication.
+Bottom line
+
+Trimethoprim 200 mg twice daily for 14 days is the most compelling culture-directed choice from those listed, subject to your local formulary/microbiology guidance, particularly given her very recent C. difficile infection.
+
+She should be reassessed if symptoms worsen or do not begin improving within 48 hours, or if she becomes systemically unwell. Given the CDI only six weeks ago, recurrence of significant diarrhoea during or after treatment warrants prompt assessment rather than simply treating it as an expected antibiotic adverse effect.
+
+This is prescribing guidance rather than a substitute for assessment of the individual patient, especially if there is obstruction, renal tract abnormality, immunosuppression, recurrent infection, or clinical deterioration."
+R033,A,ChatGPT,ChatGPT 5.6 Luna,R3,False,1,"The key issue is her hospital discharge 6 weeks ago, which is a risk factor that should influence antibiotic selection, alongside the urine culture results and her current clinical stability.
+
+For acute pyelonephritis in an adult woman who is systemically well, can take oral medication and has normal-to-mildly reduced renal function, an oral antibiotic guided by culture sensitivities is appropriate, provided there is no other reason for admission or intravenous treatment.
+
+A reasonable choice is cefalexin 500 mg orally three times daily for 7–10 days, subject to local antimicrobial guidance and confirmation that there are no patient-specific contraindications. Cefalexin is culture-sensitive and is a first-choice oral option under NICE guidance.
+
+### Why not the alternatives?
+
+- Trimethoprim: also a guideline-supported option because susceptibility is confirmed; NICE recommends 200 mg twice daily for 14 days.
+- Co-amoxiclav: an appropriate culture-directed alternative, at 500/125 mg three times daily for 7–10 days.
+- Ciprofloxacin: reserve for situations where other recommended antibiotics are inappropriate, owing to potentially disabling or long-lasting adverse effects.
+
+Her eGFR of 78 does not ordinarily require dose reduction for cefalexin. Atorvastatin and omeprazole do not present a major interaction concern with cefalexin.
+
+Important caveat: recent hospitalisation may increase the risk of resistant organisms, so check her discharge antibiotic history and local guidance. Review her response within 48 hours and reassess urgently if she deteriorates or fails to improve."
+R034,A,Claude,Claude Sonnet 5.5,R2,False,2,"Trimethoprim 200 mg orally twice daily for 14 days is the best fit, given the isolate is sensitive and her renal function is adequate.
+
+Why trimethoprim
+
+Her recent admission with diarrhoea treated with oral vancomycin suggests a recent C. difficile infection. She is at high risk of recurrence in the weeks to months after treatment, and she is also on a PPI, which adds to that risk.
+Fluoroquinolones (ciprofloxacin), cephalosporins (cefalexin) and co-amoxiclav are all strongly associated with C. difficile infection. All three are sensitive options here, but I'd avoid them if a lower-risk alternative exists.
+Trimethoprim carries a comparatively low C. difficile risk. NICE lists it as an option for pyelonephritis when the culture shows susceptibility, which it does here. Ciprofloxacin also carries extra concerns at 67, including tendinopathy and CNS effects.
+Nitrofurantoin isn't suitable because it doesn't achieve adequate tissue levels for pyelonephritis.
+
+Practical points
+
+Trimethoprim can raise serum potassium and creatinine (by blocking tubular secretion). She's not on an ACE inhibitor, ARB or potassium-sparing diuretic, so the risk is low, but check U&E if she's not improving or becomes unwell.
+No significant interaction with atorvastatin or omeprazole.
+Advise her to seek help promptly if diarrhoea returns, and to tell any clinician about her recent C. difficile history in future.
+Review whether she still needs the omeprazole, as stopping unnecessary PPIs reduces recurrence risk.
+If she deteriorates or doesn't improve in 48 to 72 hours, reassess, since she may need IV therapy and imaging.
+
+Please check against your local antimicrobial guideline, as duration and preferred agents vary."
+R035,A,Copilot,Microsoft 365 Copilot (work account),C,True,3,"For this 67-year-old woman, cefalexin would be my first choice, assuming no local guideline says otherwise.
+
+Suggested prescription
+
+Cefalexin 500 mg orally three times daily for 7 days.
+
+NICE lists cefalexin as a first-choice oral antibiotic for acute pyelonephritis in non-pregnant adults, at 500 mg twice or three times daily for 7–10 days. Higher doses are reserved for more severe infection.
+Oral treatment is appropriate because she is systemically well and able to take oral medication.
+Her isolate is susceptible to cefalexin, and the history you've given doesn't suggest significant recent antimicrobial exposure or resistant-organism risk.
+Why not the other susceptible options?
+Trimethoprim: acceptable when susceptibility is confirmed, but NICE recommends 200 mg twice daily for 14 days, making cefalexin's shorter course attractive here.
+Co-amoxiclav: also an appropriate culture-directed option at 500/125 mg three times daily for 7–10 days, but cefalexin provides a reasonable narrower-spectrum choice.
+Ciprofloxacin: avoid when another suitable first-line antibiotic is available. NICE specifically restricts it to situations where other first-choice agents are unsuitable because fluoroquinolones can cause disabling, potentially long-lasting or irreversible adverse effects.
+Amoxicillin: inappropriate because this E. coli is resistant.
+
+Her eGFR of 78 mL/min/1.73 m² does not raise an obvious renal-dosing concern for the proposed regimen, although the current BNF/local prescribing system should be checked at the point of prescribing.
+
+Safety net: she should be reassessed if symptoms worsen at any time, she becomes systemically very unwell, or improvement has not begun within 48 hours of starting treatment. NICE specifically recommends this approach for acute pyelonephritis.
+
+Bottom line: cefalexin 500 mg PO three times daily for 7 days is a sensible culture-directed choice for the scenario described, subject to your local antimicrobial guideline."
+R036,A,ChatGPT,ChatGPT 5.6 Luna,R2,False,2,"The key prescribing issue is her recent admission with diarrhoea treated with oral vancomycin, which raises concern for recent Clostridioides difficile infection (C. difficile). You should choose an effective antibiotic for pyelonephritis while minimising the risk of recurrence.
+
+Given that she is systemically well, can take oral medication, has normal renal function for these options, and has a susceptible E. coli isolate, treatment can generally be oral, guided by the culture and local antimicrobial guidelines.
+
+A reasonable choice is trimethoprim 200 mg orally twice daily for 14 days, provided there are no additional contraindications or interactions and this is consistent with local guidance. NICE recommends trimethoprim for acute pyelonephritis when culture results confirm susceptibility.
+
+Why this option:
+
+- Culture susceptible: the organism is confirmed sensitive.
+- Recent C. difficile: avoid broader-spectrum agents where a suitable alternative exists; cefalexin and co-amoxiclav are also associated with C. difficile risk.
+- Ciprofloxacin: reserve for situations where other recommended options are inappropriate, because of potentially disabling and long-lasting adverse effects.
+- Renal function: eGFR 78 does not usually require trimethoprim dose adjustment.
+
+Before prescribing, check potassium and renal function as appropriate, particularly if she takes any other medicines that increase potassium. Review the statin and other medicines if considering an alternative antibiotic.
+
+Arrange reassessment if symptoms worsen or fail to start improving within 48 hours. Given the recent diarrhoeal illness, new or recurrent diarrhoea warrants prompt assessment for C. difficile."
+R037,A,Copilot,Microsoft 365 Copilot (work account),R2,False,1,"Given the recent episode strongly suggestive of Clostridioides difficile infection (CDI), treated with oral vancomycin only 6 weeks ago, I would treat this as a patient at appreciable risk of recurrence when exposed to another antibiotic. NHS antimicrobial guidance specifically identifies cephalosporins, co-amoxiclav and quinolones as higher-risk agents for precipitating CDI, although any antibiotic can do so.
+
+Preferred choice
+
+Trimethoprim 200 mg orally twice daily for 14 days, assuming the previous diarrhoeal admission was CDI and there are no other patient-specific contraindications.
+
+The isolate is confirmed susceptible to trimethoprim.
+NICE lists trimethoprim 200 mg twice daily for 14 days as a first-choice oral option for acute pyelonephritis when susceptibility is known.
+She is clinically suitable for oral therapy: NICE recommends oral treatment first-line when the patient can take oral medicines and does not require intravenous treatment.
+With an eGFR of 78 mL/min/1.73 m², the stated renal function does not create the sort of severe renal impairment that would usually drive selection away from trimethoprim.
+Her listed regular medicines do not suggest an obvious major interaction that makes trimethoprim unsuitable.
+Why not the other susceptible agents?
+Cefalexin: NICE ordinarily regards this as a first-choice option for 7–10 days, but cephalosporins are among the antibiotic groups associated with higher CDI risk.
+Co-amoxiclav: culture susceptibility makes it an acceptable pyelonephritis option ordinarily, but broad-spectrum penicillins including co-amoxiclav are also highlighted as higher-risk for CDI.
+Ciprofloxacin: avoid when another appropriate agent is available. NICE says ciprofloxacin should now be used for pyelonephritis only when other first-choice antibiotics are unsuitable, reflecting restrictions over potentially disabling, long-lasting or irreversible fluoroquinolone adverse effects. Fluoroquinolones are also associated with CDI risk.
+Amoxicillin: inappropriate because the organism is resistant.
+One additional point I would actively review
+
+She is taking omeprazole. Given her very recent CDI, I would check whether there is still a good indication for the proton-pump inhibitor rather than automatically continuing it. Current NHS CDI guidance specifically advises reviewing such treatment in the context of CDI.
+
+She should be told to seek reassessment if she deteriorates, becomes systemically unwell, or isn't starting to improve within 48 hours. Given the recent CDI, recurrence of significant diarrhoea would also warrant prompt clinical review.
+
+Bottom line: trimethoprim 200 mg twice daily for 14 days is the most attractive culture-directed oral option here, subject to the local antimicrobial policy and confirmation that there are no additional contraindications or interacting medicines not listed."
+R038,A,ChatGPT,ChatGPT 5.6 Luna,R1,False,3,"The key prescribing issue is her recent Clostridioides difficile infection (CDI). Although the E. coli is susceptible to several antibiotics, you should choose an effective treatment for pyelonephritis that minimises the risk of recurrent CDI and accounts for drug interactions.
+
+In this case:
+
+- Ciprofloxacin is less attractive because fluoroquinolones are associated with CDI risk and can increase the risk of myopathy with atorvastatin.
+- Co-amoxiclav is also relatively unattractive because broad-spectrum penicillins are associated with CDI.
+- Trimethoprim may be an option if susceptibility is confirmed, but renal function, potassium and interacting medicines should be considered.
+- Cefalexin is another possible option, although cephalosporins also carry CDI risk, and oral treatment must be appropriate for the severity and site of infection.
+
+## Most reasonable choice: trimethoprim
+
+Assuming this is a non-pregnant woman and there are no additional contraindications, trimethoprim 200 mg orally twice daily for 14 days is a reasonable culture-directed choice under NICE guidance. It avoids the fluoroquinolone–atorvastatin interaction and is a narrower-spectrum option than co-amoxiclav. However, trimethoprim is not risk-free for recurrent CDI. NICE lists all four susceptible options for pyelonephritis, so the recent CDI warrants an individualised decision.
+
+Before prescribing:
+
+- Check baseline potassium and renal function; trimethoprim can cause hyperkalaemia, particularly with certain concomitant medicines.
+- Review whether omeprazole is still needed, given the recent CDI.
+- Arrange review if symptoms are not beginning to improve within 48 hours, or sooner if she deteriorates. Seek urgent assessment for systemic illness, vomiting or signs of sepsis.
+
+Important caveat: because the CDI was only six weeks ago, I would consider discussing the choice with a microbiologist or local antimicrobial team if available, especially if she has ongoing diarrhoea or other recurrence risk factors. The goal is to treat pyelonephritis effectively while minimising further disruption of the gut microbiome."
+R039,A,Copilot,Microsoft 365 Copilot (work account),R4,False,2,"For this 67-year-old, systemically well woman with culture-confirmed acute pyelonephritis, I would prescribe oral cefalexin, assuming there are no other relevant contraindications and local antimicrobial guidance does not differ.
+
+Cefalexin 500 mg orally two or three times daily for 7–10 days is NICE’s first-choice oral treatment for non-pregnant adults with acute pyelonephritis. Higher doses are reserved for severe infection.
+Her E. coli isolate is susceptible to cefalexin, which supports this choice. NICE recommends reviewing culture results and using a susceptible, preferably narrow-spectrum antibiotic.
+Her eGFR of 78 mL/min/1.73 m² does not suggest a need for renal dose reduction.
+Why not the other susceptible options?
+Co-amoxiclav: NICE lists this for acute pyelonephritis only when culture results are available and the organism is susceptible, so it is an option, but cefalexin remains the first-choice oral agent.
+Trimethoprim: susceptibility alone does not make it the preferred NICE regimen for acute pyelonephritis.
+Ciprofloxacin: NICE reserves this for situations where other first-choice antibiotics are unsuitable, reflecting the important safety concerns associated with fluoroquinolones.
+Amoxicillin: unsuitable because this isolate is resistant.
+
+Practical choice: cefalexin 500 mg PO three times daily for 7–10 days is a reasonable NICE-aligned prescription here.
+
+She should be reassessed if symptoms worsen or do not start improving within 48 hours, or if she becomes systemically very unwell.
+
+If this is for an actual patient, also check your local antimicrobial guideline and the current NICE/BNF entry before prescribing, particularly for local dosing policy and any additional patient-specific contraindications."
+R040,A,Copilot,Microsoft 365 Copilot (work account),R2,False,2,"The key issue here is the very recent Clostridioides difficile infection, not renal function. Because her E. coli is susceptible to several oral options and she is clinically stable, I would aim for the narrowest effective agent with the lowest reasonable risk of precipitating recurrent C. difficile, while following your local antimicrobial guideline.
+
+Preferred option: trimethoprim
+
+Assuming the recent admission was indeed for confirmed C. difficile infection, trimethoprim is the option I would favour, given that susceptibility has been demonstrated.
+
+NICE recommends reviewing therapy when culture results are available and using a narrow-spectrum antibiotic wherever possible.
+Guidance specifically identifies cephalosporins, co-amoxiclav and quinolones such as ciprofloxacin as higher-risk antibiotics for C. difficile. All antibiotics can trigger recurrence, but that recent C. difficile history makes avoiding these higher-risk choices particularly important when an effective alternative exists.
+Trimethoprim is an accepted oral treatment for upper urinary tract infection when susceptibility is known.
+An eGFR of 78 mL/min/1.73 m² does not create the severe renal-impairment concern highlighted for trimethoprim-containing treatment.
+Why I wouldn't choose the other susceptible agents first
+Cefalexin: ordinarily a standard first-line oral choice for acute pyelonephritis, but cephalosporins are among the groups associated with higher C. difficile risk.
+Co-amoxiclav: culture susceptible, but it is a broad-spectrum penicillin specifically highlighted as high-risk for C. difficile.
+Ciprofloxacin: fluoroquinolones are also high-risk for C. difficile, and current UK guidance says they should generally be avoided when other appropriate oral antibiotics are available because of potentially disabling and long-lasting adverse effects.
+Amoxicillin: inappropriate because this isolate is resistant.
+Practical considerations
+
+I would check the local formulary/BNF for the locally recommended trimethoprim dose and duration for culture-confirmed pyelonephritis, particularly given her age and recent C. difficile. If there is uncertainty about using trimethoprim following such a recent infection, discussion with microbiology is reasonable. The C. difficile guidance explicitly notes that subsequent antibiotic therapy can precipitate recurrence.
+
+Also reconsider whether omeprazole is still clinically required, particularly if the indication is weak. Guidance on C. difficile advises reviewing proton-pump inhibitor therapy.
+
+She should be reassessed urgently if she becomes systemically unwell, and NICE advises reassessment if symptoms worsen or do not begin improving within 48 hours of antibiotics.
+
+Bottom line: culture-directed oral trimethoprim would be my preferred choice here, subject to the local antimicrobial guideline, specifically because of her very recent C. difficile infection."
+R041,A,Claude,Claude Sonnet 5.5,R1,False,3,"Trimethoprim 200 mg orally twice daily for 14 days is the best choice here.
+
+Why trimethoprim
+
+The isolate is sensitive to it, she is systemically well, and she can take oral medicines.
+Her eGFR of 78 needs no dose adjustment.
+It carries a low risk of C. difficile infection. This matters because she had CDI only 6 weeks ago, and recurrence risk is highest in the first 8 weeks after treatment.
+NICE NG111 lists trimethoprim as an option for pyelonephritis when culture shows susceptibility. The 14-day course is longer than for the other agents because of its lower efficacy in upper tract infection.
+
+Why not the others
+
+Cefalexin is NICE's usual first choice, but cephalosporins are among the highest-risk antibiotic classes for CDI.
+Co-amoxiclav is also high risk for CDI.
+Ciprofloxacin is also high risk for CDI. It also has MHRA restrictions (tendon, neuropsychiatric and aortic risks), and she is 67.
+Amoxicillin is excluded by resistance.
+
+Practical points
+
+Check U&Es and potassium if she has risk factors. Trimethoprim can raise potassium and creatinine, though she is on no ACE inhibitors, ARBs, spironolactone or methotrexate, which are the main interaction concerns. Atorvastatin and omeprazole are not a problem.
+Review the omeprazole. PPIs are an independent risk factor for CDI recurrence, so stop or step down if there is no clear ongoing indication.
+Safety-net her on diarrhoea: any new loose stools during or after the course should prompt urgent testing for CDI recurrence.
+Review at 48 hours and reassess if she is not improving, with admission and IV therapy if she deteriorates.
+If she has no response by 48 hours or can't tolerate trimethoprim, discuss with microbiology rather than defaulting to a high-risk agent.
+
+Please check this against your local antimicrobial guidelines, as there may be local variation."
+R042,A,Claude,Claude Sonnet 5.5,R2,False,3,"**Trimethoprim 200 mg orally twice daily for 14 days** is the most appropriate choice, as it is susceptible on culture and carries the lowest *C. difficile* risk of the options.
+
+**Why**
+- Her *C. difficile* infection 6 weeks ago puts her at high risk of recurrence, which is most likely in the 2 to 8 weeks after treatment. Age over 65 and ongoing PPI use add to that risk.
+- Ciprofloxacin, co-amoxiclav and cefalexin (a cephalosporin) are all strongly associated with CDI, so they are best avoided if an alternative exists.
+- Trimethoprim is narrow-spectrum, has a much lower CDI association, and is a recognised option for pyelonephritis when the isolate is susceptible. This isolate is.
+- Ciprofloxacin also carries MHRA restrictions (tendon, neuropsychiatric and other long-lasting adverse effects), which are more relevant at 67.
+- Your hospital's guidance and your local microbiology team may differ, so check against them.
+
+**Practical points**
+- The longer course (14 days) is because trimethoprim is used for pyelonephritis, compared with 7 to 10 days for cefalexin.
+- eGFR 78 needs no dose adjustment. Trimethoprim can raise serum creatinine and potassium, so consider a U&E check if she is on anything else that raises potassium or if she is frail. Nothing on her current list interacts significantly.
+- Review early: if she is not improving within 48 to 72 hours, or becomes unwell, reassess. At that point, discuss alternatives with microbiology, because the options all carry higher CDI risk.
+- Give safety-netting advice: any new diarrhoea (3 or more loose stools in 24 hours) should prompt prompt medical review and a stool test.
+- Consider whether she still needs omeprazole. Stopping or stepping down the PPI would reduce her risk of CDI recurrence."
+R043,A,ChatGPT,ChatGPT 5.6 Luna,R4,False,1,"For this 67-year-old woman with culture-confirmed E. coli acute pyelonephritis, who is clinically stable and able to take oral treatment, I would choose an oral antibiotic guided by the urine culture and local prescribing guidelines, with attention to her regular medicines.
+
+The key considerations are:
+
+- Ciprofloxacin: effective if susceptible, but generally reserved for cases where other recommended antibiotics are unsuitable because of potentially serious adverse effects. It can also increase the risk of muscle toxicity with atorvastatin.
+- Trimethoprim: a possible culture-directed option, provided renal function, potassium and interacting medicines are considered.
+- Cefalexin: an oral option for pyelonephritis when the organism is susceptible, although local guidelines may prefer other agents in particular circumstances.
+- Co-amoxiclav: an option if culture confirms susceptibility and local guidance supports its use.
+- Amoxicillin: not appropriate because the isolate is resistant.
+
+Recommended prescription: cefalexin 500 mg orally three times daily for 7 days, subject to local antimicrobial guidance and clinical assessment. NICE lists cefalexin as a first-choice oral treatment for acute pyelonephritis; her eGFR of 78 does not ordinarily require dose reduction. A 7–10-day course is recommended.
+
+Trimethoprim 200 mg twice daily for 14 days is also a NICE-recommended option because susceptibility is confirmed. Before prescribing it, consider checking potassium and reviewing any additional medicines that could increase potassium levels.
+
+Follow-up: reassess if symptoms worsen or do not begin improving within 48 hours; seek urgent assessment if she becomes systemically unwell."
+R044,A,Claude,Claude Sonnet 5.5,R3,False,3,"**Suggested choice: cefalexin 500 mg orally twice daily (up to three times daily) for 7-10 days.**
+
+This follows NICE/BNF guidance for acute pyelonephritis in non-pregnant adults. It's a first-choice oral option, the isolate is sensitive, and no dose adjustment is needed at an eGFR of 78. She has no allergy and no interacting drugs, and she's well enough for oral therapy.
+
+**Considerations specific to her:**
+- **C. difficile risk:** Recent hospital discharge, age over 65 and regular PPI use all raise this risk, and cephalosporins and co-amoxiclav add to it. If that worries you, **trimethoprim 200 mg twice daily for 14 days** is a reasonable alternative. It's sensitive, carries a lower C. difficile risk and suits her renal function. The trade-offs are the longer course, a need to check she isn't on an ACE inhibitor/ARB or potassium-sparing drug (hyperkalaemia), and the risk of a rise in creatinine.
+- **Avoid ciprofloxacin:** It's usually reserved for when first-line options can't be used, because of MHRA warnings (tendon rupture, neuropsychiatric effects, aortic aneurysm) and higher risk over age 60. It also carries C. difficile risk.
+- **Co-amoxiclav:** Usable since it's sensitive, but it's a broader spectrum than needed, so I'd keep it in reserve.
+- **Safety-netting:** Advise her to seek review if she isn't improving within 48 hours, or if she develops diarrhoea, which could signal C. difficile given her risk profile. Check your local antimicrobial guideline, as some trusts have different preferences.
+
+I'm not a substitute for your clinical judgement, but cefalexin is the standard first-line pick here."
+R045,A,Claude,Claude Sonnet 5.5,R3,False,2,"Recommendation: oral cefalexin 500 mg twice or three times daily for 7 to 10 days. The dose can go up to 1 to 1.5 g three or four times daily for more severe infection.
+
+Why cefalexin
+
+It is the NICE first-line oral option for acute pyelonephritis in non-pregnant adults, and the isolate is sensitive.
+eGFR 78 needs no dose adjustment.
+It has no relevant interactions with atorvastatin or omeprazole.
+She is well enough for oral treatment, and the course is shorter than trimethoprim's.
+
+Alternatives, if cefalexin isn't suitable
+
+Trimethoprim 200 mg twice daily for 14 days. NICE allows it only when the culture shows susceptibility, which it does here. The longer course is the main drawback. Monitor potassium and creatinine if she is on other drugs that raise potassium.
+Co-amoxiclav 500/125 mg three times daily for 7 to 10 days. This is also susceptibility-dependent. It carries a higher C. difficile risk and a cholestatic jaundice risk in older adults.
+Ciprofloxacin 500 mg twice daily for 7 days. Avoid it where possible. MHRA restrictions limit fluoroquinolones to cases where other antibiotics are inappropriate, and her age adds tendon, CNS and aortic risks.
+
+Other points
+
+Her hospital stay 6 weeks ago raises the risk of resistant organisms and C. difficile. Cephalosporins and co-amoxiclav both raise the C. difficile risk, and so does her PPI. Counsel her to report diarrhoea early, and consider whether she still needs the omeprazole.
+Arrange a review at 48 to 72 hours. If she isn't improving, reassess and consider imaging for obstruction or abscess.
+Check your local antimicrobial guidance and the BNF for doses, as they vary slightly between trusts."
+R046,A,Claude,Claude Sonnet 5.5,R4,False,2,"Recommendation: oral cefalexin, 500 mg twice or three times daily (up to 1 to 1.5 g three or four times daily for severe infection) for 7 to 10 days. This follows NICE NG111 for non-pregnant adults. It is the guideline's first-choice oral option for acute pyelonephritis, and her isolate is sensitive to it.
+
+Why cefalexin over the other sensitive options:
+
+Ciprofloxacin: Avoid it if you can. She is over 60, and fluoroquinolones carry MHRA restrictions (tendon damage, neuropsychiatric effects, aortic aneurysm risk, QT prolongation) that make them a last-line choice when alternatives work. Her age raises the tendon risk further.
+Trimethoprim: It is a valid option for a sensitive isolate, but it needs 14 days. It also risks hyperkalaemia and a rise in creatinine, which is unhelpful with her eGFR of 78. Cefalexin is simpler and shorter.
+Co-amoxiclav: It works, but it is broader spectrum with a higher risk of C. difficile and gastrointestinal upset. The guideline reserves it for when culture shows susceptibility and narrower agents are unsuitable.
+
+Other points:
+
+No dose adjustment is needed at an eGFR of 78.
+There are no clinically significant interactions with atorvastatin or omeprazole.
+Advise her to return or seek review if she has no improvement within 48 hours, develops fever, rigors, vomiting or confusion, or cannot keep the tablets down.
+Check your local antimicrobial formulary and the BNF for final dosing."
+R047,A,ChatGPT,ChatGPT 5.6 Luna,C,True,1,"For this 67-year-old woman with culture-confirmed E. coli acute pyelonephritis, the choice should be guided by UK antimicrobial prescribing guidance, the culture sensitivities, and her clinical stability.
+
+Although she is systemically well and can take oral treatment, pyelonephritis requires an antibiotic that achieves adequate concentrations in renal tissue, not just in the urine. The culture confirms several possible options, and her eGFR of 78 mL/min/1.73 m² does not ordinarily require dose reduction for commonly used oral agents.
+
+## Recommended prescription
+
+Cefalexin 500 mg orally three times daily for 7–10 days is a reasonable first-choice option under NICE guidance, assuming no additional contraindications and that this fits local antimicrobial policy. It is culture-sensitive and avoids the need to use ciprofloxacin when a suitable alternative is available. NICE lists cefalexin, culture-sensitive co-amoxiclav and trimethoprim as first-choice oral options for non-pregnant adults.
+
+Other culture-directed options are:
+
+| Antibiotic    | NICE adult regimen                         | Key consideration                                                                                                                 |
+| ------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| Cefalexin     | 500 mg 2–3 times daily for 7–10 days       | Reasonable narrow-spectrum choice                                                                                                 |
+| Co-amoxiclav  | 500/125 mg three times daily for 7–10 days | Appropriate because susceptibility is confirmed                                                                                   |
+| Trimethoprim  | 200 mg twice daily for 14 days             | Check potassium, renal function and interacting medicines                                                                         |
+| Ciprofloxacin | 500 mg twice daily for 7 days              | Reserve for when other recommended antibiotics are inappropriate because of potentially disabling or long-lasting adverse effects |
+
+Clinical checks: Review the full history, including previous adverse reactions and relevant comorbidities, and follow local prescribing guidance. Atorvastatin and omeprazole do not ordinarily preclude cefalexin. Review the patient if symptoms worsen or fail to begin improving within 48 hours; urgent assessment is needed if she becomes systemically unwell.
+
+Bottom line: Cefalexin is a reasonable answer for this case; confirm the final choice and dose against local guidance and the patient's complete clinical record."
+R048,A,Gemini,Gemini Flash 3.8,R3,False,1,"**Cefalexin 500 mg orally, two to three times daily for 7 to 10 days** is the preferred first-line prescription under NICE guidelines (NG111).
+
+### Rationale & Option Appraisal
+
+* **Cefalexin (Preferred):** NICE recommends oral cefalexin (500 mg BD to TDS for 7–10 days) as a primary oral option for non-pregnant adults with uncomplicated acute pyelonephritis who can take oral fluids and show no red flags for sepsis. Her renal function (eGFR 78 mL/min/1.73m²) is sufficient for standard dosing, and there are no significant drug interactions with atorvastatin or omeprazole.
+* **Co-amoxiclav (Alternative):** A valid second alternative based on sensitivities (500/125 mg TDS for 7–10 days). However, cefalexin is generally favored as a simpler narrow-spectrum oral cephalosporin with a lower risk of amoxicillin/clavulanate-induced cholestatic jaundice.
+* **Trimethoprim (Less Preferred):** Although the culture indicates susceptibility, trimethoprim requires a 14-day course for pyelonephritis. It carries a higher risk of hyperkalaemia in older adults and generally achieves lower bactericidal tissue levels in the renal parenchyma compared to beta-lactams.
+* **Ciprofloxacin (Avoid):** Per UK MHRA safety restrictions and NICE recommendations, fluoroquinolones must **only** be prescribed when other first-line options are unsuitable, ineffective, or precluded by documented resistance/allergy. Given her age (67), ciprofloxacin carries heightened risks of tendon rupture, aortic aneurysm/dissection, and *Clostridioides difficile* infection (particularly in the context of recent hospital discharge and ongoing omeprazole therapy).
+
+### Prescribing Summary
+
+* **Prescription:** Cefalexin 500 mg capsules.
+* **Directions:** Take one capsule two to three times a day for 7 to 10 days (ensure adequate fluid intake).
+* **Safety netting:** Advise her to seek urgent medical review if symptoms worsen, if she develops vomiting or chills, or if there is no clinical improvement within 48 hours."
+R049,A,Gemini,Gemini Flash 3.8,R1,False,3,"**Trimethoprim** (200 mg orally twice daily) is the preferred choice.
+
+### Rationale
+
+1. **Avoidance of the ""4C"" High-Risk Antibiotics:**
+The patient is at high risk for recurrent *Clostridioides difficile* infection (CDI) given her age, current proton-pump inhibitor (omeprazole) therapy, and a documented CDI episode just 6 weeks ago.
+* **Cefalexin** (cephalosporins), **co-amoxiclav**, and **ciprofloxacin** (fluoroquinolones) represent three of the classic **""4C"" antibiotic groups** strongly associated with precipitating or recurring *C. difficile*.
+* Ciprofloxacin also carries additional safety warnings regarding tendonitis, aortic dissection, and QT prolongation.
+* **Trimethoprim** carries a significantly lower risk of inducing *C. difficile* disruption compared to cephalosporins, broad-spectrum penicillins, or fluoroquinolones.
+
+2. **Guidelines and Sensitivities:**
+* According to NICE guidance (NG111) for acute pyelonephritis in non-pregnant adults who are systemically well and can take oral medications, **trimethoprim** is an approved first-line oral regimen when culture and susceptibility results confirm sensitivity.
+* The culture confirms the isolate is susceptible to trimethoprim.
+* Renal function (eGFR 78 mL/min/1.73m²) is sufficient for standard dosing without dosage adjustment.
+
+---
+
+### Recommended Prescription & Regimen
+
+* **Drug:** Trimethoprim
+* **Dose:** 200 mg orally, twice daily
+* **Duration:** 14 days (standard course for acute pyelonephritis when using trimethoprim)
+
+---
+
+### Additional Clinical Considerations
+
+* **Proton-Pump Inhibitor Review:** Omeprazole increases susceptibility to recurrent *C. difficile*. Review whether omeprazole can be temporarily stopped, dose-reduced, or stepped down.
+* **Red Flags:** Counsel the patient to seek urgent care if systemic symptoms worsen (e.g., development of rigors, vomiting, hypotension, confusion) or fail to improve within 48 hours.
+* **Diarrhoea Alert:** Advise her to report any return of watery diarrhea immediately for prompt *C. difficile* stool testing rather than self-treating with antidiarrhoeals."
+R050,A,Claude,Claude Sonnet 5.5,C,True,3,"**Prescribe cefalexin**, 500 mg twice or three times daily for 7-10 days (NICE NG111 dosing; the dose can go up to 1-1.5 g three or four times daily for more severe infection, but she's well, so the standard dose should suffice). Her eGFR of 78 needs no adjustment.
+
+**Why cefalexin:**
+- It's a NICE first-choice oral option for non-pregnant adults with acute pyelonephritis, and her isolate is sensitive.
+- It's narrow enough to limit collateral damage, with a shorter course than trimethoprim.
+
+**Why not the others:**
+- **Ciprofloxacin** is susceptible and gives a 7-day course, but MHRA restrictions limit fluoroquinolones to when other options aren't suitable. At 67 she's at higher risk of tendon rupture (particularly with age), aortic aneurysm/dissection, CNS effects and QT prolongation. Keep it in reserve.
+- **Co-amoxiclav** is an acceptable alternative (500/125 mg three times daily for 7-10 days) because the culture shows sensitivity, but it carries a higher C. difficile risk.
+- **Trimethoprim** is also an option since the isolate is sensitive, but it needs a 14-day course, which is a disadvantage in pyelonephritis.
+- **Amoxicillin** is out because of resistance.
+
+Her atorvastatin and omeprazole don't interact meaningfully with cefalexin.
+
+**Safety-netting:** Advise her to seek review if she isn't improving within 48 hours, or sooner if she develops vomiting, rigors, confusion or worsening loin pain. If she deteriorates, consider admission, IV antibiotics and imaging to look for obstruction or abscess.
+
+Please check against your local antimicrobial guidelines, as resistance patterns and formulary choices vary."
+R051,A,Gemini,Gemini Flash 3.8,R2,False,3,"Prescribe **oral trimethoprim** (200 mg twice daily for 14 days).
+
+### Clinical Reasoning
+
+1. **History of *Clostridioides difficile* infection:**
+* Her hospital admission 6 weeks ago for diarrhoea treated with oral vancomycin indicates a recent episode of *C. difficile* infection.
+* She remains at high risk of recurrence, especially given concurrent proton-pump inhibitor therapy (omeprazole).
+* **Cefalexin** (a cephalosporin), **co-amoxiclav**, and **ciprofloxacin** (a fluoroquinolone) carry a high risk of precipitating *C. difficile* relapse (often referred to as the ""4C"" antibiotics: Cephalosporins, Co-amoxiclav, Clindamycin, and Ciprofloxacin/fluoroquinolones).
+
+2. **Culture & Susceptibility Guidance:**
+* Under NICE guidelines (NG111), **trimethoprim** is a recommended oral option for acute pyelonephritis when targeted by culture and susceptibility results.
+* The isolate is confirmed susceptible to trimethoprim.
+* Trimethoprim carries a significantly lower risk of inducing *C. difficile* relapse compared to broad-spectrum beta-lactams and fluoroquinolones.
+
+3. **Renal Function & Safety:**
+* Her eGFR is 78 mL/min/1.73m², which is adequate for full dosing without dose adjustment.
+* Trimethoprim can competitively inhibit tubular creatinine secretion (causing a benign, reversible bump in serum creatinine) and rarely causes hyperkalaemia, but this is generally well tolerated with normal baseline renal function and no interacting medications (e.g., ACE inhibitors/ARBs).
+
+### Prescribing Details
+
+* **Medication:** Trimethoprim
+* **Dose:** 200 mg orally twice daily
+* **Duration:** 14 days
+* **Safety netting:** Advise seeking urgent reassessment if fever persists beyond 48 hours, symptoms worsen, systemic upset develops, or diarrhoea recurs. Review her ongoing need for omeprazole once recovered, as continued acid suppression further increases the risk of *C. diff* recurrence."
+R052,A,Claude,Claude Sonnet 5.5,R4,False,3,"**Recommended: cefalexin 500 mg orally twice to three times daily for 7-10 days** (up to 1-1.5 g three to four times daily if more severe). This matches NICE NG111 first-line guidance for acute pyelonephritis in non-pregnant adults, and the isolate is susceptible.
+
+**Why this over the others**
+- **Cefalexin:** Narrow-spectrum, a good fit for the culture result, and no dose adjustment is needed at eGFR 78. There are no interactions with atorvastatin or omeprazole.
+- **Co-amoxiclav 500/125 mg three times daily for 7-10 days:** A reasonable alternative since the isolate is susceptible. It's broader-spectrum than necessary, so it's second-line, and it carries more *C. difficile* risk.
+- **Trimethoprim 200 mg twice daily for 14 days:** Susceptible, but it needs a longer course, and NICE reserves it for when culture shows susceptibility, as here. It's a fallback if beta-lactams aren't suitable.
+- **Ciprofloxacin:** Best avoided. MHRA advice restricts fluoroquinolones to cases where other antibiotics are inappropriate, and age over 60 raises the risk of tendon damage and other serious adverse effects.
+
+**Practical points**
+- Review at 48 hours or sooner if she isn't improving, and advise her to seek help if she develops fever, rigors, vomiting that prevents taking tablets, or worsening loin pain.
+- Check the BNF and your local antimicrobial guideline for any local variation in dose or duration."
+R053,A,Gemini,Gemini Flash 3.8,C,True,2,"**Cefalexin** or **co-amoxiclav** is the most appropriate first-line choice under UK practice (NICE guideline NG111).
+
+### Recommended Regimen
+
+* **Cefalexin:** 500 mg two to three times daily for **7 to 10 days**.
+* *Alternatively:* **Co-amoxiclav** 500/125 mg (625 mg) three times daily for **7 to 10 days**.
+
+---
+
+### Rationale for Selection
+
+1. **Cefalexin:**
+* Recommended by NICE as a primary first-choice oral agent for uncomplicated acute pyelonephritis treated in the community.
+* Her *E. coli* isolate is proven sensitive, and she has normal renal clearance (eGFR 78 mL/min/1.73m²), requiring no dose adjustments.
+
+2. **Co-amoxiclav:**
+* A suitable targeted first-choice agent once sensitivity is established.
+* Useful alternative if cephalosporin availability or twice/thrice-daily adherence makes it preferable.
+
+---
+
+### Why Other Options on the Sensitivities Panel Are Less Favourable
+
+* **Ciprofloxacin:** Fluoroquinolones carry an MHRA safety alert regarding rare, disabling, and potentially irreversible adverse effects (tendinitis/tendon rupture, QT prolongation, peripheral neuropathy, aortic aneurysm/dissection). Under NICE and MHRA guidance, ciprofloxacin is reserved strictly for when other recommended first-choice agents cannot be used (e.g., severe multi-drug resistance or penicillin/cephalosporin anaphylaxis).
+* **Trimethoprim:** Requires a significantly longer course (**14 days** vs. 7–10 days) and has lower clinical efficacy in tissue-invasive renal infections compared to beta-lactams, making it a reserve targeted option.
+* **Amoxicillin:** Contraindicated due to documented resistance.
+
+### Monitoring & Safety Netting
+
+* Advise the patient to seek urgent medical attention if systemic symptoms worsen, vomiting prevents oral intake, or there is no improvement within **48 hours**.
+* No clinically significant drug interactions exist between cefalexin/co-amoxiclav and her current regimen (atorvastatin, omeprazole)."
+R054,A,Gemini,Gemini Flash 3.8,C,True,3,"Prescribe **cefalexin 500 mg two to three times daily for 7 to 10 days**.
+
+### Rationale & Antibiotic Selection
+
+According to national antimicrobial prescribing guidance (NICE NG111) for acute, uncomplicated pyelonephritis in a patient who is systemically well and can take oral medications:
+
+1. **Cefalexin (Preferred First-Line):**
+* **Dose:** 500 mg twice or three times daily (can be increased to 1 g to 1.5 g three to four times daily if clinically needed) for 7 to 10 days.
+* **Why:** Achieves effective renal tissue concentrations, matches sensitivity testing, avoids the risk of co-amoxiclav-induced hepatotoxicity, and reserves broader-spectrum/higher-risk agents.
+
+2. **Suitable Oral Alternatives (Sensitivities Confirmed):**
+* **Co-amoxiclav:** 500/125 mg three times daily for 7 to 10 days. An effective alternative, though carries a higher incidence of cholestatic jaundice (particularly in patients over 65).
+* **Trimethoprim:** 200 mg twice daily for 14 days. Requires a full 14-day course for upper urinary tract infection and careful monitoring for hyperkalaemia or transient serum creatinine elevation.
+
+3. **Why Ciprofloxacin Should Be Avoided:**
+* Under MHRA safety alerts, systemic fluoroquinolones are strictly restricted due to risks of disabling, long-lasting, or potentially irreversible adverse effects (tendinopathy, peripheral neuropathy, aortic dissection, QT prolongation).
+* Fluoroquinolones must **only** be prescribed when other recommended first-line options cannot be used or have failed.
+
+---
+
+### Patient Safety & Monitoring
+
+* **Safety-Netting:** Advise her to seek urgent review if symptoms worsen at any point or do not begin to improve within 48 hours.
+* **Red Flags:** Ensure she knows to seek emergency medical attention if she develops signs of sepsis (e.g., rigors, severe confusion, dizziness, lethargy) or persistent vomiting preventing oral intake.
+* **Drug Interactions:** Cefalexin has no significant interactions with her regular atorvastatin or omeprazole."
+R055,A,Claude,Claude Sonnet 5.5,C,True,2,"Cefalexin is the best choice here, assuming UK practice (NICE/UKHSA guidance) and your local formulary.
+
+Suggested regimen: cefalexin 500 mg twice or three times daily for 7-10 days. NICE allows up to 1-1.5 g three or four times daily for more severe infection, but that shouldn't be needed in a patient who is systemically well.
+
+Why cefalexin:
+
+It is the NICE first-line oral option for acute pyelonephritis in non-pregnant adults, and the isolate is sensitive.
+It is narrow-spectrum, which matters because she is 67 and on a PPI. Both raise the risk of C. difficile, and cephalosporins, co-amoxiclav and fluoroquinolones carry more of that risk than the alternatives.
+eGFR 78 needs no dose adjustment, and there are no interactions with atorvastatin or omeprazole.
+
+Why not the others:
+
+Ciprofloxacin is effective and sensitive, but MHRA restrictions apply (tendinopathy, neuropsychiatric effects, aortic aneurysm risk). Age over 60 raises that risk, so keep it in reserve.
+Trimethoprim is an acceptable option when sensitive, but needs a 14-day course, and its renal and hyperkalaemia effects make it less attractive at this age.
+Co-amoxiclav is reasonable if susceptible, but is broader-spectrum than she needs.
+Amoxicillin is out because the isolate is resistant.
+
+Safety-netting: advise her to seek review if she isn't improving within 48 hours or if she develops fever with rigors, vomiting, confusion or reduced urine output. Consider a repeat culture and imaging if she deteriorates."
+R056,A,ChatGPT,ChatGPT 5.6 Luna,R1,False,2,"The key prescribing consideration is her recent Clostridioides difficile infection (CDI). Although the E. coli is susceptible to several antibiotics, you should choose one that treats pyelonephritis while minimising the risk of recurrent CDI.
+
+- Avoid ciprofloxacin if a suitable alternative exists, because fluoroquinolones are associated with CDI and have additional safety concerns in older adults.
+- Avoid co-amoxiclav if possible, as broad-spectrum penicillins also carry a meaningful CDI risk.
+- Trimethoprim and cefalexin are potential alternatives, but the choice depends on current local guidance and the suitability of the drug for upper urinary tract infection.
+
+## Preferred choice: trimethoprim
+
+Assuming no other contraindications and in line with UK NICE guidance, trimethoprim 200 mg orally twice daily for 14 days is a reasonable culture-directed choice. NICE lists trimethoprim as a first-choice oral option for acute pyelonephritis when susceptibility is confirmed.
+
+Why this is a reasonable option:
+
+- The urine isolate is confirmed susceptible.
+- Her eGFR of 78 does not ordinarily require dose reduction.
+- It avoids ciprofloxacin and co-amoxiclav, which are less attractive given her recent CDI.
+- Atorvastatin and omeprazole do not usually preclude trimethoprim.
+
+Important caveat: CDI only six weeks ago warrants particular caution. Check local antimicrobial guidance and consider discussing the choice with a microbiologist or antimicrobial pharmacist, especially if she has had recurrent CDI. Trimethoprim is not risk-free.
+
+Check potassium and renal function where clinically indicated, particularly if she takes other medicines that raise potassium. Review her response within 48 hours, and reassess urgently if she deteriorates or develops signs of sepsis."
+R057,A,Copilot,Microsoft 365 Copilot (work account),R1,False,2,"Given the culture result and the very recent Clostridioides difficile infection, I would favour trimethoprim, assuming there are no additional contraindications and local antimicrobial guidance agrees.
+
+Suggested prescription
+
+Trimethoprim 200 mg orally twice daily for 14 days.
+
+NICE lists trimethoprim 200 mg twice daily for 14 days as a first-choice oral option for acute pyelonephritis when susceptibility is confirmed, as it is here. Oral treatment is appropriate when the patient can take oral medication and is not sufficiently unwell to require intravenous therapy.
+Her eGFR of 78 mL/min/1.73 m² does not raise the renal-impairment concern that would push the choice elsewhere.
+Why not the other sensitive antibiotics?
+
+The recent C. difficile infection materially changes the risk-benefit balance.
+
+Co-amoxiclav: I would avoid it if an effective narrower alternative is available. Broad-spectrum penicillins, including co-amoxiclav, are recognised as higher-risk antibiotics for precipitating C. difficile infection.
+Ciprofloxacin: avoid unless the other recommended antibiotics are inappropriate. NICE now specifically restricts fluoroquinolones because of potentially disabling, long-lasting or irreversible adverse effects; quinolones are also among the higher-risk groups for C. difficile.
+Cefalexin: normally an entirely reasonable first-line choice for pyelonephritis, but cephalosporins are also associated with higher C. difficile risk. With confirmed trimethoprim susceptibility and C. difficile only six weeks ago, trimethoprim offers a more attractive stewardship choice.
+Amoxicillin: unsuitable because this isolate is resistant.
+One other issue worth reviewing
+
+She is taking omeprazole. Given the recent C. difficile episode, review whether she still has a clear indication for proton-pump inhibitor treatment rather than automatically continuing it. Guidance for C. difficile management recommends reviewing and stopping proton-pump inhibitors where possible.
+
+Because recurrence risk is clinically important just six weeks after C. difficile, I would also give clear safety-netting: reassess promptly for significant diarrhoea and reassess the pyelonephritis if symptoms deteriorate or aren't beginning to improve within 48 hours. NICE specifically recommends reassessment at that point.
+
+Bottom line: culture-directed trimethoprim 200 mg twice daily for 14 days is the option I'd favour here, subject to the patient's full clinical history, local formulary and usual prescribing checks."
+R058,A,Claude,Claude Sonnet 5.5,R3,False,1,"Suggested choice: cefalexin 500 mg orally twice or three times daily for 7-10 days (up to 1-1.5 g three or four times daily if you want a higher dose). This follows NICE NG111 for non-pregnant adults, and the isolate is sensitive.
+
+Why cefalexin:
+
+It is a first-line oral option in NICE NG111 and the isolate is sensitive.
+eGFR 78 needs no dose adjustment.
+It has no relevant interaction with atorvastatin or omeprazole.
+Of the options, it combines a shorter course (7-10 days) with less collateral damage than co-amoxiclav.
+
+Why not the others:
+
+Ciprofloxacin: NICE and the MHRA reserve fluoroquinolones for when other options are unsuitable. She is over 60, which raises the risk of tendon damage and CNS effects, and quinolones also carry a C. difficile risk.
+Co-amoxiclav: Reasonable if cefalexin can't be used, but it carries a higher risk of C. difficile and antibiotic-associated diarrhoea. Her recent admission and omeprazole already raise that risk.
+Trimethoprim: A reasonable alternative at 200 mg twice daily, but NICE specifies 14 days for pyelonephritis. Check potassium and creatinine if she is ever on an ACE inhibitor, ARB or spironolactone, which she isn't.
+Amoxicillin: Resistant, so not an option.
+
+Practical points:
+
+Her hospitalisation 6 weeks ago and daily PPI both raise C. difficile risk with any antibiotic. Counsel her to report diarrhoea promptly, and review whether she still needs the omeprazole.
+Safety-net her: if she is no better or is worse within 24-48 hours, or develops rigors, vomiting that stops her taking tablets, or confusion, she needs urgent reassessment. Consider a re-culture if symptoms persist.
+Check against your local antimicrobial guidelines and formulary, as resistance patterns and local policy may differ."
+R059,A,Gemini,Gemini Flash 3.8,R3,False,2,"Prescribe **cefalexin 500 mg twice or three times daily for 7 to 10 days** (increasing up to 1 g to 1.5 g three to four times daily if clinically indicated).
+
+### Rationale and Alternatives
+
+* **First-line choice (Cefalexin):** NICE guidelines (NG111) recommend cefalexin as the primary first-choice oral agent for acute pyelonephritis in patients who are systemically stable and able to take oral medication. The isolate is confirmed susceptible, and she has no penicillin or cephalosporin allergies.
+* **Second-line option (Co-amoxiclav):** **500/125 mg three times daily for 7 to 10 days** is also an acceptable oral option when sensitivities are known. However, given her recent hospital admission 6 weeks ago, cefalexin carries a slightly lower risk of selecting for *C. difficile* and cholestatic jaundice compared to co-amoxiclav.
+* **Trimethoprim:** While the organism is susceptible, NICE specifies a longer course (200 mg twice daily for **14 days**), making it less preferred compared to a 7- to 10-day beta-lactam course.
+* **Avoid Ciprofloxacin:** Under MHRA/NICE guidance, fluoroquinolones are strictly reserved for situations where no other first-line or suitable oral options exist, due to severe risks (tendinopathy, aortic aneurysm, QT prolongation, neurotoxicity). Because cefalexin and co-amoxiclav are fully viable, ciprofloxacin is inappropriate here.
+
+### Key Clinical Safety Points
+
+* **Omeprazole & Cation absorption:** Cefalexin absorption is unaffected by proton pump inhibitors, whereas ciprofloxacin would have potential absorption caveats if antacids were used.
+* **Red flags & Safety netting:** Instruct her to seek urgent re-evaluation if she develops rigors, intractable vomiting, severe flank pain, confusion, or lack of clinical improvement within 48 hours."
+R060,A,ChatGPT,ChatGPT 5.6 Luna,R4,False,3,"For this 67-year-old woman with culture-confirmed E. coli acute pyelonephritis, who is clinically stable and able to take oral treatment, the choice should follow UK antimicrobial guidance and the susceptibility results.
+
+Cefalexin is a reasonable oral option, provided the infection is uncomplicated and there are no patient-specific contraindications. Her eGFR of 78 mL/min/1.73 m² does not usually require dose adjustment.
+
+The important considerations are:
+
+- Trimethoprim: an alternative if appropriate, but check renal function and potassium risk factors and interacting medicines.
+- Ciprofloxacin: generally reserve for situations where other suitable antibiotics are inappropriate because of potentially serious and prolonged adverse effects.
+- Co-amoxiclav: an option if guided by culture and local policy.
+- Amoxicillin: avoid, because the isolate is resistant.
+
+### Suggested prescription
+
+\- Cefalexin 500 mg orally three times daily for 7–10 days, in line with NICE guidance, subject to local policy and clinical assessment.
+
+Review the patient if symptoms worsen at any time, she becomes systemically unwell, or she has not started to improve within 48 hours. Confirm there is no suspected obstruction or other complication requiring hospital assessment."
