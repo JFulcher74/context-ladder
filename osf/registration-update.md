@@ -36,6 +36,8 @@ Items 1 to 7 are dated 20 October 2026 and were in the protocol as submitted. It
 
 10. **Data sharing (25 October 2026).** The registration said the collected replies would be kept privately. The cleaned replies, the AI judge's item verdicts, the rating sheets and the rubric items are now published, after a check that no identifying or account text remains. Because rating is complete, the published replies show which tool wrote each coded reply, which makes the blinding key public in effect. The raw, uncleaned replies stay private.
 
+11. **The study lead's validation sample.** The registration planned a seeded sample of 22 replies per study for the study lead: all 12 key-round replies plus 10 others. In practice the lead rated 33 study A replies (all 12 in R1, 3 each in R2, R3 and C, and all 12 in R4) and 14 study B replies (12 in R2 and 2 in R1). All key-round replies were rated as planned. Agreement is reported on the replies actually rated.
+
 ## Exploratory analysis
 
 - Patterns by tool.

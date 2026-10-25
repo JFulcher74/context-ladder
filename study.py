@@ -473,6 +473,9 @@ def agreement_stats(pairs, categories):
     """
     n, q = len(pairs), len(categories)
     observed, kappa = cohen_kappa(pairs)
+    # As registered, kappa is reported only where both raters used more than one category.
+    if len({a for a, _ in pairs}) < 2 or len({b for _, b in pairs}) < 2:
+        kappa = None
     share = {c: sum((a == c) + (b == c) for a, b in pairs) / (2 * n) for c in categories}
     chance = sum(p * (1 - p) for p in share.values()) / (q - 1)
     tally = defaultdict(int)

@@ -100,7 +100,7 @@ class KappaTest(unittest.TestCase):
     def test_skewed_ratings_collapse_kappa_but_not_pabak_or_ac1(self):
         pairs = [("0", "0")] * 9 + [("1", "0")]
         stats = study.agreement_stats(pairs, ["0", "1"])
-        self.assertAlmostEqual(stats["kappa"], 0.0)
+        self.assertIsNone(stats["kappa"])  # one rater used a single category, so kappa is not reported
         self.assertAlmostEqual(stats["pabak"], 0.8)
         self.assertAlmostEqual(stats["ac1"], 0.8895, places=4)
         self.assertEqual(stats["confusion"], "0/0: 9; 1/0: 1")
