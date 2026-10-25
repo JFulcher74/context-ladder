@@ -28,6 +28,11 @@ class CleanReplyTest(unittest.TestCase):
         self.assertNotIn("【", cleaned)
         self.assertNotIn("utm_source", cleaned)
 
+    def test_drops_name_preference_line_with_either_apostrophe(self):
+        for apostrophe in ["'", "\u2019"]:
+            cleaned = study.clean_reply(f"I don{apostrophe}t have your name, so I can't open with it.\n\nUse trimethoprim.")
+            self.assertEqual(cleaned, "Use trimethoprim.")
+
     def test_strips_greeting_name_and_recapitalises(self):
         self.assertEqual(study.clean_reply("Sam, this taper is too fast.", names=["Sam"]), "This taper is too fast.")
 
@@ -213,6 +218,11 @@ class ExportDatasetTest(unittest.TestCase):
         with (folder / "replies.csv").open(newline="") as f:
             row = next(csv.DictReader(f))
         self.assertEqual((row["tool"], row["reply"]), ("Claude", "Ask first."))
+
+    def test_refuses_name_preference_line_with_curly_apostrophe(self):
+        result = self.export("I don\u2019t have your name. Ask first.")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("have your name", result.stderr)
 
     def test_refuses_leftover_fingerprint(self):
         result = self.export("See [x](https://a.org/?utm_source=chat).")

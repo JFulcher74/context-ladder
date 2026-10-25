@@ -30,7 +30,7 @@ from study import SCORE_COLUMNS, read_csv, read_jsonl, write_csv  # noqa: E402
 
 TOOL_NAMES = {"chatgpt": "ChatGPT", "claude": "Claude", "gemini": "Gemini", "copilot": "Copilot"}
 # Text that must not appear in a published reply.
-FORBIDDEN = [r"favicons", r"utm_source", r"【", r"uptodate", r"wolters", r"don't have your name"]
+FORBIDDEN = [r"favicons", r"utm_source", r"【", r"uptodate", r"wolters", r"don['’]t have your name"]
 
 
 def reply_text(blinded_file):
