@@ -187,7 +187,7 @@ DROP_LINE_PATTERNS = [
     r"^\s*\+\d+\s*$",
     r"^\s*\d{3,5}\s*$",                         # eMC product numbers under chips
     r"^\s*AI Generated Response\s*$",
-    r"^.*\bI don't have your name\b.*$",        # account name preference (Claude)
+    r"^.*\bI don['’]t have your name\b.*$",   # account name preference (Claude), straight or curly apostrophe
 ]
 
 
