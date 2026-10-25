@@ -19,7 +19,9 @@ Each study folder holds four CSV files, in UTF-8.
 - `spurious_flags`: control round only.
 - `new_to_me_0_1`: pharmacists only.
 
-Raters are `ai-judge` and `author` (the study lead, a pharmacist). Further pharmacist sheets are added as they are completed.
+Raters are `ai-judge` (the AI judge, Claude Opus 5.5), `author` (the study lead, a pharmacist; the key round plus 10 other replies per study) and `pharmacist-2` (a second, independent pharmacist; the 12 key-round replies of each study: a UK respiratory specialist pharmacist for study A, a pharmacist practising in Singapore for study B). For study B, `adjudicated` holds the consensus scores for the 3 key-round replies the two pharmacists first rated differently. In study A, the author's key-round prompted ratings were made under the strict definition (see the study README).
+
+Rating is complete, so `replies.csv` shows which tool wrote each coded reply. The raw, uncleaned replies are not published.
 
 ## How the replies were collected and cleaned
 

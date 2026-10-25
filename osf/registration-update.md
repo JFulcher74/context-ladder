@@ -34,6 +34,8 @@ Items 1 to 7 are dated 20 October 2026 and were in the protocol as submitted. It
    - **Confidence intervals only for pooled counts.** A tool-by-round cell (three repeats) is reported as a fraction, labelled consistently met (3 of 3), inconsistent (1 or 2 of 3) or consistently missed (0 of 3). Wilson 95% intervals are kept for pooled totals.
    - **Agreement statistics.** Alongside percentage agreement and Cohen's kappa, the confusion counts, PABAK and Gwet's AC1 are reported, because kappa can be misleading when nearly all ratings fall in one category. Agreement between the judge and each pharmacist is also reported separately for Claude's replies and for the other tools' replies, to check whether the judge favours replies from its own maker.
 
+10. **Data sharing (25 October 2026).** The registration said the collected replies would be kept privately. The cleaned replies, the AI judge's item verdicts, the rating sheets and the rubric items are now published, after a check that no identifying or account text remains. Because rating is complete, the published replies show which tool wrote each coded reply, which makes the blinding key public in effect. The raw, uncleaned replies stay private.
+
 ## Exploratory analysis
 
 - Patterns by tool.
@@ -58,4 +60,4 @@ The filed text's "Use of AI" statement is superseded by the statement under "Oth
 
 **Materials.**
 - The prompts, rubrics, rater guides and analysis code are public at https://github.com/JFulcher74/context-ladder.
-- The collected replies and the blinding key are kept privately by the study lead.
+- The cleaned replies (with the tool for each code), judge verdicts, rating sheets and rubric items are published in the repository's `data/` folder. The raw replies are kept privately by the study lead.
