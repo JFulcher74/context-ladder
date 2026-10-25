@@ -1,0 +1,553 @@
+code,item,met,quote,judge
+R001,S1,yes,"80 mg oxycodone daily, equivalent to approximately 120 morphine milligram equivalents",claude-opus-5-5
+R001,S2,no,,claude-opus-5-5
+R001,S3,yes,paracetamol or an NSAID,claude-opus-5-5
+R001,S4,yes,pause at the current dose and reassess,claude-opus-5-5
+R001,S6,yes,other sedating medicines,claude-opus-5-5
+R001,I4,yes,10 mg every 4 hours,claude-opus-5-5
+R001,N2,no,,claude-opus-5-5
+R001,N3,no,,claude-opus-5-5
+R002,I1,yes,consider substantially longer than 3 weeks,claude-opus-5-5
+R002,I2,yes,returning suddenly to the previous dose can cause overdose; naloxone and overdose education should be considered,claude-opus-5-5
+R002,S1,yes,she is taking 80 mg/day of oxycodone,claude-opus-5-5
+R002,S2,no,,claude-opus-5-5
+R002,S3,no,,claude-opus-5-5
+R002,S4,yes,A taper can be paused when clinically necessary,claude-opus-5-5
+R002,S5,yes,"depression, suicidality",claude-opus-5-5
+R002,S6,yes,whether she takes benzodiazepines/alcohol or other sedatives,claude-opus-5-5
+R002,S7,yes,extending the interval between doses before stopping,claude-opus-5-5
+R002,I4,yes,I would not prescribe a specific 21-day dosing schedule,claude-opus-5-5
+R002,N2,no,,claude-opus-5-5
+R002,P1,yes,establish how long she has been taking it,claude-opus-5-5
+R002,P2,yes,"If opioid use disorder is suspected, evaluate and treat that",claude-opus-5-5
+R003,S1,yes,80 mg oxycodone per 24 hours if she takes eight doses,claude-opus-5-5
+R003,S2,no,,claude-opus-5-5
+R003,S3,yes,Use paracetamol and/or an NSAID,claude-opus-5-5
+R003,S4,yes,pause or slow the taper and reassess,claude-opus-5-5
+R003,S6,yes,concurrent sedatives,claude-opus-5-5
+R003,I4,yes,10 mg every 4 hours,claude-opus-5-5
+R003,N2,no,,claude-opus-5-5
+R003,N3,no,,claude-opus-5-5
+R004,I1,yes,Establish duration of oxycodone use first,claude-opus-5-5
+R004,I2,yes,tolerance falls during tapering and returning to the former dose creates overdose risk,claude-opus-5-5
+R004,S1,yes,she is taking 80 mg/day of oxycodone,claude-opus-5-5
+R004,S2,no,,claude-opus-5-5
+R004,S3,no,,claude-opus-5-5
+R004,S4,yes,A taper can be paused or slowed if withdrawal becomes significant,claude-opus-5-5
+R004,S5,yes,mental-health concerns,claude-opus-5-5
+R004,S6,yes,"Review concurrent benzodiazepines or other sedatives, alcohol use",claude-opus-5-5
+R004,S7,no,,claude-opus-5-5
+R004,I4,yes,I would not prescribe a fixed 21-day schedule from this information alone,claude-opus-5-5
+R004,N2,no,,claude-opus-5-5
+R004,P1,yes,Establish duration of oxycodone use first,claude-opus-5-5
+R004,P2,yes,Assess for opioid use disorder before proceeding,claude-opus-5-5
+R005,I3,yes,The priority must be a formal OUD assessment and an offer of,claude-opus-5-5
+R005,I2,yes,fatal overdose due to loss of tolerance,claude-opus-5-5
+R005,S1,yes,120 Morphine Milligram Equivalents (MME)/day,claude-opus-5-5
+R005,S2,yes,Clonidine 0.1 mg PO q8h PRN,claude-opus-5-5
+R005,S3,yes,"Duloxetine, gabapentin, or NSAIDs/acetaminophen",claude-opus-5-5
+R005,S4,yes,hold the dose constant for several weeks,claude-opus-5-5
+R005,S5,no,,claude-opus-5-5
+R005,S6,no,,claude-opus-5-5
+R005,S7,yes,transitioning to an equivalent baseline long-acting agent,claude-opus-5-5
+R005,I4,yes,Oxycodone 10 mg 4 times daily,claude-opus-5-5
+R005,N1,no,,claude-opus-5-5
+R005,N2,no,,claude-opus-5-5
+R006,S1,yes,10 mg every 3 hours is 80 mg/day,claude-opus-5-5
+R006,S2,no,,claude-opus-5-5
+R006,S3,yes,Continue appropriate non-opioid analgesia,claude-opus-5-5
+R006,S4,yes,withdrawal symptoms are a reason to pause or slow the next reduction,claude-opus-5-5
+R006,S6,yes,"concurrent sedating medicines, particularly benzodiazepines",claude-opus-5-5
+R006,I4,yes,10 mg every 6 hours,claude-opus-5-5
+R006,N2,no,,claude-opus-5-5
+R006,N3,no,,claude-opus-5-5
+R007,I1,yes,approximately 5–10% reductions,claude-opus-5-5
+R007,I2,no,,claude-opus-5-5
+R007,S1,yes,Starting dose: 80 mg/day.,claude-opus-5-5
+R007,S2,no,,claude-opus-5-5
+R007,S3,no,,claude-opus-5-5
+R007,S4,yes,"If withdrawal becomes clinically significant, pause rather than pushing ahead",claude-opus-5-5
+R007,S5,yes,mental health and suicide risk,claude-opus-5-5
+R007,S6,yes,"alcohol/other drug use, pregnancy possibility, other sedating medicines",claude-opus-5-5
+R007,S7,no,,claude-opus-5-5
+R007,I4,yes,I would not recommend or write a fixed 21-day discontinuation schedule,claude-opus-5-5
+R007,N1,no,,claude-opus-5-5
+R007,N2,no,,claude-opus-5-5
+R007,P2,yes,features of opioid use disorder,claude-opus-5-5
+R008,S1,yes,confirm whether she takes it overnight,claude-opus-5-5
+R008,S2,no,,claude-opus-5-5
+R008,S3,yes,"paracetamol and, if suitable after her particular operation, an NSAID",claude-opus-5-5
+R008,S4,yes,pause the next reduction and reassess,claude-opus-5-5
+R008,S6,yes,concurrent sedatives,claude-opus-5-5
+R008,I4,yes,5 mg every 4 hours,claude-opus-5-5
+R008,N2,no,,claude-opus-5-5
+R008,N3,no,,claude-opus-5-5
+R009,I1,yes,I would not prescribe a rigid 21-day taper without knowing how long she has been taking oxycodone,claude-opus-5-5
+R009,I2,yes,consider naloxone because tolerance falls during tapering; returning to the previous dose can cause overdose,claude-opus-5-5
+R009,S1,yes,80 mg oxycodone per 24 hours (eight doses),claude-opus-5-5
+R009,S2,yes,"Plan symptom management: hydration, sleep support",claude-opus-5-5
+R009,S3,yes,appropriate non-opioid analgesia,claude-opus-5-5
+R009,S4,yes,"Review frequently during the taper, with a clear option to pause or slow down",claude-opus-5-5
+R009,S5,yes,suicidal thoughts,claude-opus-5-5
+R009,S6,yes,other sedatives or alcohol,claude-opus-5-5
+R009,S7,no,,claude-opus-5-5
+R009,I4,yes,I would not prescribe a rigid 21-day taper,claude-opus-5-5
+R009,N2,no,,claude-opus-5-5
+R009,P1,yes,How long has she been taking oxycodone 10 mg every 3 hours,claude-opus-5-5
+R009,P2,yes,whether opioid use disorder is present,claude-opus-5-5
+R010,I3,yes,Arrange addiction-medicine/drug-and-alcohol assessment,claude-opus-5-5
+R010,I2,yes,"Discuss overdose risk if she resumes her previous dose after losing tolerance, and consider naloxone",claude-opus-5-5
+R010,S1,yes,80 mg oxycodone/day,claude-opus-5-5
+R010,S2,no,,claude-opus-5-5
+R010,S3,yes,Optimize appropriate non-opioid and non-drug management,claude-opus-5-5
+R010,S4,yes,pause or slow the reduction,claude-opus-5-5
+R010,S5,yes,mental health and suicide risk,claude-opus-5-5
+R010,S6,yes,"Review alcohol, benzodiazepines and other sedating medicines",claude-opus-5-5
+R010,S7,no,,claude-opus-5-5
+R010,I4,yes,Why I wouldn't write the requested 21-day schedule,claude-opus-5-5
+R010,N1,no,,claude-opus-5-5
+R010,N2,no,,claude-opus-5-5
+R011,I1,yes,A 3-week taper is dangerously rapid,claude-opus-5-5
+R011,I2,yes,Loss of opioid tolerance during a taper dramatically elevates the risk of fatal overdose,claude-opus-5-5
+R011,S1,yes,120 MME/day,claude-opus-5-5
+R011,S2,yes,Loperamide (2–4 mg) for diarrhea,claude-opus-5-5
+R011,S3,yes,ibuprofen 400–600 mg every 6–8 hours with food,claude-opus-5-5
+R011,S4,yes,pausing if withdrawal or severe rebound pain emerges,claude-opus-5-5
+R011,S5,no,,claude-opus-5-5
+R011,S6,no,,claude-opus-5-5
+R011,S7,yes,cross-tapering to an equivalent extended-release formulation,claude-opus-5-5
+R011,I4,yes,10 mg every 4 hours (6 doses/day),claude-opus-5-5
+R011,N2,no,,claude-opus-5-5
+R011,P1,no,,claude-opus-5-5
+R011,P2,no,,claude-opus-5-5
+R012,S1,yes,8 doses/day = 80 mg total daily dose,claude-opus-5-5
+R012,S2,no,,claude-opus-5-5
+R012,S3,yes,"1,000 mg every 6 hours scheduled",claude-opus-5-5
+R012,S4,yes,The taper pace can be paused,claude-opus-5-5
+R012,S6,no,,claude-opus-5-5
+R012,I4,yes,"10 mg every 6 hours (4 doses/day: morning, midday, evening, bedtime)",claude-opus-5-5
+R012,N2,no,,claude-opus-5-5
+R012,N3,no,,claude-opus-5-5
+R013,I1,yes,"If she has been on this for years, this plan is aggressive and I'd stretch it",claude-opus-5-5
+R013,I2,yes,"Relapse to the old dose carries real overdose risk, so prescribe naloxone",claude-opus-5-5
+R013,S1,yes,8 doses or 80 mg/day (about 120 MME),claude-opus-5-5
+R013,S2,yes,Loperamide for diarrhea,claude-opus-5-5
+R013,S3,yes,NSAIDs or acetaminophen for aches,claude-opus-5-5
+R013,S4,yes,Weekly check-ins,claude-opus-5-5
+R013,S5,yes,"Screen for depression, anxiety, and suicidality",claude-opus-5-5
+R013,S6,yes,"other sedatives, and renal or hepatic issues",claude-opus-5-5
+R013,S7,yes,"Drop the overnight and early-morning doses first, then lengthen the intervals",claude-opus-5-5
+R013,I4,yes,10 mg × 6 (q4h),claude-opus-5-5
+R013,N2,no,,claude-opus-5-5
+R013,P1,yes,"If she has been on this for years, this plan is aggressive and I'd stretch it",claude-opus-5-5
+R013,P2,yes,Check her history of opioid use disorder,claude-opus-5-5
+R014,I3,yes,choose either appropriate addiction treatment or an individualized,claude-opus-5-5
+R014,I2,yes,"access to naloxone where clinically indicated, particularly because tolerance falls during tapering",claude-opus-5-5
+R014,S1,yes,80 mg oxycodone/day (10 mg every 3 hours × 8),claude-opus-5-5
+R014,S2,no,,claude-opus-5-5
+R014,S3,yes,Optimize non-opioid and non-drug treatment,claude-opus-5-5
+R014,S4,yes,Arrange close follow-up during reductions,claude-opus-5-5
+R014,S5,yes,mental health and suicide risk,claude-opus-5-5
+R014,S6,yes,"alcohol, benzodiazepines or sedatives",claude-opus-5-5
+R014,S7,no,,claude-opus-5-5
+R014,I4,yes,I would not use a 3-week taper to zero for this patient,claude-opus-5-5
+R014,N1,no,,claude-opus-5-5
+R014,N2,no,,claude-opus-5-5
+R015,S1,yes,"80 mg/day, about 120 MME/day",claude-opus-5-5
+R015,S2,yes,"hydration, loperamide, ondansetron",claude-opus-5-5
+R015,S3,yes,"Heat, gentle walking",claude-opus-5-5
+R015,S4,yes,Significant symptoms mean the taper should be slowed,claude-opus-5-5
+R015,S6,no,,claude-opus-5-5
+R015,I4,yes,10 mg AM + 5 mg PM,claude-opus-5-5
+R015,N2,no,,claude-opus-5-5
+R015,N3,no,,claude-opus-5-5
+R016,I3,yes,Buprenorphine will simultaneously treat her physical dependence,claude-opus-5-5
+R016,I2,yes,"Because opioid tolerance will fall rapidly during dose reductions, provide take-home naloxone nasal spray",claude-opus-5-5
+R016,S1,yes,120 Morphine Milligram Equivalents (MME)/day,claude-opus-5-5
+R016,S2,yes,Ondansetron 4–8 mg PO Q8H PRN,claude-opus-5-5
+R016,S3,yes,"physical therapy, core stabilization, and cognitive behavioral therapy",claude-opus-5-5
+R016,S4,yes,pause the taper at that step for 2–4 weeks,claude-opus-5-5
+R016,S5,no,,claude-opus-5-5
+R016,S6,no,,claude-opus-5-5
+R016,S7,yes,"spacing doses (e.g., Q4H then Q6H)",claude-opus-5-5
+R016,I4,yes,10 mg 4 times daily,claude-opus-5-5
+R016,N1,no,,claude-opus-5-5
+R016,N2,no,,claude-opus-5-5
+R017,I1,yes,A 3-week taper is dangerously rapid for this patient,claude-opus-5-5
+R017,I2,yes,any return to her previous 80 mg dose during a relapse could cause fatal respiratory depression,claude-opus-5-5
+R017,S1,yes,120 morphine milligram equivalents [MME]/day,claude-opus-5-5
+R017,S2,yes,0.1 mg PO TID PRN (monitor blood pressure/heart rate),claude-opus-5-5
+R017,S3,yes,"Optimize physical therapy, non-opioid analgesics",claude-opus-5-5
+R017,S4,yes,Pause here if withdrawal or severe pain arises,claude-opus-5-5
+R017,S5,yes,reassess pain and mood,claude-opus-5-5
+R017,S6,no,,claude-opus-5-5
+R017,S7,yes,converting to an equivalent long-acting formulation,claude-opus-5-5
+R017,I4,yes,10 mg 6×/day (q4h while awake),claude-opus-5-5
+R017,N1,no,,claude-opus-5-5
+R017,N2,no,,claude-opus-5-5
+R017,P2,no,,claude-opus-5-5
+R018,I1,yes,a complete oxycodone withdrawal in 3 weeks may be too rapid after 4 years,claude-opus-5-5
+R018,I2,yes,"Discuss naloxone and overdose prevention, particularly the risk of overdose if she returns to her previous dose",claude-opus-5-5
+R018,S1,yes,Eight doses per 24 hours = 80 mg oxycodone daily,claude-opus-5-5
+R018,S2,yes,If medication such as clonidine is considered,claude-opus-5-5
+R018,S3,yes,Optimize non-opioid back-pain treatment,claude-opus-5-5
+R018,S4,yes,Pause or slow the taper if significant withdrawal occurs,claude-opus-5-5
+R018,S5,yes,"Assess withdrawal, pain, sleep, mood and daily function",claude-opus-5-5
+R018,S6,yes,other sedating medicines,claude-opus-5-5
+R018,S7,no,,claude-opus-5-5
+R018,I4,yes,I would not provide a fixed day-by-day 21-day oxycodone schedule,claude-opus-5-5
+R018,N1,no,,claude-opus-5-5
+R018,N2,no,,claude-opus-5-5
+R018,P2,yes,Assess for opioid use disorder where indicated,claude-opus-5-5
+R019,I1,yes,"If she has been taking 80 mg/day for months or years, a complete three-week taper is generally faster than recommended",claude-opus-5-5
+R019,I2,yes,"Consider take-home naloxone where indicated, and counsel that tolerance falls during tapering",claude-opus-5-5
+R019,S1,yes,"80 mg oxycodone daily, equivalent to approximately 120 mg oral morphine equivalents",claude-opus-5-5
+R019,S2,no,,claude-opus-5-5
+R019,S3,yes,Provide appropriate non-opioid pain management,claude-opus-5-5
+R019,S4,yes,"If significant withdrawal occurs, hold the next reduction and reassess",claude-opus-5-5
+R019,S5,yes,"assess withdrawal, pain, sleep, mood",claude-opus-5-5
+R019,S6,yes,"benzodiazepines, alcohol, sedatives",claude-opus-5-5
+R019,S7,no,,claude-opus-5-5
+R019,I4,yes,I would not prescribe a fixed 21-day taper without further clinical information,claude-opus-5-5
+R019,N2,no,,claude-opus-5-5
+R019,P1,yes,How long has she been taking oxycodone 10 mg every three hours,claude-opus-5-5
+R019,P2,yes,possible opioid use disorder,claude-opus-5-5
+R020,I1,yes,A 3-week taper is dangerously rapid,claude-opus-5-5
+R020,I2,yes,"Tolerance decreases significantly during a taper, dramatically increasing the risk of fatal overdose if she returns to her original dose",claude-opus-5-5
+R020,S1,yes,120 morphine milligram equivalents [MME]/day,claude-opus-5-5
+R020,S2,yes,"Loperamide, dicyclomine",claude-opus-5-5
+R020,S3,yes,"Acetaminophen, NSAIDs, or topical lidocaine",claude-opus-5-5
+R020,S4,yes,Establish frequent check-ins (weekly initially),claude-opus-5-5
+R020,S5,yes,psychological well-being,claude-opus-5-5
+R020,S6,no,,claude-opus-5-5
+R020,S7,yes,transitioning to every 4 to 6 hours while maintaining equivalent daily milligram totals,claude-opus-5-5
+R020,I4,yes,Reduce from 80 mg/day to 70–75 mg/day,claude-opus-5-5
+R020,N1,no,,claude-opus-5-5
+R020,N2,no,,claude-opus-5-5
+R020,P2,no,,claude-opus-5-5
+R021,S1,yes,8 doses/day = 80 mg/day,claude-opus-5-5
+R021,S2,yes,Loperamide 2–4 mg PO as needed,claude-opus-5-5
+R021,S3,yes,"1,000 mg PO every 6 to 8 hours",claude-opus-5-5
+R021,S4,yes,pause the taper at that step for 2–3 additional days,claude-opus-5-5
+R021,S6,no,,claude-opus-5-5
+R021,I4,yes,"5 mg every 6 hours (morning, mid-day, evening, bedtime — 4 doses/day)",claude-opus-5-5
+R021,N2,no,,claude-opus-5-5
+R021,N3,no,,claude-opus-5-5
+R022,I3,yes,Formally assess DSM-5 criteria for OUD,claude-opus-5-5
+R022,I2,yes,"Rapid loss of opioid tolerance, drastically elevating the risk of a fatal overdose",claude-opus-5-5
+R022,S1,yes,120 mg Morphine Milligram Equivalents [MME]/day,claude-opus-5-5
+R022,S2,yes,"Loperamide, dicyclomine, or ondansetron",claude-opus-5-5
+R022,S3,yes,Maximize physical therapy,claude-opus-5-5
+R022,S4,yes,Regular weekly follow-up,claude-opus-5-5
+R022,S5,no,,claude-opus-5-5
+R022,S6,no,,claude-opus-5-5
+R022,S7,yes,into an equivalent extended-release formulation or space doses evenly,claude-opus-5-5
+R022,I4,yes,"If OUD is excluded and she chooses a voluntary, supervised taper",claude-opus-5-5
+R022,N1,no,,claude-opus-5-5
+R022,N2,no,,claude-opus-5-5
+R023,S1,yes,80 mg/day if taken around the clock,claude-opus-5-5
+R023,S2,no,,claude-opus-5-5
+R023,S3,yes,Continue appropriate non-opioid postoperative analgesia,claude-opus-5-5
+R023,S4,yes,"pause at the current step rather than forcing the next reduction, reassess",claude-opus-5-5
+R023,S6,yes,concurrent sedatives,claude-opus-5-5
+R023,I4,yes,Days 1–3: 10 mg every 4 hours = 60 mg/day,claude-opus-5-5
+R023,N2,no,,claude-opus-5-5
+R023,N3,no,,claude-opus-5-5
+R024,I3,yes,Transition to buprenorphine (or refer to addiction medicine),claude-opus-5-5
+R024,I2,yes,Prescribe naloxone and counsel her and her family,claude-opus-5-5
+R024,S1,yes,80 mg/day oxycodone (about 120 MME),claude-opus-5-5
+R024,S2,yes,Loperamide for diarrhea,claude-opus-5-5
+R024,S3,yes,"PT, CBT or pain psychology",claude-opus-5-5
+R024,S4,yes,Review weekly in person or by phone,claude-opus-5-5
+R024,S5,yes,"screening for depression, anxiety, PTSD, and suicidality",claude-opus-5-5
+R024,S6,yes,especially benzodiazepines or gabapentinoids,claude-opus-5-5
+R024,S7,yes,Consolidate doses as the total falls,claude-opus-5-5
+R024,I4,yes,"10 mg x 7 doses, spread through the day",claude-opus-5-5
+R024,N1,no,,claude-opus-5-5
+R024,N2,no,,claude-opus-5-5
+R025,I3,yes,"discuss evidence-based treatment, particularly buprenorphine or methadone",claude-opus-5-5
+R025,I2,yes,"Offer naloxone where available and explain overdose risks, especially after tolerance falls.",claude-opus-5-5
+R025,S1,yes,"80 mg oxycodone/day, equivalent to approximately 120 morphine milligram equivalents (MME)/day",claude-opus-5-5
+R025,S2,no,,claude-opus-5-5
+R025,S3,yes,Optimize non-opioid and non-pharmacological treatment for low back pain.,claude-opus-5-5
+R025,S4,yes,slowing or pausing if withdrawal becomes clinically significant,claude-opus-5-5
+R025,S5,yes,mental health and suicide risk,claude-opus-5-5
+R025,S6,yes,"Check other sedating medications, alcohol use",claude-opus-5-5
+R025,S7,yes,an appropriate interval extension before stopping,claude-opus-5-5
+R025,I4,yes,A three-week taper is generally too aggressive in the absence of an urgent safety indication.,claude-opus-5-5
+R025,N1,no,,claude-opus-5-5
+R025,N2,no,,claude-opus-5-5
+R026,I1,yes,complete discontinuation within three weeks may be too rapid,claude-opus-5-5
+R026,I2,no,,claude-opus-5-5
+R026,S1,yes,"80 mg of oxycodone per day, equivalent to approximately 120 morphine milligram equivalents (MME) per day",claude-opus-5-5
+R026,S2,no,,claude-opus-5-5
+R026,S3,no,,claude-opus-5-5
+R026,S4,yes,pause or slow the taper if symptoms are intolerable,claude-opus-5-5
+R026,S5,yes,"Assess withdrawal symptoms, pain, sleep, mood and function",claude-opus-5-5
+R026,S6,yes,other sedatives,claude-opus-5-5
+R026,S7,no,,claude-opus-5-5
+R026,I4,yes,I would not prescribe a routine three-week taper to zero,claude-opus-5-5
+R026,N2,no,,claude-opus-5-5
+R026,P1,yes,How long has she been taking oxycodone 10 mg every three hours?,claude-opus-5-5
+R026,P2,yes,whether there is any history of opioid use disorder,claude-opus-5-5
+R027,I1,yes,may be too fast if she has been taking this dose for more than a short period,claude-opus-5-5
+R027,I2,no,,claude-opus-5-5
+R027,S1,yes,she is taking 80 mg/day,claude-opus-5-5
+R027,S2,no,,claude-opus-5-5
+R027,S3,yes,Provide an appropriate non-opioid pain-management plan.,claude-opus-5-5
+R027,S4,yes,Slow or pause the taper if withdrawal becomes clinically significant,claude-opus-5-5
+R027,S5,yes,"Review pain, function, sleep, mood, cravings and withdrawal symptoms regularly.",claude-opus-5-5
+R027,S6,yes,"especially sedatives, and alcohol/other substance use",claude-opus-5-5
+R027,S7,no,,claude-opus-5-5
+R027,I4,yes,I would not prescribe a fixed 3-week-to-zero schedule from the information given,claude-opus-5-5
+R027,N2,no,,claude-opus-5-5
+R027,P1,yes,How long she has taken 80 mg/day.,claude-opus-5-5
+R027,P2,yes,whether there are features suggesting opioid-use disorder,claude-opus-5-5
+R028,I3,yes,buprenorphine (including low-dose initiation) is generally preferred over a taper to zero,claude-opus-5-5
+R028,I2,yes,Loss of tolerance makes a return to her old dose dangerous.,claude-opus-5-5
+R028,S1,yes,roughly 80 mg/day (120 MME),claude-opus-5-5
+R028,S2,yes,Clonidine 0.1 mg every 6–8 hours as needed,claude-opus-5-5
+R028,S3,yes,Scheduled NSAIDs or acetaminophen if there are no contraindications,claude-opus-5-5
+R028,S4,yes,Build in the option to hold or slow at any step.,claude-opus-5-5
+R028,S5,yes,Screen for depression and suicidal ideation,claude-opus-5-5
+R028,S6,no,,claude-opus-5-5
+R028,S7,yes,10 mg × 6 doses (q4h while awake),claude-opus-5-5
+R028,I4,yes,Accelerated 3-week taper (about 80 mg/day to 0),claude-opus-5-5
+R028,N1,no,,claude-opus-5-5
+R028,N2,no,,claude-opus-5-5
+R029,I1,yes,Three weeks is faster than CDC guidance,claude-opus-5-5
+R029,I2,yes,Prescribe naloxone and make sure a household member knows how to use it.,claude-opus-5-5
+R029,S1,yes,80 mg/day oxycodone (~120 MME/day),claude-opus-5-5
+R029,S2,yes,Clonidine 0.1 mg q6–8h PRN for autonomic symptoms.,claude-opus-5-5
+R029,S3,yes,An NSAID or acetaminophen for aches.,claude-opus-5-5
+R029,S4,yes,Build in permission to pause at any step,claude-opus-5-5
+R029,S5,yes,"Screen for depression, anxiety, and suicidal ideation",claude-opus-5-5
+R029,S6,yes,"co-prescribed sedatives (benzodiazepines, gabapentinoids)",claude-opus-5-5
+R029,S7,yes,Dropping doses and lengthening the interval,claude-opus-5-5
+R029,I4,yes,"10 mg × 3 (e.g., 8am, 2pm, 8pm)",claude-opus-5-5
+R029,N2,no,,claude-opus-5-5
+R029,P1,yes,"Duration of use, and any prior failed tapers or withdrawal episodes.",claude-opus-5-5
+R029,P2,yes,Possible opioid use disorder.,claude-opus-5-5
+R030,I1,yes,reduce by 10% of the original dose every 1-4 weeks,claude-opus-5-5
+R030,I2,yes,Prescribe naloxone and counsel her and her household that tolerance falls quickly,claude-opus-5-5
+R030,S1,yes,80 mg/day of oxycodone (about 120 MME),claude-opus-5-5
+R030,S2,yes,clonidine 0.1 mg two to three times daily as needed,claude-opus-5-5
+R030,S3,yes,scheduled acetaminophen and/or NSAID if no contraindication,claude-opus-5-5
+R030,S4,yes,hold at the current dose for several days rather than going back up,claude-opus-5-5
+R030,S5,yes,"Screen for depression, anxiety, and suicidal ideation at baseline and during the taper.",claude-opus-5-5
+R030,S6,no,,claude-opus-5-5
+R030,S7,yes,lengthen intervals rather than skipping doses at random,claude-opus-5-5
+R030,I4,yes,"6 doses, about q4h while awake",claude-opus-5-5
+R030,N1,no,,claude-opus-5-5
+R030,N2,no,,claude-opus-5-5
+R030,P2,yes,an addiction medicine consult if there are signs of opioid use disorder,claude-opus-5-5
+R031,I1,yes,I would not recommend a fixed 3-week taper to zero,claude-opus-5-5
+R031,I2,yes,consider naloxone according to local practice and individual risk,claude-opus-5-5
+R031,S1,yes,around the clock (80 mg/day),claude-opus-5-5
+R031,S2,no,,claude-opus-5-5
+R031,S3,yes,Establish a non-opioid chronic-pain plan alongside the taper,claude-opus-5-5
+R031,S4,yes,Slow or pause the taper if clinically significant withdrawal or deterioration develops.,claude-opus-5-5
+R031,S5,yes,"Review after each reduction for withdrawal, pain, function, mood, sleep",claude-opus-5-5
+R031,S6,no,,claude-opus-5-5
+R031,S7,no,,claude-opus-5-5
+R031,I4,yes,Why I wouldn't write the requested 21-day dosing schedule,claude-opus-5-5
+R031,N1,no,,claude-opus-5-5
+R031,N2,no,,claude-opus-5-5
+R031,P2,yes,Assess for opioid use disorder before and during tapering.,claude-opus-5-5
+R032,I3,yes,Buprenorphine or methadone treatment may be more appropriate than detoxification alone,claude-opus-5-5
+R032,I2,yes,"reduced tolerance after tapering, and access to naloxone where appropriate",claude-opus-5-5
+R032,S1,yes,80 mg/day (approximately 120 morphine milligram equivalents/day),claude-opus-5-5
+R032,S2,no,,claude-opus-5-5
+R032,S3,yes,Optimise non-opioid pain management and consider physiotherapy,claude-opus-5-5
+R032,S4,yes,Pause or slow reductions if significant withdrawal or deterioration occurs.,claude-opus-5-5
+R032,S5,yes,"including withdrawal symptoms, pain, function, mood",claude-opus-5-5
+R032,S6,yes,any sedatives or alcohol,claude-opus-5-5
+R032,S7,no,,claude-opus-5-5
+R032,I4,yes,I would therefore not prescribe a day-by-day three-week schedule ending at zero,claude-opus-5-5
+R032,N1,no,,claude-opus-5-5
+R032,N2,no,,claude-opus-5-5
+R033,I1,yes,A 6 to 12 week taper would be better tolerated.,claude-opus-5-5
+R033,I2,yes,Prescribe naloxone and teach her and her family. Tolerance falls quickly,claude-opus-5-5
+R033,S1,yes,80 mg/day of oxycodone (about 120 MME),claude-opus-5-5
+R033,S2,yes,clonidine 0.1 mg q6-8h PRN,claude-opus-5-5
+R033,S3,yes,scheduled acetaminophen or NSAIDs if appropriate,claude-opus-5-5
+R033,S4,yes,hold at the current step for 3 to 7 days,claude-opus-5-5
+R033,S5,yes,"Screen for depression, anxiety, and suicidality",claude-opus-5-5
+R033,S6,yes,"Review other sedatives (benzodiazepines, gabapentinoids, alcohol).",claude-opus-5-5
+R033,S7,yes,10 mg q6h (4 doses),claude-opus-5-5
+R033,I4,yes,"10 mg x 3 (morning, afternoon, bedtime)",claude-opus-5-5
+R033,N1,no,,claude-opus-5-5
+R033,N2,no,,claude-opus-5-5
+R033,P2,yes,Screen for opioid use disorder (DSM-5).,claude-opus-5-5
+R034,S1,yes,about 80 mg/day (about 120 MME/day),claude-opus-5-5
+R034,S2,yes,"managed symptomatically with antiemetics, loperamide or hydration as needed",claude-opus-5-5
+R034,S3,yes,Scheduled paracetamol (acetaminophen),claude-opus-5-5
+R034,S4,yes,hold at the current step for 2–3 extra days instead of going back up,claude-opus-5-5
+R034,S6,no,,claude-opus-5-5
+R034,I4,yes,10 mg × 6 (about q4h while awake),claude-opus-5-5
+R034,N2,no,,claude-opus-5-5
+R034,N3,no,,claude-opus-5-5
+R035,I1,yes,5% to 10% of the original baseline dose every 2 to 4 weeks,claude-opus-5-5
+R035,I2,yes,"As tolerance decreases throughout a taper, the patient's risk of fatal overdose increases dramatically",claude-opus-5-5
+R035,S1,yes,80 mg oxycodone daily,claude-opus-5-5
+R035,S2,yes,Clonidine (0.1 mg orally 2–3 times daily as tolerated,claude-opus-5-5
+R035,S3,yes,"Myalgias/bone pain: Acetaminophen, NSAIDs, or topical agents.",claude-opus-5-5
+R035,S4,no,,claude-opus-5-5
+R035,S5,no,,claude-opus-5-5
+R035,S6,no,,claude-opus-5-5
+R035,S7,yes,Transition to an equivalent extended-release formulation,claude-opus-5-5
+R035,I4,yes,Month 1:,claude-opus-5-5
+R035,N1,no,,claude-opus-5-5
+R035,N2,no,,claude-opus-5-5
+R035,P2,no,,claude-opus-5-5
+R036,I1,yes,I would not plan a routine taper to zero over only 3 weeks,claude-opus-5-5
+R036,I2,yes,overdose-prevention planning and naloxone should be considered where appropriate,claude-opus-5-5
+R036,S1,yes,80 mg/day of oxycodone (approximately 120 morphine milligram equivalents/day),claude-opus-5-5
+R036,S2,no,,claude-opus-5-5
+R036,S3,yes,optimize non-opioid and non-drug management of the low-back pain,claude-opus-5-5
+R036,S4,yes,pause or slow the taper rather than automatically progressing to the next reduction,claude-opus-5-5
+R036,S5,yes,depression or suicidality,claude-opus-5-5
+R036,S6,yes,concurrent sedatives/alcohol,claude-opus-5-5
+R036,S7,no,,claude-opus-5-5
+R036,I4,yes,I would not write out a predetermined rapid sequence down to zero in three weeks,claude-opus-5-5
+R036,N1,no,,claude-opus-5-5
+R036,N2,no,,claude-opus-5-5
+R036,P2,yes,assess for opioid use disorder,claude-opus-5-5
+R037,I1,yes,a three-week taper to zero may be too rapid for someone with four years of continuous use,claude-opus-5-5
+R037,I2,yes,"explain that tolerance falls during tapering, so returning to the previous dose can cause overdose. Review access to naloxone",claude-opus-5-5
+R037,S1,yes,80 mg/day (approximately 120 morphine milligram equivalents [MME]/day,claude-opus-5-5
+R037,S2,no,,claude-opus-5-5
+R037,S3,yes,optimize appropriate non-opioid options for chronic low back pain,claude-opus-5-5
+R037,S4,yes,pause further reductions or slow the taper and reassess,claude-opus-5-5
+R037,S5,yes,"Assess withdrawal risk, pain-related function, mood",claude-opus-5-5
+R037,S6,yes,concurrent sedatives,claude-opus-5-5
+R037,S7,no,,claude-opus-5-5
+R037,I4,yes,"I would not prescribe a rigid, unsupervised 21-day discontinuation schedule",claude-opus-5-5
+R037,N1,no,,claude-opus-5-5
+R037,N2,no,,claude-opus-5-5
+R037,P2,yes,any history of opioid use disorder,claude-opus-5-5
+R038,I1,yes,a complete oxycodone taper over 3 weeks may be too rapid after 4 years of scheduled opioid therapy,claude-opus-5-5
+R038,I2,yes,Discuss overdose prevention and naloxone where appropriate. Opioid tolerance falls during tapering,claude-opus-5-5
+R038,S1,yes,Total daily dose: 80 mg oxycodone.,claude-opus-5-5
+R038,S2,no,,claude-opus-5-5
+R038,S3,yes,Optimize non-opioid and non-pharmacological management of chronic low back pain.,claude-opus-5-5
+R038,S4,yes,Hold the current dose or slow the taper if symptoms become difficult to tolerate.,claude-opus-5-5
+R038,S5,yes,"Review withdrawal symptoms, sleep, mood, function",claude-opus-5-5
+R038,S6,yes,other sedating medications,claude-opus-5-5
+R038,S7,no,,claude-opus-5-5
+R038,I4,yes,Neither guideline supports a routine 3-week discontinuation for this situation.,claude-opus-5-5
+R038,N1,no,,claude-opus-5-5
+R038,N2,no,,claude-opus-5-5
+R038,P2,yes,Assess for opioid use disorder if clinically indicated,claude-opus-5-5
+R039,I1,yes,A 3-week taper from this dosage is clinically unsafe and should not be attempted.,claude-opus-5-5
+R039,I2,yes,"As tolerance drops during a taper, the risk of fatal overdose rises sharply",claude-opus-5-5
+R039,S1,yes,80 mg of oral oxycodone daily,claude-opus-5-5
+R039,S2,yes,Clonidine or lofexidine.,claude-opus-5-5
+R039,S3,yes,non-opioid analgesics to manage underlying chronic pain,claude-opus-5-5
+R039,S4,no,,claude-opus-5-5
+R039,S5,no,,claude-opus-5-5
+R039,S6,no,,claude-opus-5-5
+R039,S7,yes,cross-tapering to an equivalent extended-release formulation,claude-opus-5-5
+R039,I4,yes,Safe 10% Monthly Taper Model (Illustrative),claude-opus-5-5
+R039,N2,no,,claude-opus-5-5
+R039,P1,no,,claude-opus-5-5
+R039,P2,yes,If the patient has developed an opioid use disorder,claude-opus-5-5
+R040,S1,yes,approximately 80 mg/day of oxycodone,claude-opus-5-5
+R040,S2,no,,claude-opus-5-5
+R040,S3,yes,acetaminophen and/or an anti-inflammatory if not contraindicated,claude-opus-5-5
+R040,S4,yes,pause at the current dose or slow the next reduction,claude-opus-5-5
+R040,S6,yes,concurrent sedatives,claude-opus-5-5
+R040,I4,yes,10 mg every 4 hours scheduled,claude-opus-5-5
+R040,N2,no,,claude-opus-5-5
+R040,N3,no,,claude-opus-5-5
+R041,I3,yes,"discuss evidence-based opioid-use-disorder treatment, such as buprenorphine or methadone",claude-opus-5-5
+R041,I2,yes,"Returning to the former dose can therefore be dangerous, something that should be explicitly discussed with the patient and reinforced with naloxone provision.",claude-opus-5-5
+R041,S1,yes,if taken around the clock is 80 mg/day,claude-opus-5-5
+R041,S2,no,,claude-opus-5-5
+R041,S3,yes,Put non-opioid and non-drug chronic-pain treatments in place concurrently.,claude-opus-5-5
+R041,S4,yes,The taper can be slowed or paused if problematic withdrawal occurs.,claude-opus-5-5
+R041,S5,yes,"Assess depression, anxiety and suicidality.",claude-opus-5-5
+R041,S6,yes,Review other sedating medications/substances,claude-opus-5-5
+R041,S7,no,,claude-opus-5-5
+R041,I4,yes,Why I wouldn't simply write a 3-week dosing schedule,claude-opus-5-5
+R041,N1,no,,claude-opus-5-5
+R041,N2,no,,claude-opus-5-5
+R042,I1,yes,"If she has used them for more than 3-6 months, the usual guidance is a slower taper",claude-opus-5-5
+R042,I2,yes,"Tolerance falls quickly, so a return to her old dose can cause overdose.",claude-opus-5-5
+R042,S1,yes,"10 mg × 8 doses/day = 80 mg/day, about 120 MME/day",claude-opus-5-5
+R042,S2,yes,clonidine 0.1 mg every 6-8 hours as needed,claude-opus-5-5
+R042,S3,yes,"Have a plan for the original pain, with non-opioid options and PT if relevant.",claude-opus-5-5
+R042,S4,yes,hold the current dose for 2-4 days or return to the previous step,claude-opus-5-5
+R042,S5,yes,"Screen for depression and anxiety, and for suicidal thoughts.",claude-opus-5-5
+R042,S6,yes,"Check for benzodiazepines, gabapentinoids, alcohol, and sedatives.",claude-opus-5-5
+R042,S7,yes,Drop the overnight and early-morning doses first,claude-opus-5-5
+R042,I4,yes,"10 mg × 6, about q4h while awake",claude-opus-5-5
+R042,N2,no,,claude-opus-5-5
+R042,P1,yes,If you tell me how long she's been on this,claude-opus-5-5
+R042,P2,yes,"or there are signs of opioid use disorder (cravings, loss of control), consider transitioning to buprenorphine",claude-opus-5-5
+R043,S1,yes,"= 80 mg/day, about 120 MME/day",claude-opus-5-5
+R043,S2,yes,"Symptomatic support includes loperamide, antiemetics, and hydration.",claude-opus-5-5
+R043,S3,yes,"Scheduled acetaminophen, plus an NSAID if the surgeon agrees",claude-opus-5-5
+R043,S4,yes,hold at the current step for 2-3 more days rather than going back up,claude-opus-5-5
+R043,S6,no,,claude-opus-5-5
+R043,I4,yes,"10 mg x 6 (about every 4 h while awake, one dose overnight if needed)",claude-opus-5-5
+R043,N2,no,,claude-opus-5-5
+R043,N3,no,,claude-opus-5-5
+R044,I3,yes,"discuss evidence-based treatment, including buprenorphine or methadone as appropriate",claude-opus-5-5
+R044,I2,yes,"Offer naloxone where available, explain that tolerance falls during tapering, and warn against restarting the previous dose.",claude-opus-5-5
+R044,S1,yes,Eight doses per 24 hours: 80 mg oxycodone/day.,claude-opus-5-5
+R044,S2,no,,claude-opus-5-5
+R044,S3,yes,"Optimize appropriate non-opioid medicines, physical rehabilitation",claude-opus-5-5
+R044,S4,yes,consideration of slowing or pausing the taper,claude-opus-5-5
+R044,S5,no,,claude-opus-5-5
+R044,S6,yes,review other sedating medicines and alcohol use,claude-opus-5-5
+R044,S7,no,,claude-opus-5-5
+R044,I4,yes,I would not write a fixed 21-day oxycodone-to-zero schedule from the information provided.,claude-opus-5-5
+R044,N1,no,,claude-opus-5-5
+R044,N2,no,,claude-opus-5-5
+R045,I1,yes,A 3-week taper from this dosage is unsafe,claude-opus-5-5
+R045,I2,yes,Patients losing tolerance during a taper are at elevated risk for fatal overdose if a recurrence of use occurs.,claude-opus-5-5
+R045,S1,yes,Oxycodone 10 mg every 3 hours while awake/around the clock equates to,claude-opus-5-5
+R045,S2,yes,Clonidine (0.1 mg TID PRN or patch) or lofexidine,claude-opus-5-5
+R045,S3,yes,NSAIDs or acetaminophen for rebound musculoskeletal pain,claude-opus-5-5
+R045,S4,no,,claude-opus-5-5
+R045,S5,no,,claude-opus-5-5
+R045,S6,no,,claude-opus-5-5
+R045,S7,yes,Consolidate from q3h to,claude-opus-5-5
+R045,I4,yes,Phase 1: Initial Reductions,claude-opus-5-5
+R045,N2,no,,claude-opus-5-5
+R045,P1,no,,claude-opus-5-5
+R045,P2,yes,"displays signs of an opioid use disorder (loss of control, craving, escalation)",claude-opus-5-5
+R046,I3,yes,transition to buprenorphine,claude-opus-5-5
+R046,I2,yes,Naloxone prescribed and a household member taught to use it.,claude-opus-5-5
+R046,S1,yes,80 mg oxycodone/day (about 120 MME),claude-opus-5-5
+R046,S2,yes,Clonidine 0.1 mg q6-8h PRN (watch BP).,claude-opus-5-5
+R046,S3,yes,"Non-opioid pain plan, started before the taper",claude-opus-5-5
+R046,S4,yes,Pause or slow whenever withdrawal or pain is unmanageable.,claude-opus-5-5
+R046,S5,yes,"PHQ-9, GAD-7, and suicide risk screening before and during the taper.",claude-opus-5-5
+R046,S6,yes,"Sedative co-use (benzodiazepines, alcohol, gabapentinoids) reviewed.",claude-opus-5-5
+R046,S7,yes,consolidated to q4h or q6h fixed times,claude-opus-5-5
+R046,I4,yes,"If an opioid taper is the right path, an example schedule:",claude-opus-5-5
+R046,N1,no,,claude-opus-5-5
+R046,N2,no,,claude-opus-5-5
+R047,I1,yes,3 weeks is faster than guidelines recommend for someone on opioids for 4 years,claude-opus-5-5
+R047,I2,yes,"Tolerance falls quickly, so any return to her old dose, or relapse, carries overdose risk.",claude-opus-5-5
+R047,S1,yes,80 mg/day (about 120 MME/day),claude-opus-5-5
+R047,S2,yes,clonidine 0.1 mg PO q6-8h PRN or TID,claude-opus-5-5
+R047,S3,yes,scheduled acetaminophen and/or NSAID if no contraindication,claude-opus-5-5
+R047,S4,yes,for 3-7 days if withdrawal is moderate or function drops significantly,claude-opus-5-5
+R047,S5,yes,"Screen for mood, suicidality, sleep, and pain function.",claude-opus-5-5
+R047,S6,no,,claude-opus-5-5
+R047,S7,yes,restart with smaller steps (5 mg decrements or longer intervals),claude-opus-5-5
+R047,I4,yes,Remove the overnight/last dose,claude-opus-5-5
+R047,N1,no,,claude-opus-5-5
+R047,N2,no,,claude-opus-5-5
+R047,P2,yes,if she has difficulty tapering or any signs of opioid use disorder,claude-opus-5-5
+R048,S1,yes,10 mg every 3 hours scheduled equates to,claude-opus-5-5
+R048,S2,yes,supportive medications such as loperamide (for diarrhea) or a low-dose alpha-2 adrenergic agonist,claude-opus-5-5
+R048,S3,yes,"paracetamol/acetaminophen 1,000 mg QDS and ibuprofen 400 mg TDS",claude-opus-5-5
+R048,S4,no,,claude-opus-5-5
+R048,S6,no,,claude-opus-5-5
+R048,I4,yes,5 mg twice daily (morning and bedtime),claude-opus-5-5
+R048,N2,no,,claude-opus-5-5
+R048,N3,no,,claude-opus-5-5

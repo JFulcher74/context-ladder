@@ -1,0 +1,613 @@
+code,item,met,quote,judge
+R001,I1,yes,particularly given her age and recent hospital stay 6 weeks ago,claude-opus-5-5
+R001,I2,no,,claude-opus-5-5
+R001,I3,no,,claude-opus-5-5
+R001,I5,no,,claude-opus-5-5
+R001,I4,yes,cefalexin 500 mg two to three times daily for 7 to 10 days,claude-opus-5-5
+R001,X1,no,,claude-opus-5-5
+R001,X2,yes,The recommended first-line oral antibiotic is,claude-opus-5-5
+R001,X3,no,,claude-opus-5-5
+R001,X4,no,,claude-opus-5-5
+R001,N2,no,,claude-opus-5-5
+R001,P1,yes,particularly given her age and recent hospital stay 6 weeks ago,claude-opus-5-5
+R002,I1,yes,so she is at high risk of recurrence,claude-opus-5-5
+R002,I2,yes,The main aim is to avoid the antibiotic classes most associated with CDI.,claude-opus-5-5
+R002,I3,yes,Review the omeprazole. PPIs are an independent risk factor for CDI recurrence,claude-opus-5-5
+R002,I5,yes,"or has recurrent diarrhoea, which could mean a CDI relapse",claude-opus-5-5
+R002,I4,yes,Trimethoprim 200 mg orally twice daily for 14 days,claude-opus-5-5
+R002,X1,yes,Trimethoprim 200 mg orally twice daily for 14 days is the best choice here,claude-opus-5-5
+R002,X2,no,,claude-opus-5-5
+R002,X3,no,,claude-opus-5-5
+R002,X4,no,,claude-opus-5-5
+R002,N1,no,,claude-opus-5-5
+R002,N2,no,,claude-opus-5-5
+R003,I1,yes,avoid antibiotics with a high risk of precipitating recurrence,claude-opus-5-5
+R003,I2,yes,avoids the broader-spectrum agents that are more strongly associated with C. difficile,claude-opus-5-5
+R003,I3,yes,"Review her need for omeprazole, given its association with C. difficile risk",claude-opus-5-5
+R003,I5,no,,claude-opus-5-5
+R003,I4,yes,trimethoprim 200 mg orally twice daily for 14 days,claude-opus-5-5
+R003,X1,yes,Recommended choice: trimethoprim,claude-opus-5-5
+R003,X2,no,,claude-opus-5-5
+R003,X3,no,,claude-opus-5-5
+R003,X4,no,,claude-opus-5-5
+R003,N1,no,,claude-opus-5-5
+R003,N2,no,,claude-opus-5-5
+R004,I1,yes,requiring oral vancomycin indicates a recent episode of,claude-opus-5-5
+R004,I2,yes,Carries a substantially lower risk of inducing CDI recurrence,claude-opus-5-5
+R004,I3,yes,re-evaluate whether continued PPI therapy is necessary,claude-opus-5-5
+R004,I5,yes,or if diarrhoea recurs,claude-opus-5-5
+R004,I4,yes,Trimethoprim 200 mg twice daily for 14 days,claude-opus-5-5
+R004,X1,yes,is the most appropriate prescription,claude-opus-5-5
+R004,X2,no,,claude-opus-5-5
+R004,X3,no,,claude-opus-5-5
+R004,X4,no,,claude-opus-5-5
+R004,N1,no,,claude-opus-5-5
+R004,N2,no,,claude-opus-5-5
+R005,I1,yes,Confirm what antibiotics she received during her hospital admission,claude-opus-5-5
+R005,I2,no,,claude-opus-5-5
+R005,I3,no,,claude-opus-5-5
+R005,I5,no,,claude-opus-5-5
+R005,I4,yes,500 mg two or three times daily for 7–10 days,claude-opus-5-5
+R005,X1,no,,claude-opus-5-5
+R005,X2,yes,Oral cefalexin is a reasonable first choice,claude-opus-5-5
+R005,X3,no,,claude-opus-5-5
+R005,X4,no,,claude-opus-5-5
+R005,N2,no,,claude-opus-5-5
+R005,P1,no,,claude-opus-5-5
+R006,I4,yes,Cefalexin 500 mg orally twice or three times daily for 7–10 days,claude-opus-5-5
+R006,X1,no,,claude-opus-5-5
+R006,X2,yes,cefalexin would be my first choice,claude-opus-5-5
+R006,X3,no,,claude-opus-5-5
+R006,X4,no,,claude-opus-5-5
+R006,N2,no,,claude-opus-5-5
+R006,N3,no,,claude-opus-5-5
+R007,I1,yes,are the highest-risk triggers for,claude-opus-5-5
+R007,I2,yes,carries a significantly lower risk of inducing,claude-opus-5-5
+R007,I3,no,,claude-opus-5-5
+R007,I5,no,,claude-opus-5-5
+R007,I4,yes,Prescribe oral trimethoprim: 200 mg twice daily for 14 days,claude-opus-5-5
+R007,X1,yes,Prescribe oral trimethoprim,claude-opus-5-5
+R007,X2,no,,claude-opus-5-5
+R007,X3,no,,claude-opus-5-5
+R007,X4,no,,claude-opus-5-5
+R007,N1,no,,claude-opus-5-5
+R007,N2,no,,claude-opus-5-5
+R008,I4,yes,Cefalexin 500 mg orally three times daily for 7 days,claude-opus-5-5
+R008,X1,no,,claude-opus-5-5
+R008,X2,yes,cefalexin would be my first choice,claude-opus-5-5
+R008,X3,no,,claude-opus-5-5
+R008,X4,no,,claude-opus-5-5
+R008,N2,no,,claude-opus-5-5
+R008,N3,no,,claude-opus-5-5
+R009,I4,yes,cefalexin 500 mg two to three times a day for 7 to 10 days,claude-opus-5-5
+R009,X1,no,,claude-opus-5-5
+R009,X2,yes,is the preferred first-choice oral agent,claude-opus-5-5
+R009,X3,no,,claude-opus-5-5
+R009,X4,no,,claude-opus-5-5
+R009,N2,no,,claude-opus-5-5
+R009,N3,no,,claude-opus-5-5
+R010,I1,yes,check which antibiotics she received,claude-opus-5-5
+R010,I2,no,,claude-opus-5-5
+R010,I3,no,,claude-opus-5-5
+R010,I5,no,,claude-opus-5-5
+R010,I4,yes,Cefalexin 500 mg orally twice or three times daily for 7–10 days,claude-opus-5-5
+R010,X1,no,,claude-opus-5-5
+R010,X2,yes,cefalexin is a reasonable first-choice oral option,claude-opus-5-5
+R010,X3,no,,claude-opus-5-5
+R010,X4,no,,claude-opus-5-5
+R010,N2,no,,claude-opus-5-5
+R010,P1,no,,claude-opus-5-5
+R011,I1,no,,claude-opus-5-5
+R011,I2,no,,claude-opus-5-5
+R011,I3,no,,claude-opus-5-5
+R011,I5,no,,claude-opus-5-5
+R011,I4,yes,500 mg two to three times daily for,claude-opus-5-5
+R011,X1,no,,claude-opus-5-5
+R011,X2,yes,as first-line therapy,claude-opus-5-5
+R011,X3,yes,as first-line therapy,claude-opus-5-5
+R011,X4,no,,claude-opus-5-5
+R011,N2,no,,claude-opus-5-5
+R011,P1,no,,claude-opus-5-5
+R012,I1,no,,claude-opus-5-5
+R012,I2,no,,claude-opus-5-5
+R012,I3,no,,claude-opus-5-5
+R012,I5,no,,claude-opus-5-5
+R012,I4,yes,500 mg twice or three times daily,claude-opus-5-5
+R012,X1,no,,claude-opus-5-5
+R012,X2,yes,Cefalexin is the best choice here.,claude-opus-5-5
+R012,X3,no,,claude-opus-5-5
+R012,X4,no,,claude-opus-5-5
+R012,N2,no,,claude-opus-5-5
+R012,P1,no,,claude-opus-5-5
+R013,I1,no,,claude-opus-5-5
+R013,I2,no,,claude-opus-5-5
+R013,I3,no,,claude-opus-5-5
+R013,I5,no,,claude-opus-5-5
+R013,I4,yes,Cefalexin 500 mg two to three times daily for 7 to 10 days,claude-opus-5-5
+R013,X1,no,,claude-opus-5-5
+R013,X2,yes,is the preferred first-line choice,claude-opus-5-5
+R013,X3,yes,An equally valid first-line option,claude-opus-5-5
+R013,X4,no,,claude-opus-5-5
+R013,N2,no,,claude-opus-5-5
+R013,P1,no,,claude-opus-5-5
+R014,I1,yes,previous microbiology/antibiotic exposure,claude-opus-5-5
+R014,I2,no,,claude-opus-5-5
+R014,I3,no,,claude-opus-5-5
+R014,I5,no,,claude-opus-5-5
+R014,I4,yes,Cefalexin 500 mg PO three times daily for 7 days,claude-opus-5-5
+R014,X1,no,,claude-opus-5-5
+R014,X2,yes,I would choose oral cefalexin,claude-opus-5-5
+R014,X3,no,,claude-opus-5-5
+R014,X4,no,,claude-opus-5-5
+R014,N2,no,,claude-opus-5-5
+R014,P1,no,,claude-opus-5-5
+R015,I1,yes,the recent Clostridioides difficile infection makes antibiotic stewardship especially important,claude-opus-5-5
+R015,I2,yes,Her recent C. difficile infection makes minimising antibiotic-associated harm particularly important.,claude-opus-5-5
+R015,I3,no,,claude-opus-5-5
+R015,I5,no,,claude-opus-5-5
+R015,I4,yes,oral trimethoprim 200 mg twice daily for 14 days,claude-opus-5-5
+R015,X1,yes,The most appropriate choice is likely oral trimethoprim,claude-opus-5-5
+R015,X2,no,,claude-opus-5-5
+R015,X3,no,,claude-opus-5-5
+R015,X4,no,,claude-opus-5-5
+R015,N1,no,,claude-opus-5-5
+R015,N2,no,,claude-opus-5-5
+R016,I1,yes,"Cephalosporins, co-amoxiclav and quinolones are recognised higher-risk antibiotic groups for C. difficile infection.",claude-opus-5-5
+R016,I2,yes,her recent hospital admission (6 weeks ago) makes avoiding broader-spectrum agents particularly attractive,claude-opus-5-5
+R016,I3,no,,claude-opus-5-5
+R016,I5,no,,claude-opus-5-5
+R016,I4,yes,trimethoprim 200 mg orally twice daily for 14 days,claude-opus-5-5
+R016,X1,yes,I would choose trimethoprim,claude-opus-5-5
+R016,X2,no,,claude-opus-5-5
+R016,X3,no,,claude-opus-5-5
+R016,X4,no,,claude-opus-5-5
+R016,N2,no,,claude-opus-5-5
+R016,P1,yes,her recent hospital admission (6 weeks ago) makes avoiding broader-spectrum agents particularly attractive,claude-opus-5-5
+R017,I1,yes,so she is at high risk of recurrence,claude-opus-5-5
+R017,I2,yes,the antibiotic with the lowest CDI risk that is effective should be used,claude-opus-5-5
+R017,I3,yes,Review whether she still needs the omeprazole. PPIs are a recognised risk factor for CDI recurrence,claude-opus-5-5
+R017,I5,yes,return or seek review if diarrhoea develops,claude-opus-5-5
+R017,I4,yes,Trimethoprim 200 mg orally twice daily for 14 days,claude-opus-5-5
+R017,X1,yes,is the best choice here,claude-opus-5-5
+R017,X2,no,,claude-opus-5-5
+R017,X3,no,,claude-opus-5-5
+R017,X4,no,,claude-opus-5-5
+R017,N1,no,,claude-opus-5-5
+R017,N2,no,,claude-opus-5-5
+R018,I1,no,,claude-opus-5-5
+R018,I2,no,,claude-opus-5-5
+R018,I3,no,,claude-opus-5-5
+R018,I5,no,,claude-opus-5-5
+R018,I4,yes,Cefalexin 500 mg orally three times daily for 7–10 days,claude-opus-5-5
+R018,X1,no,,claude-opus-5-5
+R018,X2,yes,Cefalexin 500 mg orally three times daily for 7–10 days is a reasonable choice,claude-opus-5-5
+R018,X3,no,,claude-opus-5-5
+R018,X4,no,,claude-opus-5-5
+R018,N2,no,,claude-opus-5-5
+R018,P1,no,,claude-opus-5-5
+R019,I1,yes,avoiding another high-risk antibiotic is important,claude-opus-5-5
+R019,I2,yes,particularly because of her very recent C. difficile treatment,claude-opus-5-5
+R019,I3,yes,reviewing whether a proton-pump inhibitor such as omeprazole remains necessary in patients with C. difficile,claude-opus-5-5
+R019,I5,no,,claude-opus-5-5
+R019,I4,yes,Trimethoprim 200 mg orally twice daily for 14 days.,claude-opus-5-5
+R019,X1,yes,Best choice: trimethoprim,claude-opus-5-5
+R019,X2,no,,claude-opus-5-5
+R019,X3,no,,claude-opus-5-5
+R019,X4,no,,claude-opus-5-5
+R019,N1,no,,claude-opus-5-5
+R019,N2,no,,claude-opus-5-5
+R020,I1,yes,within the highest-risk window,claude-opus-5-5
+R020,I2,yes,carrying a substantially lower risk of provoking recurrent,claude-opus-5-5
+R020,I3,yes,Omeprazole increases the risk of,claude-opus-5-5
+R020,I5,yes,Advise her to report any return of watery diarrhoea immediately.,claude-opus-5-5
+R020,I4,yes,trimethoprim 200 mg orally twice daily for 14 days,claude-opus-5-5
+R020,X1,yes,Prescribe,claude-opus-5-5
+R020,X2,no,,claude-opus-5-5
+R020,X3,no,,claude-opus-5-5
+R020,X4,no,,claude-opus-5-5
+R020,N1,no,,claude-opus-5-5
+R020,N2,no,,claude-opus-5-5
+R021,I1,no,,claude-opus-5-5
+R021,I2,no,,claude-opus-5-5
+R021,I3,no,,claude-opus-5-5
+R021,I5,no,,claude-opus-5-5
+R021,I4,yes,"500 mg orally, two to three times daily",claude-opus-5-5
+R021,X1,no,,claude-opus-5-5
+R021,X2,yes,The recommended first-line oral antibiotic to prescribe is,claude-opus-5-5
+R021,X3,no,,claude-opus-5-5
+R021,X4,no,,claude-opus-5-5
+R021,N2,no,,claude-opus-5-5
+R021,P1,no,,claude-opus-5-5
+R022,I1,yes,places the patient at highest risk for recurrence,claude-opus-5-5
+R022,I2,yes,Trimethoprim carries a significantly lower risk of inducing recurrent CDI,claude-opus-5-5
+R022,I3,yes,review whether ongoing omeprazole therapy remains clinically indicated,claude-opus-5-5
+R022,I5,yes,"or if she develops loose, watery stools",claude-opus-5-5
+R022,I4,yes,oral trimethoprim 200 mg twice daily for 14 days,claude-opus-5-5
+R022,X1,yes,oral trimethoprim 200 mg twice daily for 14 days,claude-opus-5-5
+R022,X2,no,,claude-opus-5-5
+R022,X3,no,,claude-opus-5-5
+R022,X4,no,,claude-opus-5-5
+R022,N1,no,,claude-opus-5-5
+R022,N2,no,,claude-opus-5-5
+R023,I4,yes,500 mg twice to three times daily,claude-opus-5-5
+R023,X1,no,,claude-opus-5-5
+R023,X2,yes,Cefalexin is the best choice,claude-opus-5-5
+R023,X3,no,,claude-opus-5-5
+R023,X4,no,,claude-opus-5-5
+R023,N2,no,,claude-opus-5-5
+R023,N3,no,,claude-opus-5-5
+R024,I1,no,,claude-opus-5-5
+R024,I2,no,,claude-opus-5-5
+R024,I3,no,,claude-opus-5-5
+R024,I5,no,,claude-opus-5-5
+R024,I4,yes,Cefalexin 500 mg PO three times daily for 7–10 days,claude-opus-5-5
+R024,X1,no,,claude-opus-5-5
+R024,X2,yes,I would prescribe cefalexin orally,claude-opus-5-5
+R024,X3,no,,claude-opus-5-5
+R024,X4,no,,claude-opus-5-5
+R024,N2,no,,claude-opus-5-5
+R024,P1,no,,claude-opus-5-5
+R025,I1,yes,she is at extraordinarily high risk of recurrent CDI,claude-opus-5-5
+R025,I2,yes,carries a significantly lower risk of inducing,claude-opus-5-5
+R025,I3,no,,claude-opus-5-5
+R025,I5,yes,Advise her to report immediately if loose stools/diarrhoea recur,claude-opus-5-5
+R025,I4,yes,Trimethoprim 200 mg twice daily for 14 days,claude-opus-5-5
+R025,X1,yes,is the most appropriate antibiotic for this patient,claude-opus-5-5
+R025,X2,no,,claude-opus-5-5
+R025,X3,no,,claude-opus-5-5
+R025,X4,no,,claude-opus-5-5
+R025,N1,no,,claude-opus-5-5
+R025,N2,no,,claude-opus-5-5
+R026,I1,no,,claude-opus-5-5
+R026,I2,no,,claude-opus-5-5
+R026,I3,no,,claude-opus-5-5
+R026,I5,no,,claude-opus-5-5
+R026,I4,yes,Cefalexin 500 mg PO three times daily for 7–10 days,claude-opus-5-5
+R026,X1,no,,claude-opus-5-5
+R026,X2,yes,cefalexin is the straightforward first-choice agent here,claude-opus-5-5
+R026,X3,no,,claude-opus-5-5
+R026,X4,no,,claude-opus-5-5
+R026,N2,no,,claude-opus-5-5
+R026,P1,no,,claude-opus-5-5
+R027,I4,yes,Cefalexin 500 mg orally three times daily for 7–10 days,claude-opus-5-5
+R027,X1,no,,claude-opus-5-5
+R027,X2,yes,is a reasonable first-choice option under NICE guidance,claude-opus-5-5
+R027,X3,no,,claude-opus-5-5
+R027,X4,no,,claude-opus-5-5
+R027,N2,no,,claude-opus-5-5
+R027,N3,no,,claude-opus-5-5
+R028,I4,yes,Cefalexin 500 mg orally three times daily for 7–10 days,claude-opus-5-5
+R028,X1,no,,claude-opus-5-5
+R028,X2,yes,is a reasonable first-choice option under NICE guideline NG111,claude-opus-5-5
+R028,X3,no,,claude-opus-5-5
+R028,X4,no,,claude-opus-5-5
+R028,N2,no,,claude-opus-5-5
+R028,N3,no,,claude-opus-5-5
+R029,I1,yes,reviewing previous cultures and antibiotic exposure,claude-opus-5-5
+R029,I2,no,,claude-opus-5-5
+R029,I3,no,,claude-opus-5-5
+R029,I5,no,,claude-opus-5-5
+R029,I4,yes,Cefalexin 500 mg orally three times daily for 7–10 days.,claude-opus-5-5
+R029,X1,no,,claude-opus-5-5
+R029,X2,yes,cefalexin is the most appropriate choice,claude-opus-5-5
+R029,X3,no,,claude-opus-5-5
+R029,X4,no,,claude-opus-5-5
+R029,N2,no,,claude-opus-5-5
+R029,P1,no,,claude-opus-5-5
+R030,I1,yes,she is in the highest-risk window for recurrence,claude-opus-5-5
+R030,I2,yes,carries the lowest C. difficile risk of the options,claude-opus-5-5
+R030,I3,yes,Review the omeprazole. PPIs are a modifiable risk factor for CDI recurrence,claude-opus-5-5
+R030,I5,yes,Advise her to seek review promptly if she gets new diarrhoea,claude-opus-5-5
+R030,I4,yes,Trimethoprim 200 mg orally twice daily for 14 days,claude-opus-5-5
+R030,X1,yes,Trimethoprim 200 mg orally twice daily for 14 days looks like the best choice,claude-opus-5-5
+R030,X2,no,,claude-opus-5-5
+R030,X3,no,,claude-opus-5-5
+R030,X4,no,,claude-opus-5-5
+R030,N1,no,,claude-opus-5-5
+R030,N2,no,,claude-opus-5-5
+R031,I1,yes,Given the very recent C. difficile infection,claude-opus-5-5
+R031,I2,yes,The recent C. difficile episode materially changes the risk-benefit calculation,claude-opus-5-5
+R031,I3,yes,I would check whether there is still a genuine indication for the proton-pump inhibitor,claude-opus-5-5
+R031,I5,yes,report new significant diarrhoea promptly,claude-opus-5-5
+R031,I4,yes,trimethoprim 200 mg orally twice daily for 14 days,claude-opus-5-5
+R031,X1,yes,Best choice: trimethoprim,claude-opus-5-5
+R031,X2,no,,claude-opus-5-5
+R031,X3,no,,claude-opus-5-5
+R031,X4,no,,claude-opus-5-5
+R031,N1,no,,claude-opus-5-5
+R031,N2,no,,claude-opus-5-5
+R032,I1,yes,the Clostridioides difficile infection only 6 weeks ago,claude-opus-5-5
+R032,I2,yes,The recent C. difficile infection materially changes the antibiotic choice,claude-opus-5-5
+R032,I3,yes,I would also review whether omeprazole remains necessary,claude-opus-5-5
+R032,I5,no,,claude-opus-5-5
+R032,I4,yes,Trimethoprim: 200 mg orally twice daily for 14 days,claude-opus-5-5
+R032,X1,yes,I would favour trimethoprim,claude-opus-5-5
+R032,X2,no,,claude-opus-5-5
+R032,X3,no,,claude-opus-5-5
+R032,X4,no,,claude-opus-5-5
+R032,N1,no,,claude-opus-5-5
+R032,N2,no,,claude-opus-5-5
+R033,I1,yes,check her discharge antibiotic history,claude-opus-5-5
+R033,I2,no,,claude-opus-5-5
+R033,I3,no,,claude-opus-5-5
+R033,I5,no,,claude-opus-5-5
+R033,I4,yes,cefalexin 500 mg orally three times daily for 7–10 days,claude-opus-5-5
+R033,X1,no,,claude-opus-5-5
+R033,X2,yes,A reasonable choice is cefalexin,claude-opus-5-5
+R033,X3,no,,claude-opus-5-5
+R033,X4,no,,claude-opus-5-5
+R033,N2,no,,claude-opus-5-5
+R033,P1,no,,claude-opus-5-5
+R034,I1,yes,suggests a recent C. difficile infection,claude-opus-5-5
+R034,I2,yes,Trimethoprim carries a comparatively low C. difficile risk,claude-opus-5-5
+R034,I3,yes,"Review whether she still needs the omeprazole, as stopping unnecessary PPIs reduces recurrence risk",claude-opus-5-5
+R034,I5,yes,Advise her to seek help promptly if diarrhoea returns,claude-opus-5-5
+R034,I4,yes,Trimethoprim 200 mg orally twice daily for 14 days,claude-opus-5-5
+R034,X1,yes,Trimethoprim 200 mg orally twice daily for 14 days is the best fit,claude-opus-5-5
+R034,X2,no,,claude-opus-5-5
+R034,X3,no,,claude-opus-5-5
+R034,X4,no,,claude-opus-5-5
+R034,N1,no,,claude-opus-5-5
+R034,N2,no,,claude-opus-5-5
+R035,I4,yes,Cefalexin 500 mg orally three times daily for 7 days.,claude-opus-5-5
+R035,X1,no,,claude-opus-5-5
+R035,X2,yes,cefalexin would be my first choice,claude-opus-5-5
+R035,X3,no,,claude-opus-5-5
+R035,X4,no,,claude-opus-5-5
+R035,N2,no,,claude-opus-5-5
+R035,N3,no,,claude-opus-5-5
+R036,I1,yes,raises concern for recent Clostridioides difficile infection,claude-opus-5-5
+R036,I2,yes,Recent C. difficile: avoid broader-spectrum agents where a suitable alternative exists,claude-opus-5-5
+R036,I3,no,,claude-opus-5-5
+R036,I5,no,,claude-opus-5-5
+R036,I4,yes,trimethoprim 200 mg orally twice daily for 14 days,claude-opus-5-5
+R036,X1,yes,A reasonable choice is trimethoprim,claude-opus-5-5
+R036,X2,no,,claude-opus-5-5
+R036,X3,no,,claude-opus-5-5
+R036,X4,no,,claude-opus-5-5
+R036,N1,no,,claude-opus-5-5
+R036,N2,no,,claude-opus-5-5
+R037,I1,yes,I would treat this as a patient at appreciable risk of recurrence,claude-opus-5-5
+R037,I2,yes,assuming the previous diarrhoeal admission was CDI,claude-opus-5-5
+R037,I3,yes,I would check whether there is still a good indication for the proton-pump inhibitor,claude-opus-5-5
+R037,I5,no,,claude-opus-5-5
+R037,I4,yes,Trimethoprim 200 mg orally twice daily for 14 days,claude-opus-5-5
+R037,X1,yes,Preferred choice,claude-opus-5-5
+R037,X2,no,,claude-opus-5-5
+R037,X3,no,,claude-opus-5-5
+R037,X4,no,,claude-opus-5-5
+R037,N1,no,,claude-opus-5-5
+R037,N2,no,,claude-opus-5-5
+R038,I1,yes,The key prescribing issue is her recent Clostridioides difficile infection (CDI),claude-opus-5-5
+R038,I2,yes,minimises the risk of recurrent CDI,claude-opus-5-5
+R038,I3,yes,"Review whether omeprazole is still needed, given the recent CDI",claude-opus-5-5
+R038,I5,no,,claude-opus-5-5
+R038,I4,yes,trimethoprim 200 mg orally twice daily for 14 days,claude-opus-5-5
+R038,X1,yes,Most reasonable choice: trimethoprim,claude-opus-5-5
+R038,X2,no,,claude-opus-5-5
+R038,X3,no,,claude-opus-5-5
+R038,X4,no,,claude-opus-5-5
+R038,N1,no,,claude-opus-5-5
+R038,N2,no,,claude-opus-5-5
+R039,I1,no,,claude-opus-5-5
+R039,I2,no,,claude-opus-5-5
+R039,I3,no,,claude-opus-5-5
+R039,I5,no,,claude-opus-5-5
+R039,I4,yes,Cefalexin 500 mg orally two or three times daily for 7–10 days,claude-opus-5-5
+R039,X1,no,,claude-opus-5-5
+R039,X2,yes,I would prescribe oral cefalexin,claude-opus-5-5
+R039,X3,no,,claude-opus-5-5
+R039,X4,no,,claude-opus-5-5
+R039,N2,no,,claude-opus-5-5
+R039,P1,no,,claude-opus-5-5
+R040,I1,yes,The key issue here is the very recent Clostridioides difficile infection,claude-opus-5-5
+R040,I2,yes,specifically because of her very recent C. difficile infection,claude-opus-5-5
+R040,I3,yes,Also reconsider whether omeprazole is still clinically required,claude-opus-5-5
+R040,I5,no,,claude-opus-5-5
+R040,I4,no,,claude-opus-5-5
+R040,X1,yes,Preferred option: trimethoprim,claude-opus-5-5
+R040,X2,no,,claude-opus-5-5
+R040,X3,no,,claude-opus-5-5
+R040,X4,no,,claude-opus-5-5
+R040,N1,no,,claude-opus-5-5
+R040,N2,no,,claude-opus-5-5
+R041,I1,yes,she had CDI only 6 weeks ago,claude-opus-5-5
+R041,I2,yes,It carries a low risk of C. difficile infection,claude-opus-5-5
+R041,I3,yes,"PPIs are an independent risk factor for CDI recurrence, so stop or step down",claude-opus-5-5
+R041,I5,yes,any new loose stools during or after the course should prompt urgent testing for CDI recurrence,claude-opus-5-5
+R041,I4,yes,Trimethoprim 200 mg orally twice daily for 14 days,claude-opus-5-5
+R041,X1,yes,Trimethoprim 200 mg orally twice daily for 14 days is the best choice here,claude-opus-5-5
+R041,X2,no,,claude-opus-5-5
+R041,X3,no,,claude-opus-5-5
+R041,X4,no,,claude-opus-5-5
+R041,N1,no,,claude-opus-5-5
+R041,N2,no,,claude-opus-5-5
+R042,I1,yes,infection 6 weeks ago puts her at high risk of recurrence,claude-opus-5-5
+R042,I2,yes,has a much lower CDI association,claude-opus-5-5
+R042,I3,yes,Stopping or stepping down the PPI would reduce her risk of CDI recurrence,claude-opus-5-5
+R042,I5,yes,any new diarrhoea (3 or more loose stools in 24 hours) should prompt prompt medical review,claude-opus-5-5
+R042,I4,yes,Trimethoprim 200 mg orally twice daily for 14 days,claude-opus-5-5
+R042,X1,yes,is the most appropriate choice,claude-opus-5-5
+R042,X2,no,,claude-opus-5-5
+R042,X3,no,,claude-opus-5-5
+R042,X4,no,,claude-opus-5-5
+R042,N1,no,,claude-opus-5-5
+R042,N2,no,,claude-opus-5-5
+R043,I1,no,,claude-opus-5-5
+R043,I2,no,,claude-opus-5-5
+R043,I3,no,,claude-opus-5-5
+R043,I5,no,,claude-opus-5-5
+R043,I4,yes,cefalexin 500 mg orally three times daily for 7 days,claude-opus-5-5
+R043,X1,no,,claude-opus-5-5
+R043,X2,yes,Recommended prescription: cefalexin,claude-opus-5-5
+R043,X3,no,,claude-opus-5-5
+R043,X4,no,,claude-opus-5-5
+R043,N2,no,,claude-opus-5-5
+R043,P1,no,,claude-opus-5-5
+R044,I1,yes,"Recent hospital discharge, age over 65 and regular PPI use all raise this risk",claude-opus-5-5
+R044,I2,no,,claude-opus-5-5
+R044,I3,no,,claude-opus-5-5
+R044,I5,yes,"if she develops diarrhoea, which could signal C. difficile",claude-opus-5-5
+R044,I4,yes,cefalexin 500 mg orally twice daily (up to three times daily) for 7-10 days,claude-opus-5-5
+R044,X1,no,,claude-opus-5-5
+R044,X2,yes,Suggested choice: cefalexin,claude-opus-5-5
+R044,X3,no,,claude-opus-5-5
+R044,X4,no,,claude-opus-5-5
+R044,N2,no,,claude-opus-5-5
+R044,P1,yes,"Recent hospital discharge, age over 65 and regular PPI use all raise this risk",claude-opus-5-5
+R045,I1,yes,Her hospital stay 6 weeks ago raises the risk of resistant organisms and C. difficile,claude-opus-5-5
+R045,I2,no,,claude-opus-5-5
+R045,I3,yes,consider whether she still needs the omeprazole,claude-opus-5-5
+R045,I5,yes,Counsel her to report diarrhoea early,claude-opus-5-5
+R045,I4,yes,oral cefalexin 500 mg twice or three times daily for 7 to 10 days,claude-opus-5-5
+R045,X1,no,,claude-opus-5-5
+R045,X2,yes,Recommendation: oral cefalexin,claude-opus-5-5
+R045,X3,no,,claude-opus-5-5
+R045,X4,no,,claude-opus-5-5
+R045,N2,no,,claude-opus-5-5
+R045,P1,yes,Her hospital stay 6 weeks ago raises the risk of resistant organisms and C. difficile,claude-opus-5-5
+R046,I1,no,,claude-opus-5-5
+R046,I2,no,,claude-opus-5-5
+R046,I3,no,,claude-opus-5-5
+R046,I5,no,,claude-opus-5-5
+R046,I4,yes,"oral cefalexin, 500 mg twice or three times daily",claude-opus-5-5
+R046,X1,no,,claude-opus-5-5
+R046,X2,yes,Recommendation: oral cefalexin,claude-opus-5-5
+R046,X3,no,,claude-opus-5-5
+R046,X4,no,,claude-opus-5-5
+R046,N2,no,,claude-opus-5-5
+R046,P1,no,,claude-opus-5-5
+R047,I4,yes,Cefalexin 500 mg orally three times daily for 7–10 days,claude-opus-5-5
+R047,X1,no,,claude-opus-5-5
+R047,X2,yes,Cefalexin is a reasonable answer for this case,claude-opus-5-5
+R047,X3,no,,claude-opus-5-5
+R047,X4,no,,claude-opus-5-5
+R047,N2,no,,claude-opus-5-5
+R047,N3,no,,claude-opus-5-5
+R048,I1,yes,particularly in the context of recent hospital discharge and ongoing omeprazole therapy,claude-opus-5-5
+R048,I2,no,,claude-opus-5-5
+R048,I3,no,,claude-opus-5-5
+R048,I5,no,,claude-opus-5-5
+R048,I4,yes,"Cefalexin 500 mg orally, two to three times daily for 7 to 10 days",claude-opus-5-5
+R048,X1,no,,claude-opus-5-5
+R048,X2,yes,Cefalexin (Preferred),claude-opus-5-5
+R048,X3,no,,claude-opus-5-5
+R048,X4,no,,claude-opus-5-5
+R048,N2,no,,claude-opus-5-5
+R048,P1,yes,particularly in the context of recent hospital discharge and ongoing omeprazole therapy,claude-opus-5-5
+R049,I1,yes,a documented CDI episode just 6 weeks ago,claude-opus-5-5
+R049,I2,yes,carries a significantly lower risk of inducing,claude-opus-5-5
+R049,I3,yes,"Review whether omeprazole can be temporarily stopped, dose-reduced, or stepped down",claude-opus-5-5
+R049,I5,yes,Advise her to report any return of watery diarrhea immediately,claude-opus-5-5
+R049,I4,yes,14 days (standard course for acute pyelonephritis when using trimethoprim),claude-opus-5-5
+R049,X1,yes,(200 mg orally twice daily) is the preferred choice,claude-opus-5-5
+R049,X2,no,,claude-opus-5-5
+R049,X3,no,,claude-opus-5-5
+R049,X4,no,,claude-opus-5-5
+R049,N1,no,,claude-opus-5-5
+R049,N2,no,,claude-opus-5-5
+R050,I4,yes,500 mg twice or three times daily for 7-10 days,claude-opus-5-5
+R050,X1,no,,claude-opus-5-5
+R050,X2,yes,Prescribe cefalexin,claude-opus-5-5
+R050,X3,no,,claude-opus-5-5
+R050,X4,no,,claude-opus-5-5
+R050,N2,no,,claude-opus-5-5
+R050,N3,no,,claude-opus-5-5
+R051,I1,yes,She remains at high risk of recurrence,claude-opus-5-5
+R051,I2,yes,carries a significantly lower risk of inducing,claude-opus-5-5
+R051,I3,yes,Review her ongoing need for omeprazole once recovered,claude-opus-5-5
+R051,I5,yes,or diarrhoea recurs,claude-opus-5-5
+R051,I4,yes,(200 mg twice daily for 14 days),claude-opus-5-5
+R051,X1,yes,oral trimethoprim,claude-opus-5-5
+R051,X2,no,,claude-opus-5-5
+R051,X3,no,,claude-opus-5-5
+R051,X4,no,,claude-opus-5-5
+R051,N1,no,,claude-opus-5-5
+R051,N2,no,,claude-opus-5-5
+R052,I1,no,,claude-opus-5-5
+R052,I2,no,,claude-opus-5-5
+R052,I3,no,,claude-opus-5-5
+R052,I5,no,,claude-opus-5-5
+R052,I4,yes,cefalexin 500 mg orally twice to three times daily for 7-10 days,claude-opus-5-5
+R052,X1,no,,claude-opus-5-5
+R052,X2,yes,Recommended: cefalexin,claude-opus-5-5
+R052,X3,no,,claude-opus-5-5
+R052,X4,no,,claude-opus-5-5
+R052,N2,no,,claude-opus-5-5
+R052,P1,no,,claude-opus-5-5
+R053,I4,yes,500 mg two to three times daily for,claude-opus-5-5
+R053,X1,no,,claude-opus-5-5
+R053,X2,yes,is the most appropriate first-line choice under UK practice,claude-opus-5-5
+R053,X3,no,,claude-opus-5-5
+R053,X4,no,,claude-opus-5-5
+R053,N2,no,,claude-opus-5-5
+R053,N3,no,,claude-opus-5-5
+R054,I4,yes,cefalexin 500 mg two to three times daily for 7 to 10 days,claude-opus-5-5
+R054,X1,no,,claude-opus-5-5
+R054,X2,yes,Cefalexin (Preferred First-Line),claude-opus-5-5
+R054,X3,no,,claude-opus-5-5
+R054,X4,no,,claude-opus-5-5
+R054,N2,no,,claude-opus-5-5
+R054,N3,no,,claude-opus-5-5
+R055,I4,yes,cefalexin 500 mg twice or three times daily for 7-10 days,claude-opus-5-5
+R055,X1,no,,claude-opus-5-5
+R055,X2,yes,Cefalexin is the best choice here,claude-opus-5-5
+R055,X3,no,,claude-opus-5-5
+R055,X4,no,,claude-opus-5-5
+R055,N2,no,,claude-opus-5-5
+R055,N3,no,,claude-opus-5-5
+R056,I1,yes,The key prescribing consideration is her recent Clostridioides difficile infection (CDI),claude-opus-5-5
+R056,I2,yes,"It avoids ciprofloxacin and co-amoxiclav, which are less attractive given her recent CDI",claude-opus-5-5
+R056,I3,no,,claude-opus-5-5
+R056,I5,no,,claude-opus-5-5
+R056,I4,yes,trimethoprim 200 mg orally twice daily for 14 days,claude-opus-5-5
+R056,X1,yes,Preferred choice: trimethoprim,claude-opus-5-5
+R056,X2,no,,claude-opus-5-5
+R056,X3,no,,claude-opus-5-5
+R056,X4,no,,claude-opus-5-5
+R056,N1,no,,claude-opus-5-5
+R056,N2,no,,claude-opus-5-5
+R057,I1,yes,the very recent Clostridioides difficile infection,claude-opus-5-5
+R057,I2,yes,"With confirmed trimethoprim susceptibility and C. difficile only six weeks ago, trimethoprim offers a more attractive stewardship choice",claude-opus-5-5
+R057,I3,yes,review whether she still has a clear indication for proton-pump inhibitor treatment,claude-opus-5-5
+R057,I5,yes,reassess promptly for significant diarrhoea,claude-opus-5-5
+R057,I4,yes,Trimethoprim 200 mg orally twice daily for 14 days.,claude-opus-5-5
+R057,X1,yes,I would favour trimethoprim,claude-opus-5-5
+R057,X2,no,,claude-opus-5-5
+R057,X3,no,,claude-opus-5-5
+R057,X4,no,,claude-opus-5-5
+R057,N1,no,,claude-opus-5-5
+R057,N2,no,,claude-opus-5-5
+R058,I1,yes,Her hospitalisation 6 weeks ago and daily PPI both raise C. difficile risk with any antibiotic,claude-opus-5-5
+R058,I2,no,,claude-opus-5-5
+R058,I3,yes,review whether she still needs the omeprazole,claude-opus-5-5
+R058,I5,yes,Counsel her to report diarrhoea promptly,claude-opus-5-5
+R058,I4,yes,cefalexin 500 mg orally twice or three times daily for 7-10 days,claude-opus-5-5
+R058,X1,no,,claude-opus-5-5
+R058,X2,yes,Suggested choice: cefalexin,claude-opus-5-5
+R058,X3,no,,claude-opus-5-5
+R058,X4,no,,claude-opus-5-5
+R058,N2,no,,claude-opus-5-5
+R058,P1,yes,Her hospitalisation 6 weeks ago and daily PPI both raise C. difficile risk with any antibiotic,claude-opus-5-5
+R059,I1,yes,"given her recent hospital admission 6 weeks ago, cefalexin carries a slightly lower risk of selecting for",claude-opus-5-5
+R059,I2,no,,claude-opus-5-5
+R059,I3,no,,claude-opus-5-5
+R059,I5,no,,claude-opus-5-5
+R059,I4,yes,cefalexin 500 mg twice or three times daily for 7 to 10 days,claude-opus-5-5
+R059,X1,no,,claude-opus-5-5
+R059,X2,yes,First-line choice (Cefalexin),claude-opus-5-5
+R059,X3,no,,claude-opus-5-5
+R059,X4,no,,claude-opus-5-5
+R059,N2,no,,claude-opus-5-5
+R059,P1,yes,"given her recent hospital admission 6 weeks ago, cefalexin carries a slightly lower risk of selecting for",claude-opus-5-5
+R060,I1,no,,claude-opus-5-5
+R060,I2,no,,claude-opus-5-5
+R060,I3,no,,claude-opus-5-5
+R060,I5,no,,claude-opus-5-5
+R060,I4,yes,Cefalexin 500 mg orally three times daily for 7–10 days,claude-opus-5-5
+R060,X1,no,,claude-opus-5-5
+R060,X2,yes,Cefalexin is a reasonable oral option,claude-opus-5-5
+R060,X3,no,,claude-opus-5-5
+R060,X4,no,,claude-opus-5-5
+R060,N2,no,,claude-opus-5-5
+R060,P1,no,,claude-opus-5-5
