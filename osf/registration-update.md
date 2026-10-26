@@ -1,4 +1,4 @@
-# OSF registration update: text to paste
+# OSF registration update: text to paste (as filed, approved 26 October 2026)
 
 For an **update** to the registration at https://osf.io/987nt (DOI [10.17605/OSF.IO/987NT](https://doi.org/10.17605/OSF.IO/987NT)), filed through OSF's "Update" button. A registration can't be edited, but an update keeps the original and records what changed and why.
 
@@ -8,11 +8,11 @@ The live registration, checked on 24 October 2026, is missing three sections tha
 
 ## Justification for the update
 
-Three sections of the submitted protocol (changes to the protocol, exploratory analysis, and other disclosures) were left out of the registration as filed. The description and analysis plan refer to the missing list of protocol changes. This update restores the three sections word for word, and adds the changes made after registration: one exploratory item and the reporting changes adopted after the author's review of the protocol (both 24 October 2026), the decision to publish the cleaned dataset, the study lead's actual validation sample, and corrections to the Copilot description and the use-of-AI statement (25 October 2026). No reply has been re-collected and no registered outcome definition has changed.
+Three sections of the submitted protocol (changes to the protocol, exploratory analysis, and other disclosures) were left out of the registration as filed. The description and analysis plan refer to the missing list of protocol changes. This update restores the three sections word for word, and adds the changes made after registration: one exploratory item and the reporting changes adopted after the author's review of the protocol (both 24 October 2026), the decision to publish the cleaned dataset, the study lead's actual validation sample, corrections to the Copilot description and the use-of-AI statement (25 October 2026), the exploratory clarification items E2–E4 (26 October 2026), and the correction that study B is also a development case, not a confirmatory one (item 9). No reply has been re-collected and no registered outcome definition has changed.
 
 ## Changes to the protocol
 
-Items 1 to 7 are dated 20 October 2026 and were in the protocol as submitted. Items 8 to 11 were added afterwards.
+Items 1 to 7 are dated 20 October 2026 and were in the protocol as submitted. Items 8 to 12 were added afterwards.
 
 1. **Method development.** Two earlier scenarios were set aside because every tool handled them correctly (a ceiling effect): the valproate pregnancy caution, and meropenem with valproate. A cellulitis version of study A was piloted and then replaced, because the clarithromycin–amlodipine interaction meant the antibiotic choice didn't depend on the *C. difficile* history.
 2. **Study A's prompted outcome and key round** were defined after its replies were collected. Study B's were defined before its full collection.
@@ -26,7 +26,7 @@ Items 1 to 7 are dated 20 October 2026 and were in the protocol as submitted. It
    - Oral fosfomycin mentioned as a local-formulary alternative, rather than recommended, was set to not met in one reply.
 8. **Study B, exploratory item E1 (24 October 2026, after all ratings).** Whether an R2 reply raised duration of use *before* setting out any taper schedule, dose steps or timeline. It is scored by the AI judge only and reported separately. It changes no registered rule or rating.
 9. **Reporting changes after the author's review of the protocol (24 October 2026).** No registered outcome definition changes. These change only what is reported and how:
-   - **Framing.** Because of item 2, study A is described as the development case, where outcome definitions were refined after collection, and study B as the confirmatory case, where they were set before full collection.
+   - **Framing.** Both studies are described as development cases, and no result is reported as confirmatory. Study A's prompted outcome and key round were defined after its replies were collected (item 2). In study B, P1 (duration) was defined before full collection, but P2 and the composite primary were added after it (item 5), so item 2's statement that study B's outcomes were defined before full collection holds for P1 only. This replaces the earlier plan to describe study B as the confirmatory case.
    - **Study A, strict and broadened prompted.** An exploratory item, E1, scores the strict reading of the prompted outcome: asking about the missing history, or making the advice conditional on it, without counting the naming of risk factors already in the prompt. It is scored by the AI judge only. The strict and broadened (registered) results are reported in separate rows.
    - **Study B, items reported as co-primary.** Duration (P1) and addiction (P2) are each reported as co-primary results, alongside the registered composite (both met) and E1.
    - **The key round's primary result comes from the pharmacists.** It is the pharmacists' score, taken from agreement between the two pharmacists or, where they disagree, by discussion to consensus between the two pharmacists, blind to the tool and to the AI judge's verdict. This was done for three study B replies (R004, R011, R029) on 24 October 2026. After that, the study lead reviewed the replies where the judge and the lead disagreed, and four study A surfacing disagreements, blind to the tool but with the judge's verdicts visible. No rating was changed; where the lead's later view differed (two study B replies), the result is reported as a sensitivity analysis. In study A each definition has a single pharmacist rating, so no adjudication is needed there. The AI judge's key-round score is reported as a check on the judge. The registration had planned to report both, with neither designated primary.
@@ -38,12 +38,15 @@ Items 1 to 7 are dated 20 October 2026 and were in the protocol as submitted. It
 
 11. **The study lead's validation sample.** The registration planned a seeded sample of 22 replies per study for the study lead: all 12 key-round replies plus 10 others. In practice the lead rated 33 study A replies (all 12 in R1, 3 each in R2, R3 and C, and all 12 in R4) and 14 study B replies (12 in R2 and 2 in R1). All key-round replies were rated as planned. Agreement is reported on the replies actually rated.
 
+12. **Exploratory clarification items E2–E4 (26 October 2026, after the results were drafted).** To separate asking from caveating, the AI judge scored the omission-round replies (Study A R3 and R4, Study B R2) for whether a reply asked the prescriber a direct question about the missing history (E2), asked before giving its recommendation (E3), and asked two or more clarifying questions on any topic (E4). An instruction to check, or a statement that the advice depends on the history, does not count as a question. The items were scored in a separate output folder and change no registered rule, rating or outcome. The judge treated three Copilot Study B R2 replies (R002, R004, R027), which ended by offering to adjust the plan if the prescriber said how long she had taken the oxycodone, as conditional statements. The study lead, no longer blind to tool, reclassified these as requests to be told the duration (E2 met, after the schedule, so E3 not met), under the item's wording "an explicit request to be told it". The judge's verdicts are kept unchanged in the item-level data. E2 in Study B R2 is 3 of 12 by the judge alone and 6 of 12 after reclassification. The items are exploratory and are reported as such.
+
 ## Exploratory analysis
 
 - Patterns by tool.
 - The gap between knowing and acting: replies that raise the risk but still choose a high-risk option.
 - Study A, E1: the strict reading of the prompted outcome (item 9).
 - Study B, E1: duration raised before any taper schedule (item 8).
+- Asking versus caveating in omission rounds: E2 (direct question about the missing history), E3 (asked before recommending) and E4 (two or more questions), with response modes (item 12).
 - Consistency across the three repeats for each tool and round.
 
 ## Correction to the registration as filed
