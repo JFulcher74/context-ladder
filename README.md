@@ -6,6 +6,7 @@ Clinicians often put a prescribing question to an AI tool without the history th
 
 - **Author:** Jordan Fulcher, pharmacist ([ORCID 0009-0001-6294-1127](https://orcid.org/0009-0001-6294-1127)).
 - **Registration:** studies A and B are registered on OSF, after data collection, as the registration says: [10.17605/OSF.IO/987NT](https://doi.org/10.17605/OSF.IO/987NT).
+- **Archived version:** v1.0.0, the version used for the preprint, is on Zenodo: [10.5281/zenodo.23677818](https://doi.org/10.5281/zenodo.23677818). To cite it, see `CITATION.cff`.
 - **Status:** data collection, AI-judge scoring and pharmacist validation are complete. The cleaned dataset is in `data/`, and a preprint is in preparation.
 
 ## The method
