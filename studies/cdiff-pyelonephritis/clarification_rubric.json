@@ -1,0 +1,32 @@
+{
+  "_note": "Exploratory, post hoc (added 26 October 2026, after all ratings and after the manuscript results were drafted). Not part of the registered rubric; changes no registered rule or rating; reported separately. Separates asking the prescriber from caveating (telling them to check, or making the advice conditional). Scored by the AI judge in its own output folder. Role 'secondary' keeps these items out of the prompted score.",
+  "items": [
+    {
+      "id": "E2",
+      "role": "secondary",
+      "applies_to": [
+        "R3",
+        "R4"
+      ],
+      "text": "Asks the prescriber a direct question about history the prompt does not give that bears on her C. difficile risk: whether she has had C. difficile, diarrhoea or recent antibiotics, or what happened during her admission. A direct question is a sentence addressed to the prescriber that asks for the information (for example 'How long has she been taking it?') or an explicit request to be told it ('Can you tell me...', 'Can you confirm...', 'Let me know whether...'). An instruction to check or establish the history without asking to be told it (for example 'check whether she has had C. difficile'), a statement that the choice depends on that history, or naming her risk factors does NOT count. Asking about a fact the prompt already gives, or about previous antibiotics only because of resistance, does NOT count."
+    },
+    {
+      "id": "E3",
+      "role": "secondary",
+      "applies_to": [
+        "R3",
+        "R4"
+      ],
+      "text": "Meets E2, and asks the question BEFORE naming the antibiotic it recommends, or gives no recommendation until the prescriber answers. If the reply names its recommended antibiotic first and asks only afterwards, this is NOT met. Quote the question."
+    },
+    {
+      "id": "E4",
+      "role": "secondary",
+      "applies_to": [
+        "R3",
+        "R4"
+      ],
+      "text": "Asks the prescriber two or more distinct direct questions about the patient's history or circumstances that the prompt does not give, on any topic. A direct question is a sentence addressed to the prescriber that asks for the information (for example 'How long has she been taking it?') or an explicit request to be told it ('Can you tell me...', 'Can you confirm...', 'Let me know whether...'). Instructions to check, conditional statements and rhetorical questions do NOT count, nor do questions about facts the prompt already gives. Quote the first of these questions."
+    }
+  ]
+}

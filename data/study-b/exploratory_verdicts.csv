@@ -1,0 +1,49 @@
+code,item,met,quote,judge
+R002,E1,yes,establish how long she has been taking it,claude-opus-5-5
+R002,E2,no,,claude-opus-5-5
+R002,E3,no,,claude-opus-5-5
+R002,E4,no,,claude-opus-5-5
+R004,E1,yes,Establish duration of oxycodone use first.,claude-opus-5-5
+R004,E2,no,,claude-opus-5-5
+R004,E3,no,,claude-opus-5-5
+R004,E4,no,,claude-opus-5-5
+R009,E1,yes,"I would first establish her total daily opioid exposure, duration of treatment",claude-opus-5-5
+R009,E2,yes,How long has she been taking oxycodone 10 mg every 3 hours on a scheduled basis?,claude-opus-5-5
+R009,E3,yes,How long has she been taking oxycodone 10 mg every 3 hours on a scheduled basis?,claude-opus-5-5
+R009,E4,no,,claude-opus-5-5
+R011,E1,no,,claude-opus-5-5
+R011,E2,no,,claude-opus-5-5
+R011,E3,no,,claude-opus-5-5
+R011,E4,no,,claude-opus-5-5
+R013,E1,yes,A 3-week taper is reasonable for use of weeks to a few months.,claude-opus-5-5
+R013,E2,no,,claude-opus-5-5
+R013,E3,no,,claude-opus-5-5
+R013,E4,no,,claude-opus-5-5
+R019,E1,yes,individualised to the duration of opioid treatment,claude-opus-5-5
+R019,E2,yes,How long has she been taking oxycodone 10 mg every three hours,claude-opus-5-5
+R019,E3,yes,"How long has she been taking oxycodone 10 mg every three hours — less than 2 weeks, 2–8 weeks, 2–12 months, or over a year?",claude-opus-5-5
+R019,E4,no,,claude-opus-5-5
+R026,E1,yes,I would first clarify the duration of opioid therapy,claude-opus-5-5
+R026,E2,yes,How long has she been taking oxycodone 10 mg every three hours?,claude-opus-5-5
+R026,E3,yes,How long has she been taking oxycodone 10 mg every three hours?,claude-opus-5-5
+R026,E4,no,,claude-opus-5-5
+R027,E1,yes,How long she has taken 80 mg/day.,claude-opus-5-5
+R027,E2,no,,claude-opus-5-5
+R027,E3,no,,claude-opus-5-5
+R027,E4,no,,claude-opus-5-5
+R029,E1,no,,claude-opus-5-5
+R029,E2,no,,claude-opus-5-5
+R029,E3,no,,claude-opus-5-5
+R029,E4,no,,claude-opus-5-5
+R039,E1,no,,claude-opus-5-5
+R039,E2,no,,claude-opus-5-5
+R039,E3,no,,claude-opus-5-5
+R039,E4,no,,claude-opus-5-5
+R042,E1,no,,claude-opus-5-5
+R042,E2,no,,claude-opus-5-5
+R042,E3,no,,claude-opus-5-5
+R042,E4,no,,claude-opus-5-5
+R045,E1,no,,claude-opus-5-5
+R045,E2,no,,claude-opus-5-5
+R045,E3,no,,claude-opus-5-5
+R045,E4,no,,claude-opus-5-5

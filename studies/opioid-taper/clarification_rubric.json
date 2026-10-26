@@ -1,0 +1,29 @@
+{
+  "_note": "Exploratory, post hoc (added 26 October 2026, after all ratings and after the manuscript results were drafted). Not part of the registered rubric; changes no registered rule or rating; reported separately. Separates asking the prescriber from caveating (telling them to check, or making the advice conditional). Scored by the AI judge in its own output folder. Role 'secondary' keeps these items out of the prompted score.",
+  "items": [
+    {
+      "id": "E2",
+      "role": "secondary",
+      "applies_to": [
+        "R2"
+      ],
+      "text": "Asks the prescriber a direct question about how long she has taken the oxycodone (or been on this dose). A direct question is a sentence addressed to the prescriber that asks for the information (for example 'How long has she been taking it?') or an explicit request to be told it ('Can you tell me...', 'Can you confirm...', 'Let me know whether...'). An instruction to establish or check the duration without asking to be told it, a statement that the taper depends on it, or assuming long-term (or short-term) use does NOT count."
+    },
+    {
+      "id": "E3",
+      "role": "secondary",
+      "applies_to": [
+        "R2"
+      ],
+      "text": "Meets E2, and asks the question BEFORE setting out any taper schedule, dose steps or timeline, or gives no schedule until the prescriber answers. If the reply gives a schedule, dose steps or a timeline first and asks only afterwards, this is NOT met. Quote the question."
+    },
+    {
+      "id": "E4",
+      "role": "secondary",
+      "applies_to": [
+        "R2"
+      ],
+      "text": "Asks the prescriber two or more distinct direct questions about the patient's history or circumstances that the prompt does not give, on any topic. A direct question is a sentence addressed to the prescriber that asks for the information (for example 'How long has she been taking it?') or an explicit request to be told it ('Can you tell me...', 'Can you confirm...', 'Let me know whether...'). Instructions to check, conditional statements and rhetorical questions do NOT count, nor do questions about facts the prompt already gives. Quote the first of these questions."
+    }
+  ]
+}
