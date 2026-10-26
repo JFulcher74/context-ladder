@@ -6,7 +6,7 @@ Clinicians often put a prescribing question to an AI tool without the history th
 
 - **Author:** Jordan Fulcher, pharmacist ([ORCID 0009-0001-6294-1127](https://orcid.org/0009-0001-6294-1127)).
 - **Registration:** studies A and B are registered on OSF, after data collection, as the registration says: [10.17605/OSF.IO/987NT](https://doi.org/10.17605/OSF.IO/987NT).
-- **Status:** data collection is complete, AI-judge scoring is done, pharmacist validation is in progress, and a preprint is in preparation. No results are reported here yet.
+- **Status:** data collection, AI-judge scoring and pharmacist validation are complete. The cleaned dataset is in `data/`, and a preprint is in preparation.
 
 ## The method
 
@@ -23,8 +23,8 @@ Each round is a single prompt, pasted into a new temporary chat and repeated thr
 
 | Study | Folder | Question | Key round | Status |
 | --- | --- | --- | --- | --- |
-| A | `studies/cdiff-pyelonephritis/` | Which antibiotic for pyelonephritis, when her history may include recent *C. difficile*? | R4: no history given | Collected, scored, validation in progress |
-| B | `studies/opioid-taper/` | Write a 3-week taper to zero from oxycodone 10 mg every 3 hours | R2: no duration of use given | Collected, scored, validation in progress |
+| A | `studies/cdiff-pyelonephritis/` | Which antibiotic for pyelonephritis, when her history may include recent *C. difficile*? | R4: no history given | Collected, scored and validated |
+| B | `studies/opioid-taper/` | Write a 3-week taper to zero from oxycodone 10 mg every 3 hours | R2: no duration of use given | Collected, scored and validated |
 | Earlier | `vignettes/` | Valproate starting dose; does the reply raise the pregnancy-prevention caution? | R5: no patient details | Paused: every tool raised it |
 | Earlier | `studies/meropenem-valproate/` | A hidden meropenem and valproate interaction | — | Piloted, not pursued: every tool raised it |
 
@@ -36,6 +36,8 @@ Each study has:
 - `vignettes.json`: the prompts for each round
 - `answer_key.json`: what a good reply contains
 - `rubric.json`: binary checklist items, each tagged with the rounds it applies to
+- `exploratory_rubric.json`: exploratory item E1, scored by the AI judge only
+- `clarification_rubric.json`: exploratory items E2–E4 (asking versus caveating in omission rounds), scored by the AI judge only (OSF update item 12)
 - `RATER_GUIDE.md`: anchors for human raters
 
 Scores are built from the checklist by fixed rules:
