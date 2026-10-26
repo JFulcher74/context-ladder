@@ -178,15 +178,11 @@ STRIP_PATTERNS = [
     r"【[^】]*】",                               # search-citation tokens (ChatGPT)
     r"&#x20;",
     r"[?&]utm_source=[^)\s&]+",                 # tracking parameters in links
-    r"</?keypoints>|</?keysafetynotes>",        # Heidi section tags
-    r"<citation[^>]*>\s*</citation>",           # empty citation markers
-    r"\bcite\d+\b",
 ]
 DROP_LINE_PATTERNS = [
     r"^\s*(NICE|NHS|GOV\.UK|BNF|MHRA)\s*$",     # citation chips
     r"^\s*\+\d+\s*$",
     r"^\s*\d{3,5}\s*$",                         # eMC product numbers under chips
-    r"^\s*AI Generated Response\s*$",
     r"^.*\bI don['’]t have your name\b.*$",   # account name preference (Claude), straight or curly apostrophe
 ]
 
